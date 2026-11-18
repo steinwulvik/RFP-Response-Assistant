@@ -1,0 +1,148 @@
+{
+  "findings": [
+    {
+      "ids": [
+        "R012"
+      ],
+      "kind": "not_responsive",
+      "severity": "high",
+      "finding": "The answer says comparability cannot be confirmed: “we cannot confirm comparability from it alone.” The requirement calls for at least two comparable bank references.",
+      "suggestion": "Confirm and document the delivered scope for both reference customers, or state clearly that the qualification requirement is not met."
+    },
+    {
+      "ids": [
+        "R021"
+      ],
+      "kind": "unsupported",
+      "severity": "medium",
+      "finding": "The answer says “Met,” but the capability sheet confirms blocking accounts and amounts with reason codes, not that these functions support fraud cases or legal seizure.",
+      "suggestion": "Confirm support for those specific use cases or qualify the answer and status."
+    },
+    {
+      "ids": [
+        "R028"
+      ],
+      "kind": "not_responsive",
+      "severity": "medium",
+      "finding": "The requirement asks for a PSD3/PSR preparation plan, but the answer says the sheet “does not describe preparation activities or milestones.”",
+      "suggestion": "Provide concrete preparation activities, ownership and milestones, or clearly state that no plan is available."
+    },
+    {
+      "ids": [
+        "R030"
+      ],
+      "kind": "unsupported",
+      "severity": "medium",
+      "finding": "The answer claims Nordlys “logs … API calls,” but the capability sheet does not confirm that logging covers all API calls as required.",
+      "suggestion": "Confirm that every API call is logged with the required fields, or qualify the coverage."
+    },
+    {
+      "ids": [
+        "R031"
+      ],
+      "kind": "not_responsive",
+      "severity": "medium",
+      "finding": "The answer describes a connector framework and selected connectors, but does not confirm that business customers can transfer account data directly into accounting systems as required.",
+      "suggestion": "Confirm the direct account-data transfer capability and its coverage, or state the limitation."
+    },
+    {
+      "ids": [
+        "R035"
+      ],
+      "kind": "not_responsive",
+      "severity": "medium",
+      "finding": "The answer confirms lineage only into the data platform and says lineage into the bank’s reporting tools is not included, so it does not meet the requested full source-to-report lineage.",
+      "suggestion": "Clarify whether end-to-end lineage can be provided, or identify the limitation as a deviation."
+    },
+    {
+      "ids": [
+        "R038"
+      ],
+      "kind": "not_responsive",
+      "severity": "high",
+      "finding": "The answer does not confirm reporting data for Finanstilsynet, Norges Bank and Statistics Norway; it says the capability sheet “does not name the individual reporting authorities.”",
+      "suggestion": "Confirm support for each named authority and the relevant data feeds, or identify which are not covered."
+    },
+    {
+      "ids": [
+        "R042"
+      ],
+      "kind": "not_responsive",
+      "severity": "medium",
+      "finding": "The answer refers to a documentation package but does not describe the data used and explanation method for each AI function; for example, it does not explain how the data quality assistant’s suggestions are explained.",
+      "suggestion": "Give the data used, explanation approach and human review or approval point for each AI function."
+    },
+    {
+      "ids": [
+        "R045"
+      ],
+      "kind": "not_responsive",
+      "severity": "medium",
+      "finding": "The answer describes risk classification only and explicitly says broader support for the bank’s EU AI Act obligations is not described.",
+      "suggestion": "Describe the specific ways the solution supports the bank’s obligations, or state the limits of that support."
+    },
+    {
+      "ids": [
+        "R046"
+      ],
+      "kind": "not_responsive",
+      "severity": "high",
+      "finding": "The standard support model includes an engineering team outside the EU/EEA, so the answer does not meet the requirement covering support access; EU/EEA-only access is only a paid option.",
+      "suggestion": "Confirm EU/EEA-only support access for the offered service, including whether the paid option will be included, or disclose the deviation."
+    },
+    {
+      "ids": [
+        "R051"
+      ],
+      "kind": "not_responsive",
+      "severity": "high",
+      "finding": "The answer says it cannot confirm that the exit plan enables transfer to another supplier or back in-house, which is the required purpose of the plan.",
+      "suggestion": "Confirm and describe how the documented plan enables both transition routes, or state the limitation."
+    },
+    {
+      "ids": [
+        "R053"
+      ],
+      "kind": "not_responsive",
+      "severity": "high",
+      "finding": "The required 99.95% availability is available only in a premium SLA “for an extra cost”; the standard SLA is 99.9%, so the answer does not commit to the required level.",
+      "suggestion": "Confirm that the offered service will include the 99.95% SLA and identify its price, or state the deviation."
+    },
+    {
+      "ids": [
+        "R054"
+      ],
+      "kind": "not_responsive",
+      "severity": "high",
+      "finding": "The standard maintenance window is 00:00–04:00, not the required 01:00–05:00 window.",
+      "suggestion": "Confirm that maintenance can be scheduled within 01:00–05:00, or clearly identify the deviation."
+    },
+    {
+      "ids": [
+        "R055"
+      ],
+      "kind": "not_responsive",
+      "severity": "high",
+      "finding": "Norwegian-language support is available only on weekdays from 08:00 to 16:00, not 24/7 as required.",
+      "suggestion": "Confirm 24/7 critical-incident support in both English and Norwegian, or state the limitation."
+    },
+    {
+      "ids": [
+        "R058"
+      ],
+      "kind": "not_responsive",
+      "severity": "high",
+      "finding": "The answer does not confirm that each phase is independently usable, which is an express requirement for the phased plan.",
+      "suggestion": "Describe how each proposed phase can be used on its own, or state that this cannot be confirmed."
+    },
+    {
+      "ids": [
+        "R060"
+      ],
+      "kind": "not_responsive",
+      "severity": "medium",
+      "finding": "The answer describes migration tooling but does not describe how accounts and history are migrated, as requested.",
+      "suggestion": "Explain the account and history migration scope and how test migrations, reconciliation and rollback apply to it."
+    }
+  ]
+}

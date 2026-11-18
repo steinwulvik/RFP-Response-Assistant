@@ -1,0 +1,54 @@
+{
+  "findings": [
+    {
+      "ids": [
+        "R037"
+      ],
+      "kind": "unclear",
+      "severity": "medium",
+      "finding": "The answer says \"We have not confirmed in this answer which reports for Finanstilsynet, Norges Bank and Statistics Norway the standard feeds cover.\" This is an internal drafting note, not a bid answer. An evaluator cannot tell which of the three authorities' reports are covered. CAP-50 only says \"Norwegian regulatory reports\" and does not name the three recipients. The requirement is a shall, and the answer is flagged as not needing a specialist.",
+      "suggestion": "Have a specialist confirm which reports for each authority the standard feeds cover. Then state this plainly in the answer and remove the internal wording. Set needs_specialist to true until that is done."
+    },
+    {
+      "ids": [
+        "R057"
+      ],
+      "kind": "unclear",
+      "severity": "medium",
+      "finding": "The answer says \"We have not documented that every phase can be taken into use on its own, and will confirm this for the bank's scope in the delivery plan.\" This reads as an unfinished internal note. The requirement is a shall, and an evaluator may read the wording as a failure to confirm that each phase can be used independently. CAP-90 supports phasing and a first phase with early value, but nothing about the later phases standing alone.",
+      "suggestion": "Get a specialist to confirm whether the later phases can be taken into use on their own. Then state either a clear partial-met position or a firm commitment. Set needs_specialist to true. If the gap is real, put it on the reservations list (R008)."
+    },
+    {
+      "ids": [
+        "R060"
+      ],
+      "kind": "unsupported",
+      "severity": "medium",
+      "finding": "The answer says 6–10 FTE \"is a small part of a team of about 35 people\". CAP-92 does not say this. 6–10 of 35 is roughly 17–29 %, which the bank may not see as small. The answer also gives one figure for \"each phase\" and does not break down roles and capacity per phase, as the requirement asks.",
+      "suggestion": "Remove the \"small part\" claim and state the figures neutrally. Have a specialist add a per-phase breakdown of roles and capacity, or state that the sheet only supports a typical range."
+    },
+    {
+      "ids": [
+        "R027"
+      ],
+      "kind": "not_responsive",
+      "severity": "low",
+      "finding": "The requirement asks the supplier to \"Describe your plan\" for PSD3/PSR. The answer only says there is a readiness programme on the roadmap and that changes will come in standard releases \"once the final rules apply\". It has no scope, timing or responsibilities.",
+      "suggestion": "Ask product management for plan details such as milestones, release cadence and responsibilities. If none exist, say so openly and keep the answer as partly met."
+    },
+    {
+      "ids": [
+        "R045",
+        "R052",
+        "R053",
+        "R054",
+        "R062",
+        "R008"
+      ],
+      "kind": "contradiction",
+      "severity": "medium",
+      "finding": "Several shall-requirements are answered as partly met, with paid options or deviations. R045 has EU/EEA-only support access as a paid option. R052 has the Premium SLA at extra cost. R053 has a different maintenance window. R054 has no 24/7 Norwegian critical support. R008 says unlisted reservations are disregarded, and R062 says the price must cover all costs needed to meet the requirements. Both R008 and R062 are still unanswered. As drafted, the bid risks leaving these deviations off the reservations list and leaving the paid options out of the price, which would conflict with the \"all costs\" rule.",
+      "suggestion": "When the specialists complete R008 and R062, make sure all deviations from the partly met shall-requirements are on the reservations list. Decide whether the Premium SLA and the EU/EEA support option are priced in or listed as reservations or options."
+    }
+  ]
+}

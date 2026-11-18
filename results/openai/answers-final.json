@@ -1,0 +1,989 @@
+{
+  "answers": [
+    {
+      "id": "R001",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "Bid team must provide the Appendix A requirements and confirm the supplier’s compliance statuses and explanations for each.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R002",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "Bid team must confirm the tender-portal process and the commitment to submit all questions in writing through it.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R003",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "Bid team must confirm the commitment that supplier staff will not contact other bank employees about the competition.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R004",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "Bid team must confirm the tender will be written in English.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R005",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "Bid team must confirm the portal submission process and that the tender can be submitted before the deadline.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R006",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "Bid team must confirm acknowledgment of the deadline and rejection condition.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R007",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "Bid/legal team must identify a person authorised to bind the supplier and confirm that person will sign the tender.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R008",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "Bid/legal team must confirm the supplier can keep the tender valid for six months after the deadline.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R009",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "Bid team must confirm the Appendix B solution description will be no more than 60 pages.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R010",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "Bid/legal team must identify any reservations or deviations and provide the separate list, or confirm there are none.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R011",
+      "answer": "Met. Our ISO/IEC 27001 certification covers development, hosting and operation of all Nordlys Accounts & Data services. The certificate is valid until September 2028.",
+      "evidence": [
+        "CAP-02"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R012",
+      "answer": "Not met. The capability sheet identifies a Swedish savings bank live since 2023 and a Danish regional bank live since 2025, but does not document the delivered scope needed to establish that either is comparable.",
+      "evidence": [
+        "CAP-03"
+      ],
+      "needs_specialist": true,
+      "note": "Sales must confirm and document the delivered scope for both references and whether they meet the comparability requirement.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "sales",
+        "reviewed_by": null
+      },
+      "change_note": "Changed the answer to Not met because the finding identified that the documented references do not establish comparability.",
+      "revised": true,
+      "original_answer": "Partly met. We can provide references to a Swedish savings bank live since 2023 and a Danish regional bank live since 2025; both are Accounts & Data reference customers and have agreed to act as references. The available information does not specify the exact solution scope delivered at each bank, so we cannot confirm comparability from it alone. We offer these two customers as references, subject to confirmation of the delivered scope."
+    },
+    {
+      "id": "R013",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "The commercial/finance specialist must provide a credit rating or the available audited financial statements and confirm whether they demonstrate sufficient financial capacity for a contract of this size.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "commercial",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R014",
+      "answer": "Met. We provide a standard information package for the bank's DORA register of information. It includes all subcontractors that support critical functions.",
+      "evidence": [
+        "CAP-04"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R015",
+      "answer": "Met. We support retail and business deposit accounts, including current accounts, savings accounts and fixed-term deposits.",
+      "evidence": [
+        "CAP-10"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R016",
+      "answer": "Met. Our interest and fee engine uses configurable rules, including tiered and date-dependent rates.",
+      "evidence": [
+        "CAP-11"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R017",
+      "answer": "Met. The bank's product team can set up new account products in a configuration tool without code changes. At reference customers, launch typically takes 4–6 weeks from decision.",
+      "evidence": [
+        "CAP-12"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R018",
+      "answer": "Met. We support joint accounts and multiple authorised users, with individual rights for each user.",
+      "evidence": [
+        "CAP-13"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R019",
+      "answer": "Met. We support sub-accounts, or savings pots, linked to a main account.",
+      "evidence": [
+        "CAP-14"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R020",
+      "answer": "Met. We support account opening, changes and closure, with a complete audit history.",
+      "evidence": [
+        "CAP-15"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R021",
+      "answer": "Partly met. The capability sheet confirms blocking accounts and specific amounts with reason codes, but does not confirm support for fraud cases or legal seizure.",
+      "evidence": [
+        "CAP-16"
+      ],
+      "needs_specialist": true,
+      "note": "Product management must confirm whether blocking supports fraud cases and legal seizure.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "change_note": "Qualified the status to reflect the unsupported fraud and legal-seizure use cases raised in the finding.",
+      "revised": true,
+      "original_answer": "Met. We support blocking accounts and specific amounts, with reason codes."
+    },
+    {
+      "id": "R022",
+      "answer": "Partly met. Balances and transactions are updated in under one second after booking. The available evidence does not confirm that the mobile app, online bank and adviser tools all show the same information within two seconds.",
+      "evidence": [
+        "CAP-20"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R023",
+      "answer": "Met. Our parallel-run toolkit supports daily automatic reconciliation of balances between the legacy core system and Nordlys.",
+      "evidence": [
+        "CAP-22"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R024",
+      "answer": "Met. We publish account events to an event streaming platform that other systems can subscribe to.",
+      "evidence": [
+        "CAP-21"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R025",
+      "answer": "Met. Nordlys scales horizontally and has been load-tested at five times normal peak volume. This provides capacity for peak loads such as salary days and the days before Christmas.",
+      "evidence": [
+        "CAP-23"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R026",
+      "answer": "Met. All services are available through REST APIs, with OpenAPI 3 specifications.",
+      "evidence": [
+        "CAP-30"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R027",
+      "answer": "Met. Nordlys provides PSD2 account-information and payment-initiation APIs following the Berlin Group NextGenPSD2 standard. The APIs include consent management.",
+      "evidence": [
+        "CAP-31"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R028",
+      "answer": "Partly met. A PSD3/PSR readiness programme is on the roadmap, with changes planned for standard releases once the final rules apply. The capability sheet does not provide preparation activities, ownership or milestones.",
+      "evidence": [
+        "CAP-32"
+      ],
+      "needs_specialist": true,
+      "note": "Product management must provide or confirm the preparation plan, including activities, ownership and milestones.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "change_note": "Clarified that the roadmap does not provide the preparation plan requested in the finding.",
+      "revised": true,
+      "original_answer": "Partly met. Nordlys has a PSD3/PSR readiness programme on its roadmap and plans to deliver changes in standard releases once the final rules apply. The capability sheet does not describe preparation activities or milestones before the rules are final."
+    },
+    {
+      "id": "R029",
+      "answer": "Met. Nordlys provides a developer portal with a partner sandbox and test data.",
+      "evidence": [
+        "CAP-33"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R030",
+      "answer": "Partly met. API logging records time, caller and consent reference, and retention is configurable up to 10 years. The capability sheet does not confirm that logging covers every API call.",
+      "evidence": [
+        "CAP-34"
+      ],
+      "needs_specialist": true,
+      "note": "Engineering must confirm whether every API call is logged with the required fields and can be retained for at least five years.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "change_note": "Qualified the answer because the finding identified that complete API-call coverage is not documented.",
+      "revised": true,
+      "original_answer": "Met. Nordlys logs the time, caller and consent reference for API calls. Log retention is configurable up to 10 years, allowing retention for at least five years."
+    },
+    {
+      "id": "R031",
+      "answer": "Partly met. A connector framework is available for SME accounting platforms, with ready-made connectors for selected Nordic platforms. The capability sheet does not confirm direct transfer of account data into accounting systems or the coverage of specific platforms.",
+      "evidence": [
+        "CAP-35"
+      ],
+      "needs_specialist": true,
+      "note": "Product management must confirm direct account-data transfer capability and which platforms are covered.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "change_note": "Clarified that the documented connector capability does not establish the direct transfer requested in the finding.",
+      "revised": true,
+      "original_answer": "Partly met. Nordlys offers a connector framework for SME accounting platforms and ready-made connectors for selected Nordic platforms. The capability sheet does not confirm coverage of your specific accounting platform or platforms."
+    },
+    {
+      "id": "R032",
+      "answer": "Met. Nordlys provides the bank with a documented common data model covering customers, accounts, products and transactions.",
+      "evidence": [
+        "CAP-40"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R033",
+      "answer": "Met. Nordlys provides a data product catalogue in which each data product has an owner, definition and quality rules.",
+      "evidence": [
+        "CAP-41"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R034",
+      "answer": "Met. Nordlys provides data quality dashboards measuring completeness, accuracy and timeliness.",
+      "evidence": [
+        "CAP-42"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R035",
+      "answer": "Partly met. Data lineage is available from source systems into the data platform. Lineage from the data platform into the bank’s reporting tools is not included, so full source-to-report lineage is not supported as documented.",
+      "evidence": [
+        "CAP-43"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "change_note": "Made the limitation explicit against the requested full source-to-report lineage.",
+      "revised": true,
+      "original_answer": "Partly met. Nordlys provides lineage from source systems into the data platform. Lineage from the data platform into the bank’s own reporting tools is not included."
+    },
+    {
+      "id": "R036",
+      "answer": "Met. Nordlys allows the bank to export all its data at any time and at contract end in open formats, including Parquet and CSV, with documentation.",
+      "evidence": [
+        "CAP-44"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R037",
+      "answer": "Partly met. We provide a governed SQL workspace for analysts. Python notebooks are planned for 2027; the current capability sheet does not confirm that analysts can use Python or prevent copying data to unmanaged spreadsheets.",
+      "evidence": [
+        "CAP-45"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R038",
+      "answer": "Partly met. Standard data feeds for Norwegian regulatory reports are provided through a reporting partner, with documented calculation rules. The capability sheet does not confirm coverage for Finanstilsynet, Norges Bank and Statistics Norway individually.",
+      "evidence": [
+        "CAP-50"
+      ],
+      "needs_specialist": true,
+      "note": "The reporting partner or regulatory reporting lead must confirm data-feed coverage for each named authority.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "change_note": "Qualified the answer because the finding identified that support for the three named authorities is unconfirmed.",
+      "revised": true,
+      "original_answer": "Met. We provide standard data feeds for Norwegian regulatory reports through a reporting partner, with documented calculation rules. The capability sheet does not name the individual reporting authorities."
+    },
+    {
+      "id": "R039",
+      "answer": "Met. Reporting data is automatically reconciled against the general ledger, and differences generate alerts.",
+      "evidence": [
+        "CAP-51"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R040",
+      "answer": "Met. Nordlys monitors regulatory changes and updates standard reports in quarterly releases. Nordlys is responsible for those updates.",
+      "evidence": [
+        "CAP-52"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R041",
+      "answer": "Met. Our data quality assistant is in production and finds anomalies and suggests corrections, which a person must approve. An adviser insight summary is in pilot, with general availability planned for 2027; it summarises customer account activity.",
+      "evidence": [
+        "CAP-60",
+        "CAP-61"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R042",
+      "answer": "Met. The production data-quality assistant finds anomalies and suggests corrections; a person must approve every correction. The adviser insight summary uses customer account activity and shows the data behind each summary; it is a pilot with no automated decisions. For each AI function, the documentation package covers data used, explanation method and human review points.",
+      "evidence": [
+        "CAP-60",
+        "CAP-61",
+        "CAP-63"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "change_note": "Added the documented function-specific data and human-review details to address the finding’s request for a description of each AI function.",
+      "revised": true,
+      "original_answer": "Met. For each AI function, our documentation package describes its purpose, data used, explanation method and human review points. The data quality assistant requires a person to approve corrections, while the adviser summary shows the data on which each summary is based."
+    },
+    {
+      "id": "R043",
+      "answer": "Met. The data quality assistant's suggested corrections require approval by a person. The adviser insight summary makes no automated decisions.",
+      "evidence": [
+        "CAP-60",
+        "CAP-61"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R044",
+      "answer": "Met. We do not use customer data to train models outside the customer's own environment without the customer's written consent.",
+      "evidence": [
+        "CAP-62"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R045",
+      "answer": "Partly met. The documentation package for each AI function includes a risk classification under the EU AI Act. The capability sheet does not describe broader support for the bank’s obligations under the Act.",
+      "evidence": [
+        "CAP-63"
+      ],
+      "needs_specialist": true,
+      "note": "Compliance or product management must identify what additional support the solution provides for the bank’s EU AI Act obligations, if any.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "change_note": "Clarified that documented risk classification is the only specific EU AI Act support established by the capability sheet.",
+      "revised": true,
+      "original_answer": "Partly met. For each AI function, we provide documentation that includes its risk classification under the EU AI Act. The capability sheet does not describe broader support for the bank's EU AI Act obligations."
+    },
+    {
+      "id": "R046",
+      "answer": "Partly met. Hosting and backups are in Norway and Finland, but the standard third-line support model includes an engineering team outside the EU/EEA. Support access can be limited to EU/EEA staff only as a paid option.",
+      "evidence": [
+        "CAP-70",
+        "CAP-71"
+      ],
+      "needs_specialist": true,
+      "note": "The commercial owner must decide whether to include the paid EU/EEA-only support-access option for the offered service.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "change_note": "Disclosed the standard-model support-access deviation and the paid option identified in the finding.",
+      "revised": true,
+      "original_answer": "Partly met. Hosting and backups are in Norway and Finland. Under the standard support model, third-line technical support includes an engineering team outside the EU/EEA; access can be restricted to EU/EEA staff as a paid option."
+    },
+    {
+      "id": "R047",
+      "answer": "Met. We encrypt data in transit using TLS 1.3 and at rest using AES-256.",
+      "evidence": [
+        "CAP-72"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R048",
+      "answer": "Met. We provide role-based access control and multi-factor authentication for all users, including administrative users.",
+      "evidence": [
+        "CAP-73"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R049",
+      "answer": "Met. We notify customers of serious incidents within two hours of detection, which is within the required four-hour limit.",
+      "evidence": [
+        "CAP-74"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R050",
+      "answer": "Met. We participate in customer resilience testing, including threat-led penetration testing (TLPT).",
+      "evidence": [
+        "CAP-75"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R051",
+      "answer": "Partly met. A standard exit plan and exit assistance are described in the service agreement, and all data can be exported in open formats with documentation. The capability sheet does not confirm that the plan enables transition to another supplier or back in-house.",
+      "evidence": [
+        "CAP-76",
+        "CAP-44"
+      ],
+      "needs_specialist": true,
+      "note": "The service or contract owner must confirm whether the documented exit plan enables both transition routes.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      },
+      "change_note": "Clarified that the documented exit arrangements do not establish the two required transition routes.",
+      "revised": true,
+      "original_answer": "Partly met. We provide a standard exit plan and exit assistance described in the service agreement, and can export all data in open formats with documentation. The available information does not confirm that the plan specifically enables transfer to another supplier or back in-house."
+    },
+    {
+      "id": "R052",
+      "answer": "Met. We issue an ISAE 3402 Type 2 report annually.",
+      "evidence": [
+        "CAP-77"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R053",
+      "answer": "Partly met. The premium SLA provides 99.95% monthly availability at extra cost; the standard SLA is 99.9%. The capability sheet does not establish that the premium SLA will be included in the offered service.",
+      "evidence": [
+        "CAP-80"
+      ],
+      "needs_specialist": true,
+      "note": "The commercial owner must decide whether to offer the 99.95% SLA and confirm its price.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "change_note": "Clarified that the required availability level is only documented as a paid premium option.",
+      "revised": true,
+      "original_answer": "Partly met. Our premium SLA provides 99.95% monthly availability for an extra cost. The standard SLA is 99.9%."
+    },
+    {
+      "id": "R054",
+      "answer": "Partly met. Planned maintenance is announced 14 days in advance, but the standard maintenance window is 00:00–04:00 rather than the requested 01:00–05:00. The capability sheet does not confirm that the requested window can be used.",
+      "evidence": [
+        "CAP-81"
+      ],
+      "needs_specialist": true,
+      "note": "Operations must confirm whether planned maintenance can be scheduled within 01:00–05:00.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "change_note": "Stated the maintenance-window deviation and flagged that alignment with the requested window is unconfirmed.",
+      "revised": true,
+      "original_answer": "Partly met. Planned maintenance is announced 14 days in advance, and our standard maintenance window is 00:00–04:00. This starts one hour earlier than the requested 01:00–05:00 window."
+    },
+    {
+      "id": "R055",
+      "answer": "Partly met. Critical-incident support is available 24/7 in English. Norwegian-speaking support is available on weekdays from 08:00 to 16:00, not 24/7.",
+      "evidence": [
+        "CAP-82"
+      ],
+      "needs_specialist": true,
+      "note": "The support lead must confirm whether 24/7 Norwegian-language critical-incident support can be provided.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      },
+      "change_note": "Made the gap in 24/7 Norwegian-language support explicit, as requested by the finding.",
+      "revised": true,
+      "original_answer": "Partly met. We provide 24/7 support in English for critical incidents. Norwegian-speaking support is available on weekdays from 08:00 to 16:00, not 24/7."
+    },
+    {
+      "id": "R056",
+      "answer": "Met. Our recovery targets are an RTO of two hours and an RPO of one minute, within the requested limits.",
+      "evidence": [
+        "CAP-83"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R057",
+      "answer": "Met. We provide a monthly service report covering availability, incidents, capacity and service requests.",
+      "evidence": [
+        "CAP-84"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R058",
+      "answer": "Partly met. The phased method typically starts with the data platform and read-only APIs, then moves to real-time account services and migration of products and history. The capability sheet describes low risk and early value for the initial phase, but does not confirm that every phase is independently usable.",
+      "evidence": [
+        "CAP-90"
+      ],
+      "needs_specialist": true,
+      "note": "The delivery lead must confirm whether each proposed phase can be used independently and describe how.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      },
+      "change_note": "Clarified that the documented phased approach does not establish the required independent usability of every phase.",
+      "revised": true,
+      "original_answer": "Partly met. Our phased approach typically starts with the data platform and read-only APIs, then moves to real-time account services and migration of products and history. This approach is described as low risk with early value, but the available information does not confirm that every phase is independently usable."
+    },
+    {
+      "id": "R059",
+      "answer": "Partly met. Our typical plan starts with the data platform and read-only APIs, described as low risk and delivering early value. The available information does not establish that this is the area of highest value or explain a comparative rationale for choosing it first.",
+      "evidence": [
+        "CAP-90"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R060",
+      "answer": "Partly met. The phased approach includes migration of products and history, and the migration toolkit supports test migrations, automatic reconciliation and rollback for each migration step. The capability sheet does not specify account migration scope or how these controls apply to accounts and history.",
+      "evidence": [
+        "CAP-90",
+        "CAP-91"
+      ],
+      "needs_specialist": true,
+      "note": "The delivery lead must confirm the account migration scope and how test migrations, reconciliation and rollback apply to account and history migration.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      },
+      "change_note": "Connected the documented migration tools to the stated migration scope and flagged the account-specific details missing in the finding.",
+      "revised": true,
+      "original_answer": "Met. Our migration toolkit includes test migrations, automatic reconciliation and rollback for each migration step."
+    },
+    {
+      "id": "R061",
+      "answer": "Met. The bank should plan for 6–10 FTE in each phase. This typically includes a product owner, architects, testers and data owners.",
+      "evidence": [
+        "CAP-92"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R062",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "The project delivery lead must provide the proposed project manager and solution architect names and their relevant experience.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R063",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "The commercial owner must complete Appendix C with prices in NOK excluding VAT and confirm that pricing covers all costs needed to deliver the requirements.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "commercial",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R064",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "The commercial owner must confirm whether a price model with payment linked to agreed milestones can be offered and provide the proposed terms.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "commercial",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R065",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "The commercial or legal owner must confirm acceptance of the bank's audit right under Finanstilsynet's outsourcing rules.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "commercial",
+        "reviewed_by": null
+      },
+      "revised": false
+    }
+  ],
+  "revised_count": 16
+}

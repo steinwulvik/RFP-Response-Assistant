@@ -1,0 +1,15 @@
+{
+  "_note": "Models and paths for the pipeline. API keys are read from envFile and are never stored in this project.",
+  "envFile": ".env",
+  "models": {
+    "claude": { "provider": "anthropic", "model": "claude-sonnet-5-5", "key": "ANTHROPIC_API_KEY" },
+    "openai": { "provider": "openai", "model": "gpt-6-luna", "key": "OPENAI_API_KEY" }
+  },
+  "sourceDocs": {
+    "annualReport": "source-docs/01-morild-annual-report-extract.md",
+    "strategy": "source-docs/02-morild-strategy-note.md",
+    "rfp": "source-docs/03-rfp-morild-account-data-platform.md",
+    "capabilities": "source-docs/04-nordlys-capability-sheet.md"
+  },
+  "answerBatchSize": 12
+}

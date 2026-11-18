@@ -1,0 +1,384 @@
+{
+  "_note": "Draft answers with deliberately planted errors, used to test the red-team step. Made by hand. Answers K019, K040 and K055 were corrected 18.11.2026 after the red-team step found overclaims in them in the first run. K019 and K055 were removed 18.11.2026 after run 2: the requirements are ambiguous against the capability sheet, so no answer to them can serve as a clean control.",
+  "requirements": [
+    {
+      "id": "K001",
+      "rfp_ref": "2.3",
+      "text": "Do not contact other bank employees about the competition",
+      "type": "shall",
+      "category": "Formal"
+    },
+    {
+      "id": "K002",
+      "rfp_ref": "2.4",
+      "text": "Tender in English, submitted through the portal before the deadline (22 Jan 2027 12:00 CET)",
+      "type": "shall",
+      "category": "Formal"
+    },
+    {
+      "id": "K008",
+      "rfp_ref": "Q-01",
+      "text": "Valid ISO/IEC 27001 certification",
+      "type": "shall",
+      "category": "Qualification"
+    },
+    {
+      "id": "K009",
+      "rfp_ref": "Q-02",
+      "text": "At least two Nordic/EU/EEA bank references within five years",
+      "type": "shall",
+      "category": "Qualification"
+    },
+    {
+      "id": "K012",
+      "rfp_ref": "AS-01",
+      "text": "Deposit accounts: current, savings, fixed-term",
+      "type": "shall",
+      "category": "Account services"
+    },
+    {
+      "id": "K013",
+      "rfp_ref": "AS-02",
+      "text": "Interest and fees per bank rules, incl. tiered rates",
+      "type": "shall",
+      "category": "Account services"
+    },
+    {
+      "id": "K020",
+      "rfp_ref": "5.2",
+      "text": "Publish account events as event streams",
+      "type": "should",
+      "category": "Real-time"
+    },
+    {
+      "id": "K021",
+      "rfp_ref": "5.2",
+      "text": "Parallel run with the current core system and daily balance reconciliation",
+      "type": "shall",
+      "category": "Real-time"
+    },
+    {
+      "id": "K023",
+      "rfp_ref": "API-01",
+      "text": "Documented REST APIs with OpenAPI specification",
+      "type": "shall",
+      "category": "APIs"
+    },
+    {
+      "id": "K024",
+      "rfp_ref": "API-02",
+      "text": "PSD2 consent-based access and payment initiation, Berlin Group NextGenPSD2",
+      "type": "shall",
+      "category": "APIs"
+    },
+    {
+      "id": "K027",
+      "rfp_ref": "API-05",
+      "text": "Log all API calls (time, caller, consent ref), keep at least five years",
+      "type": "shall",
+      "category": "APIs"
+    },
+    {
+      "id": "K029",
+      "rfp_ref": "DP-01",
+      "text": "Common, documented data model",
+      "type": "shall",
+      "category": "Data platform"
+    },
+    {
+      "id": "K031",
+      "rfp_ref": "DP-03",
+      "text": "Measure and report data quality",
+      "type": "shall",
+      "category": "Data platform"
+    },
+    {
+      "id": "K032",
+      "rfp_ref": "DP-04",
+      "text": "Full data lineage from source system to report",
+      "type": "should",
+      "category": "Data platform"
+    },
+    {
+      "id": "K039",
+      "rfp_ref": "AI-02",
+      "text": "Per AI function: data used, explanation, human review points",
+      "type": "shall",
+      "category": "AI"
+    },
+    {
+      "id": "K040",
+      "rfp_ref": "AI-03",
+      "text": "No automated decisions about customers without human review",
+      "type": "shall",
+      "category": "AI"
+    },
+    {
+      "id": "K043",
+      "rfp_ref": "SEC-01",
+      "text": "Data stored and processed in EU/EEA, incl. backups and support access",
+      "type": "shall",
+      "category": "Security"
+    },
+    {
+      "id": "K046",
+      "rfp_ref": "SEC-04",
+      "text": "Notify serious ICT incidents within four hours",
+      "type": "shall",
+      "category": "Security"
+    },
+    {
+      "id": "K047",
+      "rfp_ref": "SEC-05",
+      "text": "Take part in resilience testing incl. TLPT",
+      "type": "shall",
+      "category": "Security"
+    },
+    {
+      "id": "K048",
+      "rfp_ref": "SEC-06",
+      "text": "Documented exit plan",
+      "type": "shall",
+      "category": "Security"
+    },
+    {
+      "id": "K050",
+      "rfp_ref": "5.8",
+      "text": "Availability 99.95 % per month for customer-facing services",
+      "type": "shall",
+      "category": "Operations"
+    },
+    {
+      "id": "K051",
+      "rfp_ref": "5.8",
+      "text": "Planned maintenance 01:00–05:00, announced 14 days ahead",
+      "type": "shall",
+      "category": "Operations"
+    },
+    {
+      "id": "K052",
+      "rfp_ref": "5.8",
+      "text": "Support in English and Norwegian, 24/7 for critical incidents",
+      "type": "shall",
+      "category": "Operations"
+    },
+    {
+      "id": "K057",
+      "rfp_ref": "5.9",
+      "text": "Migration approach incl. test migrations, reconciliation, fallback",
+      "type": "shall",
+      "category": "Delivery"
+    }
+  ],
+  "answers": [
+    {
+      "id": "K001",
+      "answer": "We confirm that we will only communicate with the bank through the tender portal during the competition.",
+      "evidence": [],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K002",
+      "answer": "The tender will be submitted through the tender portal in English before 29 January 2027.",
+      "evidence": [],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K008",
+      "answer": "Met. Nordlys holds an ISO/IEC 27001 certification covering development, hosting and operation of all Nordlys Accounts & Data services, valid until September 2028.",
+      "evidence": [
+        "CAP-02"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K009",
+      "answer": "Met. Our references include a Norwegian savings bank, a Swedish savings bank and a Danish regional bank.",
+      "evidence": [
+        "CAP-03"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K012",
+      "answer": "Met. The solution supports current accounts, savings accounts and fixed-term deposits for retail and business customers.",
+      "evidence": [
+        "CAP-10"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K013",
+      "answer": "Met. The interest and fee engine is configured with rules set by the bank, including tiered and date-dependent rates.",
+      "evidence": [
+        "CAP-11"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K020",
+      "answer": "Partly met. Account data can be delivered to other systems as nightly files.",
+      "evidence": [],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K021",
+      "answer": "Met. Our parallel-run toolkit reconciles balances between the current core system and Nordlys automatically every day.",
+      "evidence": [
+        "CAP-22"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K023",
+      "answer": "Met. All services are available as REST APIs with OpenAPI 3 specifications.",
+      "evidence": [
+        "CAP-30"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K024",
+      "answer": "Met. Access-to-account and payment initiation APIs follow the Berlin Group NextGenPSD2 standard and include consent management.",
+      "evidence": [
+        "CAP-31"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K027",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K029",
+      "answer": "Met. A documented common data model for customers, accounts, products and transactions is delivered to the bank.",
+      "evidence": [
+        "CAP-40"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K031",
+      "answer": "Met. Data quality dashboards measure completeness, accuracy and timeliness for each data product.",
+      "evidence": [
+        "CAP-42"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K032",
+      "answer": "Met. The solution keeps full data lineage from every source system to the bank's reports.",
+      "evidence": [
+        "CAP-43"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K039",
+      "answer": "Met. Each AI function comes with a documentation package describing purpose, data used, explanation method and human review points.",
+      "evidence": [
+        "CAP-63"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K040",
+      "answer": "Met. The data quality assistant (in production) only suggests corrections that a person approves. The adviser insight summary is a pilot, with general availability planned for 2027, and makes no automated decisions.",
+      "evidence": [
+        "CAP-60",
+        "CAP-61"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K043",
+      "answer": "Met. All customer data, backups and support access stay within the EU/EEA, with hosting in Norway and Finland.",
+      "evidence": [
+        "CAP-70"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K046",
+      "answer": "Met. Serious ICT incidents are reported to the bank within 24 hours of detection.",
+      "evidence": [
+        "CAP-74"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K047",
+      "answer": "Met. Nordlys takes part in customers' resilience testing, including TLPT.",
+      "evidence": [
+        "CAP-75"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K048",
+      "answer": "Met. A standard exit plan and exit assistance are described in the service agreement.",
+      "evidence": [
+        "CAP-76"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K050",
+      "answer": "Met. Our standard SLA guarantees 99.95 % availability per month.",
+      "evidence": [
+        "CAP-80"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K051",
+      "answer": "Met. Planned maintenance is done between 01:00 and 05:00 and announced 14 days in advance.",
+      "evidence": [
+        "CAP-81"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K052",
+      "answer": "Met. We offer 24/7 support in English and Norwegian.",
+      "evidence": [
+        "CAP-82"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    },
+    {
+      "id": "K057",
+      "answer": "Met. The migration toolkit supports test migrations, automatic reconciliation and rollback for each migration step.",
+      "evidence": [
+        "CAP-91"
+      ],
+      "needs_specialist": false,
+      "note": ""
+    }
+  ]
+}

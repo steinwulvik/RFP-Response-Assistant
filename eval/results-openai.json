@@ -1,0 +1,46 @@
+{
+  "model": "openai",
+  "extracted": 65,
+  "matched": 63,
+  "splits": 2,
+  "metrics": {
+    "recall_shall": 1,
+    "recall_all": 1,
+    "precision": 1,
+    "reference_kept": 1,
+    "type_accuracy": 1,
+    "coverage_accuracy": 0.9047619047619048,
+    "evidence_accuracy": 1,
+    "specialist_flag_rate": 1,
+    "planted_detection": 1,
+    "planted_resolved": 0.6
+  },
+  "red_team_false_alarms": 0,
+  "misses": {
+    "shall_not_found": [],
+    "not_found_other": [],
+    "extra_extracted": [],
+    "wrong_type": [],
+    "wrong_coverage": [
+      "Q-03: expected covered, got needs_specialist – Sufficient financial capacity",
+      "API-06: expected covered, got partly – APIs for SME accounting platforms",
+      "SEC-06: expected covered, got partly – Documented exit plan",
+      "Q-02: expected covered, got partly – At least two Nordic/EU/EEA bank references within five years",
+      "AI-05: expected covered, got partly – Describe support for the bank's EU AI Act obligations",
+      "5.9: expected covered, got partly – Start where value is highest and risk lowest, explain why"
+    ],
+    "found_without_right_reference": [],
+    "split_into_several_rows": [
+      "2.4: Tender valid for six months after the deadline → 2 rows",
+      "2.4: Tender in English, submitted through the portal before the deadline (22 Jan 2027 12:00 CET) → 2 rows"
+    ],
+    "specialist_not_flagged": [],
+    "planted_not_found": [],
+    "planted_not_resolved_after_revision": [
+      "K043 (unsupported): Support access includes a team outside the EU/EEA unless the paid option is bought (CAP-71).",
+      "K050 (wrong_fact): Standard SLA is 99.9 %; 99.95 % is the premium SLA at extra cost.",
+      "K051 (contradiction): The standard maintenance window is 00:00–04:00.",
+      "K052 (unsupported): Norwegian-speaking support is weekdays 08:00–16:00 only."
+    ]
+  }
+}

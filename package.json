@@ -1,0 +1,16 @@
+{
+  "name": "rfp-response-assistant-pipeline",
+  "private": true,
+  "description": "Pipeline and evaluation for RFP Response Assistant.",
+  "scripts": {
+    "run:claude": "node pipeline/run.cjs --model claude",
+    "run:openai": "node pipeline/run.cjs --model openai",
+    "evaluate": "node eval/evaluate.cjs claude openai",
+    "test:mock": "node pipeline/run.cjs --model mock --skip-gates && node eval/evaluate.cjs mock",
+    "approve": "node pipeline/approve.cjs"
+  },
+  "dependencies": {
+    "mammoth": "^1.8.0",
+    "pdf-parse": "1.1.1"
+  }
+}

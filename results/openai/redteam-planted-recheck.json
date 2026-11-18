@@ -1,0 +1,40 @@
+{
+  "findings": [
+    {
+      "ids": [
+        "K043"
+      ],
+      "kind": "unclear",
+      "severity": "high",
+      "finding": "The answer says standard support access includes an engineering team outside the EU/EEA, while EU/EEA-only access is only a paid option. It does not commit to including that option, so the stated approach does not meet the shall-requirement.",
+      "suggestion": "Confirm whether EU/EEA-only support access will be included and explicitly state the commitment; otherwise identify the deviation."
+    },
+    {
+      "ids": [
+        "K050"
+      ],
+      "kind": "unclear",
+      "severity": "high",
+      "finding": "The answer says 99.95% availability is available under a premium SLA at extra cost but does not commit to providing that SLA for the services in scope.",
+      "suggestion": "Confirm whether the premium SLA will be included and explicitly state the committed availability."
+    },
+    {
+      "ids": [
+        "K051"
+      ],
+      "kind": "unclear",
+      "severity": "high",
+      "finding": "The stated maintenance window is 00:00–04:00, not the required 01:00–05:00, and the answer leaves commitment to the required window for later confirmation.",
+      "suggestion": "Confirm whether the required window can be committed to and state the committed window; otherwise identify the deviation."
+    },
+    {
+      "ids": [
+        "K052"
+      ],
+      "kind": "unclear",
+      "severity": "high",
+      "finding": "Norwegian-speaking support is only available on weekdays from 08:00 to 16:00, and the answer does not commit to Norwegian support 24/7 for critical incidents.",
+      "suggestion": "Confirm whether Norwegian-language support will be available 24/7 for critical incidents and explicitly state the commitment; otherwise identify the deviation."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "findings": [
+    {
+      "ids": [
+        "K002"
+      ],
+      "kind": "wrong_fact",
+      "severity": "high",
+      "finding": "The answer says the tender will be submitted \"before 29 January 2027\". The RFP deadline is 22 Jan 2027 12:00 CET. A tender submitted after 22 January would be rejected.",
+      "suggestion": "Replace the date with the correct deadline (22 Jan 2027 12:00 CET) and plan the submission so it is in before then."
+    },
+    {
+      "ids": [
+        "K009"
+      ],
+      "kind": "unsupported",
+      "severity": "high",
+      "finding": "The answer lists \"a Norwegian savings bank\" as a reference. CAP-03 says a Norwegian reference is not yet available. The only references are a Swedish savings bank (live 2023) and a Danish regional bank (live 2025).",
+      "suggestion": "Remove the Norwegian reference. List only the Swedish and Danish banks, which still meet the requirement of two Nordic/EU/EEA references within five years."
+    },
+    {
+      "ids": [
+        "K020"
+      ],
+      "kind": "contradiction",
+      "severity": "medium",
+      "finding": "The answer says \"Partly met... nightly files\" and gives no evidence. CAP-21 states that account events are published to an event streaming platform that other systems can subscribe to. The answer understates the capability and loses evaluation points.",
+      "suggestion": "Check with a specialist and align the answer with CAP-21. Cite CAP-21 as evidence."
+    },
+    {
+      "ids": [
+        "K027"
+      ],
+      "kind": "missing",
+      "severity": "high",
+      "finding": "The answer is empty for a shall-requirement (log all API calls, keep at least five years), and no specialist flag is set. CAP-34 supports logging of time, caller and consent reference, with configurable retention up to 10 years.",
+      "suggestion": "Draft an answer based on CAP-34 that explicitly covers the five-year retention, or flag it for a specialist."
+    },
+    {
+      "ids": [
+        "K032"
+      ],
+      "kind": "unsupported",
+      "severity": "high",
+      "finding": "The answer claims \"full data lineage from every source system to the bank's reports\". CAP-43 only covers lineage from source systems into the data platform, and states that lineage into the bank's own reporting tools is not included.",
+      "suggestion": "Change the answer to \"Partly met\". State that lineage covers source to data platform and that the last step into the bank's reporting tools is not included."
+    },
+    {
+      "ids": [
+        "K043"
+      ],
+      "kind": "contradiction",
+      "severity": "high",
+      "finding": "The answer says \"support access stay within the EU/EEA\". CAP-71 says third-line support uses a follow-the-sun model with an engineering team outside the EU/EEA, and EU/EEA-only support access is a paid option. Only CAP-70 (hosting and backups) is cited, so the support-access part is unsupported.",
+      "suggestion": "State that hosting and backups are in Norway and Finland. Disclose the non-EU/EEA third-line support and the paid EU/EEA-only option, citing CAP-71."
+    },
+    {
+      "ids": [
+        "K046"
+      ],
+      "kind": "wrong_fact",
+      "severity": "high",
+      "finding": "The answer says incidents are reported \"within 24 hours of detection\". The requirement is four hours, and CAP-74 says two hours. As written, the answer does not meet the requirement and contradicts the capability sheet.",
+      "suggestion": "Correct the answer to two hours from detection (CAP-74), which meets the four-hour requirement."
+    },
+    {
+      "ids": [
+        "K050"
+      ],
+      "kind": "unsupported",
+      "severity": "high",
+      "finding": "The answer says \"Our standard SLA guarantees 99.95 %\". CAP-80 says the standard SLA is 99.9 %, and 99.95 % is only in the Premium SLA at extra cost. The answer claims \"Met\" and leaves out the cost.",
+      "suggestion": "State that 99.95 % requires the Premium SLA and say that it carries an extra cost. Have the price section reflect this."
+    },
+    {
+      "ids": [
+        "K051"
+      ],
+      "kind": "contradiction",
+      "severity": "high",
+      "finding": "The answer says maintenance is done \"between 01:00 and 05:00\". CAP-81 says the standard window is 00:00–04:00. The 14-day notice is correct, but the time window does not match the sheet, so the claim is unsupported.",
+      "suggestion": "Check with a specialist whether the window can be moved to 01:00–05:00. If not, state \"Partly met\" and give the actual window."
+    },
+    {
+      "ids": [
+        "K052"
+      ],
+      "kind": "unsupported",
+      "severity": "high",
+      "finding": "The answer says \"24/7 support in English and Norwegian\". CAP-82 says 24/7 support is in English only, and Norwegian-speaking support is weekdays 08:00–16:00. The requirement is 24/7 in both languages for critical incidents.",
+      "suggestion": "Change the answer to \"Partly met\". Describe 24/7 English support and Norwegian support on weekdays 08:00–16:00, or check with a specialist whether 24/7 Norwegian support can be arranged."
+    }
+  ]
+}

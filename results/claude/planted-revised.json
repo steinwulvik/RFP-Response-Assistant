@@ -1,0 +1,262 @@
+{
+  "answers": [
+    {
+      "id": "K001",
+      "answer": "We confirm that we will only communicate with the bank through the tender portal during the competition.",
+      "evidence": [],
+      "needs_specialist": false,
+      "note": "",
+      "revised": false
+    },
+    {
+      "id": "K002",
+      "answer": "Met. The tender is written in English and will be submitted through the tender portal before the deadline of 22 January 2027 12:00 CET.",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "The bid manager must plan the submission so it is in the portal before 22 Jan 2027 12:00 CET, and should aim for an earlier internal deadline. A person must submit and confirm receipt. The capability sheet has no evidence for this formal requirement.",
+      "change_note": "Replaced the wrong date (29 January) with the RFP deadline of 22 Jan 2027 12:00 CET, as the finding on K002 asked.",
+      "revised": true,
+      "original_answer": "The tender will be submitted through the tender portal in English before 29 January 2027."
+    },
+    {
+      "id": "K008",
+      "answer": "Met. Nordlys holds an ISO/IEC 27001 certification covering development, hosting and operation of all Nordlys Accounts & Data services, valid until September 2028.",
+      "evidence": [
+        "CAP-02"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "revised": false
+    },
+    {
+      "id": "K009",
+      "answer": "Met. Our references for Accounts & Data are a Swedish savings bank (live 2023) and a Danish regional bank (live 2025). Both have agreed to act as references, and both are within the five-year period.",
+      "evidence": [
+        "CAP-03"
+      ],
+      "needs_specialist": false,
+      "note": "No Norwegian reference is available, so none is claimed. The bid team should collect the reference contact details for the submission.",
+      "change_note": "Removed the unsupported Norwegian reference and kept only the Swedish and Danish banks, as the finding on K009 asked.",
+      "revised": true,
+      "original_answer": "Met. Our references include a Norwegian savings bank, a Swedish savings bank and a Danish regional bank."
+    },
+    {
+      "id": "K012",
+      "answer": "Met. The solution supports current accounts, savings accounts and fixed-term deposits for retail and business customers.",
+      "evidence": [
+        "CAP-10"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "revised": false
+    },
+    {
+      "id": "K013",
+      "answer": "Met. The interest and fee engine is configured with rules set by the bank, including tiered and date-dependent rates.",
+      "evidence": [
+        "CAP-11"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "revised": false
+    },
+    {
+      "id": "K020",
+      "answer": "Met. Account events are published to an event streaming platform that other systems can subscribe to.",
+      "evidence": [
+        "CAP-21"
+      ],
+      "needs_specialist": false,
+      "note": "CAP-21 fully supports the answer. A product specialist may confirm during review which event types are published.",
+      "change_note": "Replaced the 'nightly files' answer with the event streaming capability from CAP-21, as the finding on K020 asked.",
+      "revised": true,
+      "original_answer": "Partly met. Account data can be delivered to other systems as nightly files."
+    },
+    {
+      "id": "K021",
+      "answer": "Met. Our parallel-run toolkit reconciles balances between the current core system and Nordlys automatically every day.",
+      "evidence": [
+        "CAP-22"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "revised": false
+    },
+    {
+      "id": "K023",
+      "answer": "Met. All services are available as REST APIs with OpenAPI 3 specifications.",
+      "evidence": [
+        "CAP-30"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "revised": false
+    },
+    {
+      "id": "K024",
+      "answer": "Met. Access-to-account and payment initiation APIs follow the Berlin Group NextGenPSD2 standard and include consent management.",
+      "evidence": [
+        "CAP-31"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "revised": false
+    },
+    {
+      "id": "K027",
+      "answer": "Met. API calls are logged with time, caller and consent reference. The retention period is configurable up to 10 years, which covers the required five years.",
+      "evidence": [
+        "CAP-34"
+      ],
+      "needs_specialist": false,
+      "note": "CAP-34 does not say explicitly that every API call is logged. A product specialist should confirm this wording and that the five-year retention is set in the contract.",
+      "change_note": "Filled the empty answer from CAP-34, including the five-year retention, as the finding on K027 asked.",
+      "revised": true,
+      "original_answer": ""
+    },
+    {
+      "id": "K029",
+      "answer": "Met. A documented common data model for customers, accounts, products and transactions is delivered to the bank.",
+      "evidence": [
+        "CAP-40"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "revised": false
+    },
+    {
+      "id": "K031",
+      "answer": "Met. Data quality dashboards measure completeness, accuracy and timeliness for each data product.",
+      "evidence": [
+        "CAP-42"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "revised": false
+    },
+    {
+      "id": "K032",
+      "answer": "Partly met. Data lineage is provided from the source systems into the data platform. Lineage from the data platform into the bank's own reporting tools is not included.",
+      "evidence": [
+        "CAP-43"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "change_note": "Changed 'Met' to 'Partly met' and stated that the last step into the bank's reporting tools is not covered, as the finding on K032 asked.",
+      "revised": true,
+      "original_answer": "Met. The solution keeps full data lineage from every source system to the bank's reports."
+    },
+    {
+      "id": "K039",
+      "answer": "Met. Each AI function comes with a documentation package describing purpose, data used, explanation method and human review points.",
+      "evidence": [
+        "CAP-63"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "revised": false
+    },
+    {
+      "id": "K040",
+      "answer": "Met. The data quality assistant (in production) only suggests corrections that a person approves. The adviser insight summary is a pilot, with general availability planned for 2027, and makes no automated decisions.",
+      "evidence": [
+        "CAP-60",
+        "CAP-61"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "revised": false
+    },
+    {
+      "id": "K043",
+      "answer": "Partly met. Hosting and backups are in data centres in Norway and Finland. Third-line technical support uses a follow-the-sun model that includes an engineering team outside the EU/EEA. Support access can be limited to EU/EEA staff only as a paid option.",
+      "evidence": [
+        "CAP-70",
+        "CAP-71"
+      ],
+      "needs_specialist": true,
+      "note": "A commercial owner must decide whether to offer the paid EU/EEA-only support option in the bid, and the price section must include its cost.",
+      "change_note": "Removed the claim that support access stays in the EU/EEA and disclosed the non-EU/EEA third-line support and the paid option, as the finding on K043 asked.",
+      "revised": true,
+      "original_answer": "Met. All customer data, backups and support access stay within the EU/EEA, with hosting in Norway and Finland."
+    },
+    {
+      "id": "K046",
+      "answer": "Met. Serious incidents are notified to customers within two hours of detection, which is inside the required four hours.",
+      "evidence": [
+        "CAP-74"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "change_note": "Corrected 24 hours to two hours per CAP-74, as the finding on K046 asked.",
+      "revised": true,
+      "original_answer": "Met. Serious ICT incidents are reported to the bank within 24 hours of detection."
+    },
+    {
+      "id": "K047",
+      "answer": "Met. Nordlys takes part in customers' resilience testing, including TLPT.",
+      "evidence": [
+        "CAP-75"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "revised": false
+    },
+    {
+      "id": "K048",
+      "answer": "Met. A standard exit plan and exit assistance are described in the service agreement.",
+      "evidence": [
+        "CAP-76"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "revised": false
+    },
+    {
+      "id": "K050",
+      "answer": "Partly met. The standard SLA gives 99.9 % availability per month. The required 99.95 % is available only with the Premium SLA, which carries an extra cost.",
+      "evidence": [
+        "CAP-80"
+      ],
+      "needs_specialist": true,
+      "note": "A commercial owner must decide whether to offer the Premium SLA and ensure the price section includes its cost. The answer can then be changed to 'Met' with Premium SLA.",
+      "change_note": "Corrected the claim that the standard SLA gives 99.95 % and disclosed the Premium SLA and its extra cost, as the finding on K050 asked.",
+      "revised": true,
+      "original_answer": "Met. Our standard SLA guarantees 99.95 % availability per month."
+    },
+    {
+      "id": "K051",
+      "answer": "Partly met. The standard maintenance window is 00:00–04:00, announced 14 days in advance. The 14-day notice matches the requirement, but the window differs from the required 01:00–05:00.",
+      "evidence": [
+        "CAP-81"
+      ],
+      "needs_specialist": true,
+      "note": "An operations specialist must confirm whether the window can be moved to 01:00–05:00 for this customer. If so, the answer can be changed to 'Met'.",
+      "change_note": "Replaced the unsupported 01:00–05:00 window with the actual 00:00–04:00 window and set 'Partly met', as the finding on K051 asked.",
+      "revised": true,
+      "original_answer": "Met. Planned maintenance is done between 01:00 and 05:00 and announced 14 days in advance."
+    },
+    {
+      "id": "K052",
+      "answer": "Partly met. We offer 24/7 support in English for critical incidents. Norwegian-speaking support is available on weekdays 08:00–16:00, not 24/7.",
+      "evidence": [
+        "CAP-82"
+      ],
+      "needs_specialist": true,
+      "note": "A support or operations specialist must decide whether 24/7 Norwegian-language support for critical incidents can be arranged, and at what cost. The sheet documents no such capability.",
+      "change_note": "Changed 'Met' to 'Partly met' and described the English 24/7 and Norwegian weekday-only support, as the finding on K052 asked.",
+      "revised": true,
+      "original_answer": "Met. We offer 24/7 support in English and Norwegian."
+    },
+    {
+      "id": "K057",
+      "answer": "Met. The migration toolkit supports test migrations, automatic reconciliation and rollback for each migration step.",
+      "evidence": [
+        "CAP-91"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "revised": false
+    }
+  ]
+}

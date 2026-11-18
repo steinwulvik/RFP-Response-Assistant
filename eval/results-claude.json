@@ -1,0 +1,36 @@
+{
+  "model": "claude",
+  "extracted": 64,
+  "matched": 63,
+  "splits": 1,
+  "metrics": {
+    "recall_shall": 1,
+    "recall_all": 1,
+    "precision": 1,
+    "reference_kept": 1,
+    "type_accuracy": 1,
+    "coverage_accuracy": 0.9682539682539683,
+    "evidence_accuracy": 1,
+    "specialist_flag_rate": 1,
+    "planted_detection": 1,
+    "planted_resolved": 1
+  },
+  "red_team_false_alarms": 0,
+  "misses": {
+    "shall_not_found": [],
+    "not_found_other": [],
+    "extra_extracted": [],
+    "wrong_type": [],
+    "wrong_coverage": [
+      "API-06: expected covered, got partly – APIs for SME accounting platforms",
+      "RR-01: expected covered, got partly – Data for regulatory reporting (Finanstilsynet, Norges Bank, SSB) with documented calculation rules"
+    ],
+    "found_without_right_reference": [],
+    "split_into_several_rows": [
+      "2.4: Tender in English, submitted through the portal before the deadline (22 Jan 2027 12:00 CET) → 2 rows"
+    ],
+    "specialist_not_flagged": [],
+    "planted_not_found": [],
+    "planted_not_resolved_after_revision": []
+  }
+}

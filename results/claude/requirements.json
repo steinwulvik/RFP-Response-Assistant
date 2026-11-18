@@ -1,0 +1,912 @@
+{
+  "requirements": [
+    {
+      "id": "R001",
+      "rfp_ref": "2.3",
+      "text": "All questions to the bank must be sent in writing through the bank's tender portal.",
+      "type": "shall",
+      "category": "Formal",
+      "owner_role": "bid",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R002",
+      "rfp_ref": "2.3",
+      "text": "Suppliers shall not contact other bank employees about this competition during the process.",
+      "type": "shall",
+      "category": "Formal",
+      "owner_role": "bid",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R003",
+      "rfp_ref": "2.4",
+      "text": "The tender must be written in English.",
+      "type": "shall",
+      "category": "Formal",
+      "owner_role": "bid",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R004",
+      "rfp_ref": "2.4",
+      "text": "The tender must be submitted through the tender portal before the deadline (22 January 2027, 12:00 CET). Late tenders will be rejected.",
+      "type": "shall",
+      "category": "Formal",
+      "owner_role": "bid",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R005",
+      "rfp_ref": "2.4",
+      "text": "The tender shall be signed by a person authorised to bind the supplier.",
+      "type": "shall",
+      "category": "Formal",
+      "owner_role": "bid",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R006",
+      "rfp_ref": "2.4",
+      "text": "The tender must be valid for six months after the tender deadline.",
+      "type": "shall",
+      "category": "Formal",
+      "owner_role": "bid",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R007",
+      "rfp_ref": "2.4",
+      "text": "The solution description (Appendix B) should not exceed 60 pages. Marketing material will not be evaluated.",
+      "type": "should",
+      "category": "Formal",
+      "owner_role": "bid",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R008",
+      "rfp_ref": "2.4",
+      "text": "Any reservations or deviations from the requirements or draft contract must be stated clearly in a separate list. Unlisted reservations are disregarded; significant reservations may lead to rejection.",
+      "type": "shall",
+      "category": "Formal",
+      "owner_role": "commercial",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "commercial",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R009",
+      "rfp_ref": "5 (intro)",
+      "text": "Answer each requirement in Appendix A as met, partly met or not met, and describe how. Requirements without an ID must also be answered, referencing the section number.",
+      "type": "shall",
+      "category": "Formal",
+      "owner_role": "bid",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R010",
+      "rfp_ref": "Q-01",
+      "text": "The supplier shall hold a valid ISO/IEC 27001 certification covering the services offered.",
+      "type": "shall",
+      "category": "Qualification",
+      "owner_role": "infosec",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R011",
+      "rfp_ref": "Q-02",
+      "text": "Document at least two reference customers among banks in the Nordics or EU/EEA where comparable account or data solutions were delivered within the last five years.",
+      "type": "shall",
+      "category": "Qualification",
+      "owner_role": "sales",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "sales",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R012",
+      "rfp_ref": "Q-03",
+      "text": "The supplier shall have a credit rating or financial statements showing sufficient financial capacity for a contract of this size.",
+      "type": "shall",
+      "category": "Qualification",
+      "owner_role": "commercial",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "commercial",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R013",
+      "rfp_ref": "Q-04",
+      "text": "Confirm that the supplier can provide the information needed for the bank's DORA register of information, including subcontractors supporting critical functions.",
+      "type": "shall",
+      "category": "Qualification",
+      "owner_role": "infosec",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R014",
+      "rfp_ref": "AS-01",
+      "text": "Support deposit accounts for retail and business customers, including current accounts, savings accounts and fixed-term deposits.",
+      "type": "shall",
+      "category": "Account services",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R015",
+      "rfp_ref": "AS-02",
+      "text": "Calculate interest and fees according to the bank's product rules, including tiered interest rates.",
+      "type": "shall",
+      "category": "Account services",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R016",
+      "rfp_ref": "AS-03",
+      "text": "The bank should be able to configure and launch a new account product without changes to program code.",
+      "type": "should",
+      "category": "Account services",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R017",
+      "rfp_ref": "AS-04",
+      "text": "Support joint accounts and accounts with several authorised users, with different rights per user.",
+      "type": "shall",
+      "category": "Account services",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R018",
+      "rfp_ref": "AS-05",
+      "text": "The solution should support sub-accounts or \"savings pots\" linked to a main account.",
+      "type": "should",
+      "category": "Account services",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R019",
+      "rfp_ref": "AS-06",
+      "text": "Handle account opening, changes and closure, including a full history of all changes.",
+      "type": "shall",
+      "category": "Account services",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R020",
+      "rfp_ref": "AS-07",
+      "text": "Support blocking of accounts and amounts, for example for fraud cases or legal seizure.",
+      "type": "shall",
+      "category": "Account services",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R021",
+      "rfp_ref": "5.2",
+      "text": "Balances and transactions must be updated in real time, so the mobile app, online bank and adviser tools show the same information within two seconds of a booking.",
+      "type": "shall",
+      "category": "Real-time",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R022",
+      "rfp_ref": "5.2",
+      "text": "The solution should publish account events (e.g. booking made, balance changed, account blocked) as event streams that other systems can subscribe to.",
+      "type": "should",
+      "category": "Real-time",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R023",
+      "rfp_ref": "5.2",
+      "text": "During transition the solution must run in parallel with the current core system, with daily reconciliation of balances between old and new solution.",
+      "type": "shall",
+      "category": "Real-time",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R024",
+      "rfp_ref": "5.2",
+      "text": "Describe how the solution handles peak loads, such as salary days and the days before Christmas.",
+      "type": "info",
+      "category": "Real-time",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R025",
+      "rfp_ref": "API-01",
+      "text": "All account services shall be available through documented REST APIs, with an OpenAPI specification.",
+      "type": "shall",
+      "category": "APIs",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R026",
+      "rfp_ref": "API-02",
+      "text": "Support third-party access to account information and payment initiation based on customer consent, in line with PSD2 and Berlin Group NextGenPSD2.",
+      "type": "shall",
+      "category": "APIs",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R027",
+      "rfp_ref": "API-03",
+      "text": "The solution should be prepared for PSD3 and the Payment Services Regulation. Describe your plan.",
+      "type": "should",
+      "category": "APIs",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R028",
+      "rfp_ref": "API-04",
+      "text": "The solution should offer a developer portal with a test environment (sandbox) for partners.",
+      "type": "should",
+      "category": "APIs",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R029",
+      "rfp_ref": "API-05",
+      "text": "Log all API calls with time, caller and consent reference, and keep the logs for at least five years.",
+      "type": "shall",
+      "category": "APIs",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R030",
+      "rfp_ref": "API-06",
+      "text": "The solution should support APIs for SME accounting platforms so business customers can get account data directly into their accounting system.",
+      "type": "should",
+      "category": "APIs",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R031",
+      "rfp_ref": "DP-01",
+      "text": "Provide a common data model for customers, accounts, products and transactions, documented and available to the bank.",
+      "type": "shall",
+      "category": "Data platform",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R032",
+      "rfp_ref": "DP-02",
+      "text": "The bank should be able to define data products (e.g. \"customer engagement\", \"deposit flows\") with a named owner, definition and quality rules.",
+      "type": "should",
+      "category": "Data platform",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R033",
+      "rfp_ref": "DP-03",
+      "text": "Measure and report data quality (completeness, accuracy, timeliness) for the data products.",
+      "type": "shall",
+      "category": "Data platform",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R034",
+      "rfp_ref": "DP-04",
+      "text": "The solution should keep the full data lineage from source system to report.",
+      "type": "should",
+      "category": "Data platform",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R035",
+      "rfp_ref": "DP-05",
+      "text": "The bank shall be able to extract all its data in an open, documented format at any time and at the end of the contract.",
+      "type": "shall",
+      "category": "Data platform",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R036",
+      "rfp_ref": "5.4",
+      "text": "The data platform should let analysts use their own tools (SQL, Python) on governed data, without copying data to unmanaged spreadsheets.",
+      "type": "should",
+      "category": "Data platform",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R037",
+      "rfp_ref": "RR-01",
+      "text": "Deliver the account and transaction data needed for regulatory reporting to Finanstilsynet, Norges Bank and Statistics Norway, with documented calculation rules.",
+      "type": "shall",
+      "category": "Regulatory reporting",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R038",
+      "rfp_ref": "RR-02",
+      "text": "The solution should support reconciliation between reporting data and the general ledger, with automatic alerts on differences.",
+      "type": "should",
+      "category": "Regulatory reporting",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R039",
+      "rfp_ref": "RR-03",
+      "text": "Describe how changes in reporting requirements are handled and who is responsible for updating the solution.",
+      "type": "should",
+      "category": "Regulatory reporting",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R040",
+      "rfp_ref": "AI-01",
+      "text": "Describe AI functions in the solution, or planned in the roadmap, that can help advisers or improve data quality.",
+      "type": "should",
+      "category": "AI",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R041",
+      "rfp_ref": "AI-02",
+      "text": "For every AI function, describe what data is used, how results can be explained, and where a person must review or approve the result.",
+      "type": "shall",
+      "category": "AI",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R042",
+      "rfp_ref": "AI-03",
+      "text": "AI functions shall not make automated decisions about customers without human review, unless the bank has explicitly approved it.",
+      "type": "shall",
+      "category": "AI",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R043",
+      "rfp_ref": "AI-04",
+      "text": "Customer data shall not be used to train AI models outside the bank's own environment without the bank's written consent.",
+      "type": "shall",
+      "category": "AI",
+      "owner_role": "infosec",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R044",
+      "rfp_ref": "AI-05",
+      "text": "Describe how the solution supports the bank's obligations under the EU AI Act.",
+      "type": "should",
+      "category": "AI",
+      "owner_role": "infosec",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R045",
+      "rfp_ref": "SEC-01",
+      "text": "Customer data shall be stored and processed within the EU/EEA, including backups and support access.",
+      "type": "shall",
+      "category": "Security",
+      "owner_role": "infosec",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R046",
+      "rfp_ref": "SEC-02",
+      "text": "All data shall be encrypted in transit and at rest.",
+      "type": "shall",
+      "category": "Security",
+      "owner_role": "infosec",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R047",
+      "rfp_ref": "SEC-03",
+      "text": "Access controlled with role-based access and multi-factor authentication for all administrative users.",
+      "type": "shall",
+      "category": "Security",
+      "owner_role": "infosec",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R048",
+      "rfp_ref": "SEC-04",
+      "text": "Notify the bank of serious ICT incidents without undue delay and no later than four hours after detection.",
+      "type": "shall",
+      "category": "Security",
+      "owner_role": "infosec",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R049",
+      "rfp_ref": "SEC-05",
+      "text": "Take part in the bank's resilience testing, including threat-led penetration testing (TLPT) when required by the authorities.",
+      "type": "shall",
+      "category": "Security",
+      "owner_role": "infosec",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R050",
+      "rfp_ref": "SEC-06",
+      "text": "Have a documented exit plan allowing the bank to move the service to another supplier or back in-house.",
+      "type": "shall",
+      "category": "Security",
+      "owner_role": "infosec",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R051",
+      "rfp_ref": "SEC-07",
+      "text": "The supplier should provide a recent independent assurance report (ISAE 3402 type 2 or equivalent) each year.",
+      "type": "should",
+      "category": "Security",
+      "owner_role": "infosec",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R052",
+      "rfp_ref": "5.8",
+      "text": "Customer-facing services shall be available 99.95 % of the time per month, measured outside agreed maintenance windows.",
+      "type": "shall",
+      "category": "Operations",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R053",
+      "rfp_ref": "5.8",
+      "text": "Planned maintenance must be done at night (01:00–05:00) and announced at least 14 days in advance.",
+      "type": "shall",
+      "category": "Operations",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R054",
+      "rfp_ref": "5.8",
+      "text": "Offer support in English and Norwegian, 24/7 for critical incidents.",
+      "type": "shall",
+      "category": "Operations",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R055",
+      "rfp_ref": "5.8",
+      "text": "The solution should support recovery after a serious incident with an RTO of max 4 hours and an RPO of max 5 minutes.",
+      "type": "should",
+      "category": "Operations",
+      "owner_role": "infosec",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R056",
+      "rfp_ref": "5.8",
+      "text": "The supplier should report monthly on availability, incidents, capacity and service requests.",
+      "type": "should",
+      "category": "Operations",
+      "owner_role": "product",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R057",
+      "rfp_ref": "5.9",
+      "text": "Propose a phased delivery plan (no \"big bang\") where each phase gives value to customers or the bank and can be taken into use on its own.",
+      "type": "shall",
+      "category": "Delivery",
+      "owner_role": "project",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R058",
+      "rfp_ref": "5.9",
+      "text": "The plan should start with the area where the supplier believes value is highest and risk lowest, and explain why.",
+      "type": "should",
+      "category": "Delivery",
+      "owner_role": "project",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R059",
+      "rfp_ref": "5.9",
+      "text": "Describe the migration approach for accounts and history, including test migrations, reconciliation and fallback if a migration step fails.",
+      "type": "shall",
+      "category": "Delivery",
+      "owner_role": "project",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R060",
+      "rfp_ref": "5.9",
+      "text": "Describe which roles and how much capacity the bank's IT team (about 35 people) must provide in each phase.",
+      "type": "should",
+      "category": "Delivery",
+      "owner_role": "project",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R061",
+      "rfp_ref": "5.9",
+      "text": "Name the key persons for delivery (at least project manager and solution architect) and describe their relevant experience.",
+      "type": "shall",
+      "category": "Delivery",
+      "owner_role": "project",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R062",
+      "rfp_ref": "5.10",
+      "text": "Give the price in the price form (Appendix C), in NOK excluding VAT, covering all costs needed to deliver the requirements.",
+      "type": "shall",
+      "category": "Commercial",
+      "owner_role": "commercial",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "commercial",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R063",
+      "rfp_ref": "5.10",
+      "text": "The supplier should offer a price model where part of the payment is linked to delivery of agreed milestones.",
+      "type": "should",
+      "category": "Commercial",
+      "owner_role": "commercial",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "commercial",
+        "reviewed_by": null
+      }
+    },
+    {
+      "id": "R064",
+      "rfp_ref": "5.10",
+      "text": "The supplier shall accept the bank's right to audit, as required by Finanstilsynet's outsourcing rules.",
+      "type": "shall",
+      "category": "Commercial",
+      "owner_role": "commercial",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "commercial",
+        "reviewed_by": null
+      }
+    }
+  ],
+  "key_dates": [
+    {
+      "date": "16 November 2026",
+      "event": "RFP issued"
+    },
+    {
+      "date": "18 December 2026, 12:00 CET",
+      "event": "Deadline for questions"
+    },
+    {
+      "date": "8 January 2027",
+      "event": "Answers to questions published"
+    },
+    {
+      "date": "22 January 2027, 12:00 CET",
+      "event": "Tender deadline"
+    },
+    {
+      "date": "Weeks 6–7, 2027",
+      "event": "Solution workshops with selected suppliers"
+    },
+    {
+      "date": "April 2027",
+      "event": "Expected contract signature"
+    },
+    {
+      "date": "22 July 2027 (derived)",
+      "event": "Minimum tender validity: six months after the tender deadline"
+    }
+  ],
+  "clarification_questions": [
+    {
+      "rfp_ref": "2.4 / 6",
+      "question": "Section 2.4 says the solution description 'should not exceed 60 pages', but Appendix B is labelled 'max 60 pages'. Is the limit mandatory or guidance? Do CVs, references, the Appendix A response form and other attachments count towards it?"
+    },
+    {
+      "rfp_ref": "5.2, 5.8",
+      "question": "Requirements in running text use 'must' (real-time updates, parallel running, maintenance window) alongside 'should'. Can the bank confirm that 'must' and 'shall' are equivalent and mandatory?"
+    },
+    {
+      "rfp_ref": "5.2",
+      "question": "How is the two-second update time measured (end-to-end from booking to display in the channels, or only to the platform's output)? At what percentile, and under what load?"
+    },
+    {
+      "rfp_ref": "SEC-01 / 5.8",
+      "question": "SEC-01 requires support access from within the EU/EEA, while 5.8 requires 24/7 support for critical incidents. Is follow-the-sun support from outside the EU/EEA excluded entirely, or allowed without access to customer data?"
+    },
+    {
+      "rfp_ref": "5.8",
+      "question": "Which services count as 'customer-facing' for the 99.95 % availability requirement? Are outages caused by the bank's own channels or third parties excluded?"
+    },
+    {
+      "rfp_ref": "SEC-04",
+      "question": "What definition of a 'serious ICT incident' applies (e.g. the DORA major-incident classification)? Does the four-hour clock start at detection by the supplier or when the supplier classifies the incident?"
+    },
+    {
+      "rfp_ref": "Q-01, Q-03",
+      "question": "Must the ISO/IEC 27001 certificate be valid at the tender deadline, or is a certification in progress acceptable? Does it also have to cover critical subcontractors? What minimum level of financial capacity (rating or equity ratio) does the bank require?"
+    },
+    {
+      "rfp_ref": "RR-01",
+      "question": "Which specific reports to Finanstilsynet, Norges Bank and Statistics Norway must the platform provide data for? Is the supplier expected to produce the reports themselves, or only the underlying data?"
+    },
+    {
+      "rfp_ref": "2.1",
+      "question": "The bank may award without negotiation. Should the first tender therefore be a best-and-final offer? Can reservations and prices be revised during negotiations?"
+    },
+    {
+      "rfp_ref": "4, 5.10",
+      "question": "Does the six-year total cost in the price form include the extension options (2 + 2 years)? How will the options be priced and evaluated?"
+    },
+    {
+      "rfp_ref": "1, 5.6, 6",
+      "question": "Please share the Annual Report extract, the strategy note, the AI policy (available on request) and Appendices A–D, in particular the Appendix A response template and the draft contract, so that reservations can be assessed."
+    }
+  ]
+}

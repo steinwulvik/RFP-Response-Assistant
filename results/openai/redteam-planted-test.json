@@ -1,0 +1,94 @@
+{
+  "findings": [
+    {
+      "ids": [
+        "K002"
+      ],
+      "kind": "wrong_fact",
+      "severity": "high",
+      "finding": "The answer gives the submission deadline as “29 January 2027,” but the requirement specifies 22 January 2027 at 12:00 CET.",
+      "suggestion": "Correct the deadline and confirm submission through the portal before 22 January 2027 at 12:00 CET."
+    },
+    {
+      "ids": [
+        "K009"
+      ],
+      "kind": "contradiction",
+      "severity": "medium",
+      "finding": "The answer says the references include “a Norwegian savings bank,” while CAP-03 says a Norwegian reference is not yet available.",
+      "suggestion": "Verify the reference list; the sheet supports the Swedish and Danish references, but not a Norwegian one."
+    },
+    {
+      "ids": [
+        "K020"
+      ],
+      "kind": "contradiction",
+      "severity": "medium",
+      "finding": "The answer says account data is delivered as “nightly files” and marks the requirement partly met, while CAP-21 says account events are published to an event streaming platform.",
+      "suggestion": "Reconcile the answer with CAP-21 and clarify whether event streams are available."
+    },
+    {
+      "ids": [
+        "K027"
+      ],
+      "kind": "missing",
+      "severity": "high",
+      "finding": "The answer is empty for the shall-requirement to log API calls and retain them for at least five years; no specialist flag is set.",
+      "suggestion": "Provide an answer covering the required log fields and retention period, or flag it for specialist review."
+    },
+    {
+      "ids": [
+        "K032"
+      ],
+      "kind": "unsupported",
+      "severity": "medium",
+      "finding": "The answer claims “full data lineage” through to the bank’s reports, but CAP-43 says lineage into the bank’s own reporting tools is not included.",
+      "suggestion": "Clarify the supported lineage boundary and avoid claiming end-to-end lineage to bank reports unless verified."
+    },
+    {
+      "ids": [
+        "K043"
+      ],
+      "kind": "contradiction",
+      "severity": "high",
+      "finding": "The answer says support access stays within the EU/EEA, but CAP-71 says third-line support includes an engineering team outside the EU/EEA; restricting access to EU/EEA staff is a paid option.",
+      "suggestion": "Confirm and state whether the EU/EEA-only support-access option will be included."
+    },
+    {
+      "ids": [
+        "K046"
+      ],
+      "kind": "contradiction",
+      "severity": "high",
+      "finding": "The answer says serious incidents are reported “within 24 hours,” while CAP-74 says within two hours and the requirement allows no more than four hours.",
+      "suggestion": "Correct the stated incident notification window and confirm it meets the four-hour requirement."
+    },
+    {
+      "ids": [
+        "K050"
+      ],
+      "kind": "contradiction",
+      "severity": "high",
+      "finding": "The answer claims the standard SLA guarantees 99.95% availability; CAP-80 says the standard SLA is 99.9% and 99.95% is available under a premium SLA at extra cost.",
+      "suggestion": "Clarify which SLA will be provided and whether the premium SLA is included."
+    },
+    {
+      "ids": [
+        "K051"
+      ],
+      "kind": "contradiction",
+      "severity": "high",
+      "finding": "The answer claims planned maintenance is between 01:00 and 05:00, but CAP-81 gives the standard window as 00:00–04:00.",
+      "suggestion": "Confirm whether the required maintenance window can be committed to, rather than presenting it as the standard capability."
+    },
+    {
+      "ids": [
+        "K052"
+      ],
+      "kind": "contradiction",
+      "severity": "high",
+      "finding": "The answer claims 24/7 support in both English and Norwegian, while CAP-82 says Norwegian-speaking support is available only on weekdays from 08:00 to 16:00.",
+      "suggestion": "Clarify the language coverage for critical incidents outside Norwegian support hours."
+    }
+  ]
+}

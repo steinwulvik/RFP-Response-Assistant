@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "ids": [
+        "K057"
+      ],
+      "kind": "not_responsive",
+      "severity": "medium",
+      "finding": "The requirement asks for a migration approach including test migrations, reconciliation and fallback. The answer only says \"The migration toolkit supports test migrations, automatic reconciliation and rollback\". It describes a tool, not an approach (sequence, phases, responsibilities), so an evaluator may score it low against the delivery criterion.",
+      "suggestion": "Add a short description of the approach. CAP-90 supports phasing: data platform and read-only APIs first, then real-time account services, then migration of products and history. Link the toolkit steps to that phasing and name \"rollback\" as the fallback mechanism."
+    },
+    {
+      "ids": [
+        "K031"
+      ],
+      "kind": "unsupported",
+      "severity": "low",
+      "finding": "The answer says dashboards measure completeness, accuracy and timeliness \"for each data product\". CAP-42 does not say the dashboards cover every data product. CAP-41 only says each data product has quality rules. The requirement also asks to report data quality, and the answer does not say how results are reported.",
+      "suggestion": "Remove \"for each data product\" unless a specialist confirms it, or tie it to CAP-41 (quality rules per data product). Say briefly how results are reported to the bank."
+    }
+  ]
+}

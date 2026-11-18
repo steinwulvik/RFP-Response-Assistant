@@ -1,0 +1,241 @@
+{
+  "risks": [
+    {
+      "risk": "Deviations are not captured in the separate reservations list. The RFP disregards unlisted reservations and says significant ones may lead to rejection. The R008 answer is still empty, while several shall-items are only partly met.",
+      "area": "compliance",
+      "ids": [
+        "R008",
+        "R021",
+        "R037",
+        "R045",
+        "R052",
+        "R053",
+        "R054",
+        "R057"
+      ],
+      "likelihood": "high",
+      "impact": "high",
+      "mitigation": "Build the reservations list from every 'partly' or 'not met' shall-item. Have the commercial lead and legal decide which deviations are significant and whether to close any of them (price, change of window, support model) instead of reserving. Cross-check the list against Appendix A before submission.",
+      "owner_role": "Commercial lead"
+    },
+    {
+      "risk": "Shall-requirements on service levels are not met as written: 99.95 % availability is only in the Premium SLA (standard is 99.9 %), the maintenance window is 00:00–04:00 instead of 01:00–05:00, and Norwegian support is weekdays 08:00–16:00 instead of 24/7 for critical incidents. The tender may be rejected, or the bank may find the gaps in operation.",
+      "area": "delivery",
+      "ids": [
+        "R052",
+        "R053",
+        "R054"
+      ],
+      "likelihood": "high",
+      "impact": "high",
+      "mitigation": "Ask operations whether the window can be moved and whether Norwegian 24/7 critical support can be offered. Decide per item whether to offer, price or reserve. Submit the clarification question on language scope (R054) and on how availability is measured against maintenance windows (R052) before the question deadline of 18 December 2026.",
+      "owner_role": "Operations lead"
+    },
+    {
+      "risk": "EU/EEA data residency (shall) is only partly met. Hosting and backups are in Norway and Finland, but third-line support runs follow-the-sun with engineers outside the EU/EEA. EU/EEA-only support access is a paid option. This is a core point for the Chief Risk Officer and for DORA/GDPR compliance.",
+      "area": "security",
+      "ids": [
+        "R045"
+      ],
+      "likelihood": "high",
+      "impact": "high",
+      "mitigation": "Decide whether to include EU/EEA-only support access in the base price. Otherwise list it as a clear reservation and describe what the standard model means for access to customer data. Have the security lead review the wording.",
+      "owner_role": "Security lead"
+    },
+    {
+      "risk": "The price may not cover all costs needed for full compliance. R062 requires a price covering all costs. Compliance with R045 and R052 depends on paid options, and the answers do not say whether they are in the price. The bank compares price like-for-like (30 % of the score), so an omission would either break the 'all costs' rule or weaken the price position.",
+      "area": "commercial",
+      "ids": [
+        "R062",
+        "R045",
+        "R052"
+      ],
+      "likelihood": "high",
+      "impact": "high",
+      "mitigation": "The pricing specialist decides whether the options are in the base price. Align the Appendix A answers, the price form and the reservations list so they say the same thing.",
+      "owner_role": "Pricing specialist"
+    },
+    {
+      "risk": "The pricing basis is unclear. The RFP gives no volumes for sizing and peak loads, and does not say whether the 2 + 2 option years are priced or evaluated. Prices may be built on assumptions the bank does not share.",
+      "area": "commercial",
+      "ids": [
+        "R024",
+        "R062",
+        "R063"
+      ],
+      "likelihood": "medium",
+      "impact": "medium",
+      "mitigation": "Send clarification questions on volumes and on option-year pricing through the tender portal before 18 December 2026. State the assumptions used in the price form. The commercial lead decides the milestone-linked payment model (R063).",
+      "owner_role": "Commercial lead"
+    },
+    {
+      "risk": "The tender commitments of signatory, six-month validity and audit right are not confirmed. Missing or wrong commitments could make the tender non-compliant on formal or contract grounds.",
+      "area": "compliance",
+      "ids": [
+        "R005",
+        "R006",
+        "R064"
+      ],
+      "likelihood": "medium",
+      "impact": "high",
+      "mitigation": "Management names an authorised signatory. The commercial lead confirms validity to six months after 22 January 2027. Legal confirms acceptance of the audit right in line with Finanstilsynet's outsourcing rules.",
+      "owner_role": "Legal / commercial lead"
+    },
+    {
+      "risk": "The 'real-time' commitment is stronger than the evidence. The sheet only shows posting under one second, not the end-to-end time to the bank's app, online bank and adviser tools (two seconds). The figures also come from reference customers, not from Morild. It is also unclear which accounts must be real-time while the old core runs in parallel.",
+      "area": "delivery",
+      "ids": [
+        "R021",
+        "R023",
+        "R016"
+      ],
+      "likelihood": "medium",
+      "impact": "high",
+      "mitigation": "Product confirms the end-to-end figure. Present reference-customer results as such (sub-second posting, 4–6 week product launches), not as promises. Ask the bank which system is the source for accounts not yet migrated and whether the two-second rule applies from the first go-live.",
+      "owner_role": "Product manager"
+    },
+    {
+      "risk": "The phased plan may not satisfy 'each phase can be taken into use on its own', especially the migration phase. The standard order puts real-time accounts after the data platform and read-only APIs, which may feel late to the bank. The board has ruled out big bang, and delivery plan and risk is 20 % of the score.",
+      "area": "delivery",
+      "ids": [
+        "R057",
+        "R058",
+        "R059"
+      ],
+      "likelihood": "medium",
+      "impact": "high",
+      "mitigation": "Delivery confirms stand-alone value and an exit/fallback per phase. Explain the rationale for the phase order openly. Ask a specialist whether real-time information can be shown earlier for accounts still on the old core. Define fallback per migration step.",
+      "owner_role": "Delivery manager"
+    },
+    {
+      "risk": "The bank's capacity is too small for the demand. The typical customer-side need is 6–10 FTE per phase against about 35 IT staff, so the plan may look unrealistic or too costly for the bank.",
+      "area": "delivery",
+      "ids": [
+        "R060",
+        "R057"
+      ],
+      "likelihood": "medium",
+      "impact": "high",
+      "mitigation": "Show roles and capacity per phase and how they can be kept as small as possible. State openly what falls to the bank. Test with the bank which named roles are available.",
+      "owner_role": "Delivery manager"
+    },
+    {
+      "risk": "Key persons are not named. The shall-requirement for project manager and solution architect with experience is unanswered, and the supplier's team is part of the delivery score.",
+      "area": "delivery",
+      "ids": [
+        "R061"
+      ],
+      "likelihood": "medium",
+      "impact": "high",
+      "mitigation": "Delivery management decides and confirms the availability of the named people before submission. Describe their relevant experience in the tender.",
+      "owner_role": "Delivery management"
+    },
+    {
+      "risk": "Regulatory reporting scope is unconfirmed. Standard feeds come via a reporting partner, and it is not confirmed that all reports for Finanstilsynet, Norges Bank and Statistics Norway are covered. The partner may count as a subcontractor in the DORA register of information.",
+      "area": "compliance",
+      "ids": [
+        "R037",
+        "R013",
+        "R038",
+        "R039"
+      ],
+      "likelihood": "medium",
+      "impact": "high",
+      "mitigation": "The product owner confirms which reports are in scope. Ask the bank for the list of reports and whether the supplier delivers only data or final reports. Check how the partner is described in the DORA information (Q-04) and in the exit plan.",
+      "owner_role": "Product owner"
+    },
+    {
+      "risk": "Gaps in 'should' requirements lower the solution quality score (40 %): lineage stops at the data platform and does not reach the bank's reporting tools, Python notebooks are only on the 2027 roadmap, PSD3/PSR is a roadmap item without a written plan, and ready-made accounting connectors cover only selected Nordic platforms.",
+      "area": "delivery",
+      "ids": [
+        "R034",
+        "R036",
+        "R027",
+        "R030"
+      ],
+      "likelihood": "high",
+      "impact": "medium",
+      "mitigation": "Be open about the limits. Write the PSD3/PSR plan together with product management. Ask the bank which accounting platforms and reporting tools matter, and check them against the connector list. Present the roadmap as roadmap, not as delivered.",
+      "owner_role": "Solution manager"
+    },
+    {
+      "risk": "The financial capacity claim (Q-03) is not supported. The answer promises audited accounts for three years and asserts capacity for a contract of this size, but the sheet only says the accounts are available. A qualification requirement could be challenged.",
+      "area": "compliance",
+      "ids": [
+        "R012"
+      ],
+      "likelihood": "low",
+      "impact": "medium",
+      "mitigation": "Confirm that the accounts will be attached, or reword to 'available on request'. Check that company size supports the capacity claim.",
+      "owner_role": "Finance / commercial lead"
+    },
+    {
+      "risk": "Overselling AI. The adviser summary is still a pilot, and only the data quality assistant is in production. Describing pilot functions as live would be wrong against AI-02, AI-03 and the EU AI Act answers, and would hurt trust with the Chief Risk Officer.",
+      "area": "compliance",
+      "ids": [
+        "R040",
+        "R041",
+        "R042",
+        "R043",
+        "R044"
+      ],
+      "likelihood": "medium",
+      "impact": "medium",
+      "mitigation": "Label each AI function as in production, pilot or roadmap. Describe data used, explainability and human review for each. Note that the bank's AI policy has not been seen (only available on request) and ask the bank to publish it through the portal.",
+      "owner_role": "Solution manager"
+    },
+    {
+      "risk": "Breach of the communication rules. All questions must go through the tender portal, and contact with other bank employees is not allowed. Planned clarification and workshop questions could be put to the bank outside the portal, risking disqualification.",
+      "area": "compliance",
+      "ids": [
+        "R001",
+        "R002"
+      ],
+      "likelihood": "low",
+      "impact": "high",
+      "mitigation": "Route all questions through the portal, keep them in writing and anonymous in content, and brief everyone on the bid team. Use the workshop questions only if the supplier is invited to the solution workshops.",
+      "owner_role": "Bid manager"
+    }
+  ],
+  "handover": {
+    "scope": [
+      "Account services for retail and business deposit accounts: current, savings and fixed-term accounts, tiered interest and fees, joint accounts and multiple users, savings pots, change history, and blocking (R014–R020).",
+      "Real-time account information with event streams and parallel running with the current core, including daily reconciliation (R021–R023).",
+      "REST/OpenAPI services, PSD2 / Berlin Group access, developer sandbox, API logging for five years, and SME accounting connectors for selected Nordic platforms (R025, R026, R028–R030).",
+      "Data platform with common data model, data products and quality, open-format export, governed SQL workspace, lineage into the platform, and regulatory reporting feeds via a reporting partner (R031–R039).",
+      "AI functions with documentation, human control, and no training of customer data outside the bank's environment without written consent (R040–R044).",
+      "Security, DORA support, exit plan, resilience testing participation and annual assurance report (R046–R051, R013).",
+      "Phased delivery (standard order: data platform and read-only APIs, then real-time accounts, then migration) with test migrations, reconciliation and fallback (R057–R060)."
+    ],
+    "assumptions": [
+      "Capability statements come from the supplier's capability sheet. Performance figures (sub-second posting, 4–6 week product launches) were measured at reference customers, not at Morild.",
+      "Hosting and backups are in Norway and Finland. Third-line support is follow-the-sun unless EU/EEA-only support access is chosen as a paid option.",
+      "The standard SLA is 99.9 % and the standard maintenance window is 00:00–04:00. Moving to 99.95 %, 01:00–05:00 or Norwegian 24/7 critical support is not yet decided.",
+      "Typical customer-side need is 6–10 FTE per phase. The bank's IT team is about 35 people.",
+      "Contract is expected to run six years with options of 2 + 2 years. Price is in NOK excluding VAT. Whether option years are priced is not confirmed.",
+      "Regulatory feeds depend on a reporting partner with quarterly updates. The bank's accounting platforms are assumed to match available connectors, which is not yet verified."
+    ],
+    "open_items": [
+      "Reservations list (R008) must be written and aligned with all 'partly' shall-items before submission on 22 January 2027, 12:00 CET.",
+      "Decision on whether EU/EEA-only support access and the Premium SLA are in the base price (R045, R052, R062), and on the milestone payment model (R063).",
+      "Operations to confirm whether the maintenance window can move and whether Norwegian 24/7 critical support is possible (R053, R054).",
+      "Product to confirm the end-to-end two-second figure (R021) and the scope of regulatory reports (R037).",
+      "Delivery to confirm that each phase, especially migration, can be used on its own (R057), and to name project manager and solution architect (R061).",
+      "Write the PSD3/PSR plan with product management (R027). Check bank accounting platforms against connectors (R030).",
+      "Signatory, six-month validity and audit right to be confirmed by management, commercial lead and legal (R005, R006, R064).",
+      "Financial statements wording for Q-03 to be confirmed (R012).",
+      "Clarification questions to submit through the portal before 18 December 2026: parallel-run source of truth, volumes, support language scope, lineage scope, regulatory reports in scope, option-year pricing and the AI policy.",
+      "Not yet known: the bank's priority order for real-time, data platform and APIs; the criteria for a 'proven' step; data ownership and the three definitions of 'active customer'; and which bank roles are available per phase."
+    ]
+  },
+  "go_no_go_facts": [
+    "Several shall-requirements are only partly met (R021, R037, R045, R052, R053, R054, R057). The RFP says a tender that does not meet a shall-requirement may be rejected, that unlisted reservations are disregarded, and that significant ones may lead to rejection.",
+    "Full compliance depends on paid options and on unconfirmed price decisions (EU/EEA-only support access, Premium SLA). Price is 30 % of the score, the bank's budget is tight, and the price must cover all costs (R062).",
+    "The delivery plan carries 20 % of the score and the board will not accept big bang. The standard order brings real-time services later, the typical need of 6–10 FTE per phase is heavy against about 35 IT staff, and the bank may award on first tenders without negotiations, so the written tender must stand on its own."
+  ],
+  "review": {
+    "status": "ai_draft",
+    "owner_role": "bid",
+    "reviewed_by": null
+  }
+}

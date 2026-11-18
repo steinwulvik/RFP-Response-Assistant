@@ -1,0 +1,743 @@
+{
+  "_note": "Hand-made answer key for the fictional Morild Bank RFP MB-2026-014. Made before any AI run.",
+  "requirements": [
+    {
+      "key_id": "K001",
+      "rfp_ref": "2.3",
+      "summary": "Do not contact other bank employees about the competition",
+      "type": "shall",
+      "category": "Formal",
+      "expected_coverage": "covered",
+      "evidence": [],
+      "owner_role": "bid"
+    },
+    {
+      "key_id": "K002",
+      "rfp_ref": "2.4",
+      "summary": "Tender in English, submitted through the portal before the deadline (22 Jan 2027 12:00 CET)",
+      "type": "shall",
+      "category": "Formal",
+      "expected_coverage": "covered",
+      "evidence": [],
+      "owner_role": "bid"
+    },
+    {
+      "key_id": "K003",
+      "rfp_ref": "2.4",
+      "summary": "Tender signed by a person authorised to bind the supplier",
+      "type": "shall",
+      "category": "Formal",
+      "expected_coverage": "needs_specialist",
+      "evidence": [],
+      "owner_role": "commercial"
+    },
+    {
+      "key_id": "K004",
+      "rfp_ref": "2.4",
+      "summary": "Tender valid for six months after the deadline",
+      "type": "shall",
+      "category": "Formal",
+      "expected_coverage": "needs_specialist",
+      "evidence": [],
+      "owner_role": "commercial"
+    },
+    {
+      "key_id": "K005",
+      "rfp_ref": "2.4",
+      "summary": "Solution description max 60 pages",
+      "type": "should",
+      "category": "Formal",
+      "expected_coverage": "covered",
+      "evidence": [],
+      "owner_role": "bid"
+    },
+    {
+      "key_id": "K006",
+      "rfp_ref": "2.4",
+      "summary": "Reservations and deviations stated in a separate list",
+      "type": "shall",
+      "category": "Formal",
+      "expected_coverage": "needs_specialist",
+      "evidence": [],
+      "owner_role": "commercial"
+    },
+    {
+      "key_id": "K007",
+      "rfp_ref": "5",
+      "summary": "Answer every requirement in Appendix A (met/partly/not met + how)",
+      "type": "shall",
+      "category": "Formal",
+      "expected_coverage": "covered",
+      "evidence": [],
+      "owner_role": "bid"
+    },
+    {
+      "key_id": "K008",
+      "rfp_ref": "Q-01",
+      "summary": "Valid ISO/IEC 27001 certification",
+      "type": "shall",
+      "category": "Qualification",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-02"
+      ],
+      "owner_role": "infosec"
+    },
+    {
+      "key_id": "K009",
+      "rfp_ref": "Q-02",
+      "summary": "At least two Nordic/EU/EEA bank references within five years",
+      "type": "shall",
+      "category": "Qualification",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-03"
+      ],
+      "owner_role": "sales"
+    },
+    {
+      "key_id": "K010",
+      "rfp_ref": "Q-03",
+      "summary": "Sufficient financial capacity",
+      "type": "shall",
+      "category": "Qualification",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-01"
+      ],
+      "owner_role": "commercial"
+    },
+    {
+      "key_id": "K011",
+      "rfp_ref": "Q-04",
+      "summary": "Information for the bank's DORA register, incl. subcontractors",
+      "type": "shall",
+      "category": "Qualification",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-04"
+      ],
+      "owner_role": "infosec"
+    },
+    {
+      "key_id": "K012",
+      "rfp_ref": "AS-01",
+      "summary": "Deposit accounts: current, savings, fixed-term",
+      "type": "shall",
+      "category": "Account services",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-10"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K013",
+      "rfp_ref": "AS-02",
+      "summary": "Interest and fees per bank rules, incl. tiered rates",
+      "type": "shall",
+      "category": "Account services",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-11"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K014",
+      "rfp_ref": "AS-03",
+      "summary": "Configure and launch account products without code",
+      "type": "should",
+      "category": "Account services",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-12"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K015",
+      "rfp_ref": "AS-04",
+      "summary": "Joint accounts and several authorised users with different rights",
+      "type": "shall",
+      "category": "Account services",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-13"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K016",
+      "rfp_ref": "AS-05",
+      "summary": "Sub-accounts / savings pots",
+      "type": "should",
+      "category": "Account services",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-14"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K017",
+      "rfp_ref": "AS-06",
+      "summary": "Account opening, change, closure with full history",
+      "type": "shall",
+      "category": "Account services",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-15"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K018",
+      "rfp_ref": "AS-07",
+      "summary": "Blocking of accounts and amounts",
+      "type": "shall",
+      "category": "Account services",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-16"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K019",
+      "rfp_ref": "5.2",
+      "summary": "Real-time update in all channels within two seconds of booking",
+      "type": "shall",
+      "category": "Real-time",
+      "expected_coverage": "partly",
+      "evidence": [
+        "CAP-20"
+      ],
+      "owner_role": "product",
+      "review_note": "Changed 18.11.2026 after run 2: CAP-20 covers posting on the platform in under one second, not that every channel shows the update within two seconds. Same point as the red-team finding on the test answer in run 1."
+    },
+    {
+      "key_id": "K020",
+      "rfp_ref": "5.2",
+      "summary": "Publish account events as event streams",
+      "type": "should",
+      "category": "Real-time",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-21"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K021",
+      "rfp_ref": "5.2",
+      "summary": "Parallel run with the current core system and daily balance reconciliation",
+      "type": "shall",
+      "category": "Real-time",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-22"
+      ],
+      "owner_role": "project"
+    },
+    {
+      "key_id": "K022",
+      "rfp_ref": "5.2",
+      "summary": "Describe handling of peak loads",
+      "type": "info",
+      "category": "Real-time",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-23"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K023",
+      "rfp_ref": "API-01",
+      "summary": "Documented REST APIs with OpenAPI specification",
+      "type": "shall",
+      "category": "APIs",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-30"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K024",
+      "rfp_ref": "API-02",
+      "summary": "PSD2 consent-based access and payment initiation, Berlin Group NextGenPSD2",
+      "type": "shall",
+      "category": "APIs",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-31"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K025",
+      "rfp_ref": "API-03",
+      "summary": "Prepared for PSD3/PSR – describe plan",
+      "type": "should",
+      "category": "APIs",
+      "expected_coverage": "partly",
+      "evidence": [
+        "CAP-32"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K026",
+      "rfp_ref": "API-04",
+      "summary": "Developer portal with sandbox",
+      "type": "should",
+      "category": "APIs",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-33"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K027",
+      "rfp_ref": "API-05",
+      "summary": "Log all API calls (time, caller, consent ref), keep at least five years",
+      "type": "shall",
+      "category": "APIs",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-34"
+      ],
+      "owner_role": "infosec"
+    },
+    {
+      "key_id": "K028",
+      "rfp_ref": "API-06",
+      "summary": "APIs for SME accounting platforms",
+      "type": "should",
+      "category": "APIs",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-35"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K029",
+      "rfp_ref": "DP-01",
+      "summary": "Common, documented data model",
+      "type": "shall",
+      "category": "Data platform",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-40"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K030",
+      "rfp_ref": "DP-02",
+      "summary": "Data products with owner, definition, quality rules",
+      "type": "should",
+      "category": "Data platform",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-41"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K031",
+      "rfp_ref": "DP-03",
+      "summary": "Measure and report data quality",
+      "type": "shall",
+      "category": "Data platform",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-42"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K032",
+      "rfp_ref": "DP-04",
+      "summary": "Full data lineage from source system to report",
+      "type": "should",
+      "category": "Data platform",
+      "expected_coverage": "partly",
+      "evidence": [
+        "CAP-43"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K033",
+      "rfp_ref": "DP-05",
+      "summary": "Extract all data in open format at any time and at contract end",
+      "type": "shall",
+      "category": "Data platform",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-44"
+      ],
+      "owner_role": "commercial"
+    },
+    {
+      "key_id": "K034",
+      "rfp_ref": "5.4",
+      "summary": "Analysts can use own tools (SQL and Python) on governed data",
+      "type": "should",
+      "category": "Data platform",
+      "expected_coverage": "partly",
+      "evidence": [
+        "CAP-45"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K035",
+      "rfp_ref": "RR-01",
+      "summary": "Data for regulatory reporting (Finanstilsynet, Norges Bank, SSB) with documented calculation rules",
+      "type": "shall",
+      "category": "Regulatory reporting",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-50"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K036",
+      "rfp_ref": "RR-02",
+      "summary": "Reconciliation of reporting data against the general ledger with alerts",
+      "type": "should",
+      "category": "Regulatory reporting",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-51"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K037",
+      "rfp_ref": "RR-03",
+      "summary": "Describe handling of changed reporting requirements and responsibility",
+      "type": "should",
+      "category": "Regulatory reporting",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-52"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K038",
+      "rfp_ref": "AI-01",
+      "summary": "Describe AI functions (current or roadmap) for advisers or data quality",
+      "type": "should",
+      "category": "AI",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-60",
+        "CAP-61"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K039",
+      "rfp_ref": "AI-02",
+      "summary": "Per AI function: data used, explanation, human review points",
+      "type": "shall",
+      "category": "AI",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-63"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K040",
+      "rfp_ref": "AI-03",
+      "summary": "No automated decisions about customers without human review",
+      "type": "shall",
+      "category": "AI",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-60",
+        "CAP-61"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K041",
+      "rfp_ref": "AI-04",
+      "summary": "No training on customer data outside the bank's environment without consent",
+      "type": "shall",
+      "category": "AI",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-62"
+      ],
+      "owner_role": "infosec"
+    },
+    {
+      "key_id": "K042",
+      "rfp_ref": "AI-05",
+      "summary": "Describe support for the bank's EU AI Act obligations",
+      "type": "should",
+      "category": "AI",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-63"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K043",
+      "rfp_ref": "SEC-01",
+      "summary": "Data stored and processed in EU/EEA, incl. backups and support access",
+      "type": "shall",
+      "category": "Security",
+      "expected_coverage": "partly",
+      "evidence": [
+        "CAP-70",
+        "CAP-71"
+      ],
+      "owner_role": "infosec"
+    },
+    {
+      "key_id": "K044",
+      "rfp_ref": "SEC-02",
+      "summary": "Encryption in transit and at rest",
+      "type": "shall",
+      "category": "Security",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-72"
+      ],
+      "owner_role": "infosec"
+    },
+    {
+      "key_id": "K045",
+      "rfp_ref": "SEC-03",
+      "summary": "Role-based access and MFA for administrative users",
+      "type": "shall",
+      "category": "Security",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-73"
+      ],
+      "owner_role": "infosec"
+    },
+    {
+      "key_id": "K046",
+      "rfp_ref": "SEC-04",
+      "summary": "Notify serious ICT incidents within four hours",
+      "type": "shall",
+      "category": "Security",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-74"
+      ],
+      "owner_role": "infosec"
+    },
+    {
+      "key_id": "K047",
+      "rfp_ref": "SEC-05",
+      "summary": "Take part in resilience testing incl. TLPT",
+      "type": "shall",
+      "category": "Security",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-75"
+      ],
+      "owner_role": "infosec"
+    },
+    {
+      "key_id": "K048",
+      "rfp_ref": "SEC-06",
+      "summary": "Documented exit plan",
+      "type": "shall",
+      "category": "Security",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-76"
+      ],
+      "owner_role": "infosec"
+    },
+    {
+      "key_id": "K049",
+      "rfp_ref": "SEC-07",
+      "summary": "Annual ISAE 3402 type 2 or equivalent",
+      "type": "should",
+      "category": "Security",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-77"
+      ],
+      "owner_role": "infosec"
+    },
+    {
+      "key_id": "K050",
+      "rfp_ref": "5.8",
+      "summary": "Availability 99.95 % per month for customer-facing services",
+      "type": "shall",
+      "category": "Operations",
+      "expected_coverage": "partly",
+      "evidence": [
+        "CAP-80"
+      ],
+      "owner_role": "commercial"
+    },
+    {
+      "key_id": "K051",
+      "rfp_ref": "5.8",
+      "summary": "Planned maintenance 01:00–05:00, announced 14 days ahead",
+      "type": "shall",
+      "category": "Operations",
+      "expected_coverage": "partly",
+      "evidence": [
+        "CAP-81"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K052",
+      "rfp_ref": "5.8",
+      "summary": "Support in English and Norwegian, 24/7 for critical incidents",
+      "type": "shall",
+      "category": "Operations",
+      "expected_coverage": "partly",
+      "evidence": [
+        "CAP-82"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K053",
+      "rfp_ref": "5.8",
+      "summary": "RTO max 4 hours, RPO max 5 minutes",
+      "type": "should",
+      "category": "Operations",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-83"
+      ],
+      "owner_role": "infosec"
+    },
+    {
+      "key_id": "K054",
+      "rfp_ref": "5.8",
+      "summary": "Monthly service reporting",
+      "type": "should",
+      "category": "Operations",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-84"
+      ],
+      "owner_role": "product"
+    },
+    {
+      "key_id": "K055",
+      "rfp_ref": "5.9",
+      "summary": "Phased delivery plan, each phase usable on its own",
+      "type": "shall",
+      "category": "Delivery",
+      "expected_coverage": "partly",
+      "evidence": [
+        "CAP-90"
+      ],
+      "owner_role": "project",
+      "review_note": "Changed 18.11.2026 after the first run: CAP-90 describes a phased sequence with early value, but does not state that each phase can be taken into use on its own."
+    },
+    {
+      "key_id": "K056",
+      "rfp_ref": "5.9",
+      "summary": "Start where value is highest and risk lowest, explain why",
+      "type": "should",
+      "category": "Delivery",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-90"
+      ],
+      "owner_role": "project"
+    },
+    {
+      "key_id": "K057",
+      "rfp_ref": "5.9",
+      "summary": "Migration approach incl. test migrations, reconciliation, fallback",
+      "type": "shall",
+      "category": "Delivery",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-91"
+      ],
+      "owner_role": "project"
+    },
+    {
+      "key_id": "K058",
+      "rfp_ref": "5.9",
+      "summary": "Describe roles and capacity the bank must provide per phase",
+      "type": "should",
+      "category": "Delivery",
+      "expected_coverage": "covered",
+      "evidence": [
+        "CAP-92"
+      ],
+      "owner_role": "project"
+    },
+    {
+      "key_id": "K059",
+      "rfp_ref": "5.9",
+      "summary": "Name key persons (project manager, solution architect) with experience",
+      "type": "shall",
+      "category": "Delivery",
+      "expected_coverage": "needs_specialist",
+      "evidence": [],
+      "owner_role": "project"
+    },
+    {
+      "key_id": "K060",
+      "rfp_ref": "5.10",
+      "summary": "Price in Appendix C, NOK excl. VAT, all costs included",
+      "type": "shall",
+      "category": "Commercial",
+      "expected_coverage": "needs_specialist",
+      "evidence": [],
+      "owner_role": "commercial"
+    },
+    {
+      "key_id": "K061",
+      "rfp_ref": "5.10",
+      "summary": "Offer price model partly linked to milestones",
+      "type": "should",
+      "category": "Commercial",
+      "expected_coverage": "needs_specialist",
+      "evidence": [],
+      "owner_role": "commercial"
+    },
+    {
+      "key_id": "K062",
+      "rfp_ref": "5.10",
+      "summary": "Accept the bank's right to audit",
+      "type": "shall",
+      "category": "Commercial",
+      "expected_coverage": "needs_specialist",
+      "evidence": [],
+      "owner_role": "commercial"
+    },
+    {
+      "key_id": "K063",
+      "rfp_ref": "2.3",
+      "summary": "All questions sent in writing through the tender portal",
+      "type": "shall",
+      "category": "Formal",
+      "expected_coverage": "covered",
+      "evidence": [],
+      "owner_role": "bid",
+      "review_note": "Added 18.11.2026 after the first run: both models found this requirement, which was missing from the key."
+    }
+  ]
+}

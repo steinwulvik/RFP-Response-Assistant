@@ -1,0 +1,497 @@
+{
+  "gaps": [
+    {
+      "id": "R001",
+      "coverage": "covered",
+      "evidence": [],
+      "gap_note": ""
+    },
+    {
+      "id": "R002",
+      "coverage": "covered",
+      "evidence": [],
+      "gap_note": ""
+    },
+    {
+      "id": "R003",
+      "coverage": "covered",
+      "evidence": [],
+      "gap_note": ""
+    },
+    {
+      "id": "R004",
+      "coverage": "covered",
+      "evidence": [],
+      "gap_note": ""
+    },
+    {
+      "id": "R005",
+      "coverage": "needs_specialist",
+      "evidence": [],
+      "gap_note": "Management must decide who signs and confirm that the signatory is authorised to bind Nordlys."
+    },
+    {
+      "id": "R006",
+      "coverage": "needs_specialist",
+      "evidence": [],
+      "gap_note": "The commercial lead must confirm that the tender can be held valid for six months after the deadline."
+    },
+    {
+      "id": "R007",
+      "coverage": "covered",
+      "evidence": [],
+      "gap_note": ""
+    },
+    {
+      "id": "R008",
+      "coverage": "needs_specialist",
+      "evidence": [],
+      "gap_note": "The commercial lead must decide which reservations and deviations to list, as unlisted reservations are disregarded."
+    },
+    {
+      "id": "R009",
+      "coverage": "covered",
+      "evidence": [],
+      "gap_note": ""
+    },
+    {
+      "id": "R010",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-02"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R011",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-03"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R012",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-01"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R013",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-04"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R014",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-10"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R015",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-11"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R016",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-12"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R017",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-13"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R018",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-14"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R019",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-15"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R020",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-16"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R021",
+      "coverage": "partly",
+      "evidence": [
+        "CAP-20"
+      ],
+      "gap_note": "The sheet only states that postings are updated in under one second; it says nothing about the time until the bank's own mobile app, online bank and adviser tools show the update, so product must confirm the end-to-end figure (stricter reading applied)."
+    },
+    {
+      "id": "R022",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-21"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R023",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-22"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R024",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-23"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R025",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-30"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R026",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-31"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R027",
+      "coverage": "partly",
+      "evidence": [
+        "CAP-32"
+      ],
+      "gap_note": "PSD3/PSR readiness is a roadmap programme, with changes delivered in standard releases only once the final rules apply, so the solution is not yet prepared and the bid team needs to write the plan with product management."
+    },
+    {
+      "id": "R028",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-33"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R029",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-34"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R030",
+      "coverage": "partly",
+      "evidence": [
+        "CAP-35"
+      ],
+      "gap_note": "Ready-made connectors exist only for selected Nordic accounting platforms (plus a connector framework); check that the bank's platforms are on the list."
+    },
+    {
+      "id": "R031",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-40"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R032",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-41"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R033",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-42"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R034",
+      "coverage": "partly",
+      "evidence": [
+        "CAP-43"
+      ],
+      "gap_note": "Lineage covers source systems into the data platform only, not onward into the bank's reporting tools, so end-to-end lineage to the report is not delivered."
+    },
+    {
+      "id": "R035",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-44"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R036",
+      "coverage": "partly",
+      "evidence": [
+        "CAP-45"
+      ],
+      "gap_note": "A governed SQL workspace exists, but Python notebooks are only on the 2027 roadmap."
+    },
+    {
+      "id": "R037",
+      "coverage": "partly",
+      "evidence": [
+        "CAP-50"
+      ],
+      "gap_note": "Standard feeds exist for Norwegian regulatory reports via a reporting partner, but the sheet does not say that the reports for Finanstilsynet, Norges Bank and Statistics Norway are all in scope; confirm with the product owner."
+    },
+    {
+      "id": "R038",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-51"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R039",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-52"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R040",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-60",
+        "CAP-61"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R041",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-63",
+        "CAP-60",
+        "CAP-61"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R042",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-60",
+        "CAP-61"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R043",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-62"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R044",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-63"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R045",
+      "coverage": "partly",
+      "evidence": [
+        "CAP-70",
+        "CAP-71"
+      ],
+      "gap_note": "Hosting and backups are in Norway and Finland, but third-line support uses a follow-the-sun model with engineers outside the EU/EEA; EU/EEA-only support access is a paid option."
+    },
+    {
+      "id": "R046",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-72"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R047",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-73"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R048",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-74"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R049",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-75"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R050",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-76",
+        "CAP-44"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R051",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-77"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R052",
+      "coverage": "partly",
+      "evidence": [
+        "CAP-80"
+      ],
+      "gap_note": "99.95 % is only available in the Premium SLA at extra cost; the standard SLA is 99.9 %. The sheet does not say how availability is measured relative to maintenance windows, so check this with the commercial lead."
+    },
+    {
+      "id": "R053",
+      "coverage": "partly",
+      "evidence": [
+        "CAP-81"
+      ],
+      "gap_note": "The 14-day notice matches, but the standard window is 00:00–04:00, not 01:00–05:00. Check with operations whether the window can be moved."
+    },
+    {
+      "id": "R054",
+      "coverage": "partly",
+      "evidence": [
+        "CAP-82"
+      ],
+      "gap_note": "English support is 24/7 for critical incidents, but Norwegian support is only weekdays 08:00–16:00. The requirement is read strictly as both languages 24/7."
+    },
+    {
+      "id": "R055",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-83"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R056",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-84"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R057",
+      "coverage": "partly",
+      "evidence": [
+        "CAP-90"
+      ],
+      "gap_note": "A phased method exists (data platform and read-only APIs, then real-time accounts, then migration), but the sheet does not confirm that each phase can be taken into use on its own. Delivery must confirm this, especially for the migration phase."
+    },
+    {
+      "id": "R058",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-90"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R059",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-91",
+        "CAP-22"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R060",
+      "coverage": "covered",
+      "evidence": [
+        "CAP-92"
+      ],
+      "gap_note": ""
+    },
+    {
+      "id": "R061",
+      "coverage": "needs_specialist",
+      "evidence": [],
+      "gap_note": "Naming the project manager and solution architect and describing their experience is a decision for delivery management. The sheet names no persons."
+    },
+    {
+      "id": "R062",
+      "coverage": "needs_specialist",
+      "evidence": [],
+      "gap_note": "Pricing in Appendix C (NOK excl. VAT, all costs) is a commercial decision. The sheet contains no prices."
+    },
+    {
+      "id": "R063",
+      "coverage": "needs_specialist",
+      "evidence": [],
+      "gap_note": "The sheet says nothing about price models or milestone-linked payment. The commercial lead must decide."
+    },
+    {
+      "id": "R064",
+      "coverage": "needs_specialist",
+      "evidence": [],
+      "gap_note": "Accepting the bank's audit right is a contract commitment. Legal and the commercial lead must confirm it; the sheet does not address it."
+    }
+  ]
+}

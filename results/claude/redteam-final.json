@@ -1,0 +1,40 @@
+{
+  "findings": [
+    {
+      "ids": [
+        "R008",
+        "R021",
+        "R037",
+        "R045",
+        "R052",
+        "R053",
+        "R054",
+        "R057"
+      ],
+      "kind": "not_responsive",
+      "severity": "high",
+      "finding": "Several shall-requirements are answered 'Partly met' with a stated gap: R045 'not fully met for support access', R052 'below the required 99.95 %', R053 'standard maintenance window is 00:00–04:00', R054 'no 24/7 Norwegian support', R057 'independent use of each later phase is not confirmed', R037 report coverage unconfirmed, R021 end-to-end 2 s unmeasured. R008 says unlisted reservations are disregarded and significant ones may lead to rejection. The R008 answer is still empty, so these deviations are not yet in the required separate list.",
+      "suggestion": "Make sure the separate reservations list covers every 'Partly met' or 'Not met' shall-item, and that the specialist decides which are significant enough to risk rejection."
+    },
+    {
+      "ids": [
+        "R062",
+        "R045",
+        "R052"
+      ],
+      "kind": "contradiction",
+      "severity": "medium",
+      "finding": "R062 requires a price 'covering all costs needed to deliver the requirements'. The drafts make full compliance depend on paid add-ons: EU/EEA-only support access ('as a paid option') in R045 and the Premium SLA 'at extra cost' in R052. If the price form excludes these, the bid does not meet the requirements at the quoted price. If it includes them, the answers do not say so.",
+      "suggestion": "Have the pricing specialist decide whether these options are in the base price. Make the answers and price form consistent, and state it clearly."
+    },
+    {
+      "ids": [
+        "R012"
+      ],
+      "kind": "unsupported",
+      "severity": "low",
+      "finding": "'Audited annual accounts for the last three years ... will be provided with the tender' is a delivery commitment. The capability sheet (CAP-01) only says the accounts 'are available'. 'Met' also asserts sufficient capacity 'for a contract of this size', and the sheet gives no basis for that.",
+      "suggestion": "Confirm with the specialist that the accounts will be attached, or reword to 'available on request'. Check that company size is enough to support 'sufficient financial capacity'."
+    }
+  ]
+}

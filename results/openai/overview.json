@@ -1,0 +1,261 @@
+{
+  "risks": [
+    {
+      "risk": "Two qualifying bank references are not evidenced; the current answer does not establish comparable delivery within the last five years. This qualification gap could make the tender ineligible.",
+      "area": "compliance",
+      "ids": [
+        "R012"
+      ],
+      "likelihood": "high",
+      "impact": "high",
+      "mitigation": "Provide two reference descriptions with customer identity, comparable scope and delivery dates, or confirm that the requirement cannot be met.",
+      "owner_role": "Bid lead"
+    },
+    {
+      "risk": "Financial capacity for a contract of this size has not been confirmed from the available accounts and revenue information.",
+      "area": "commercial",
+      "ids": [
+        "R013"
+      ],
+      "likelihood": "medium",
+      "impact": "high",
+      "mitigation": "Have the financial or commercial specialist assess the available evidence against the qualification requirement and confirm whether it is sufficient.",
+      "owner_role": "Finance lead"
+    },
+    {
+      "risk": "Tender signature authority, six-month validity and any reservations or deviations remain unconfirmed; unresolved items could invalidate the tender or leave material deviations undisclosed.",
+      "area": "commercial",
+      "ids": [
+        "R007",
+        "R008",
+        "R010"
+      ],
+      "likelihood": "medium",
+      "impact": "high",
+      "mitigation": "Obtain authorised sign-off, confirm the validity period, and approve a separate list of all reservations or deviations before submission.",
+      "owner_role": "Commercial lead"
+    },
+    {
+      "risk": "The offered service does not yet demonstrate synchronized balances and transactions across all customer and adviser channels within the required two seconds.",
+      "area": "delivery",
+      "ids": [
+        "R022"
+      ],
+      "likelihood": "medium",
+      "impact": "high",
+      "mitigation": "Confirm end-to-end channel synchronization and agree the measurement method, start and end points, and applicable performance percentile.",
+      "owner_role": "Solution architect"
+    },
+    {
+      "risk": "The PSD3/PSR readiness response names a programme but does not describe its preparation steps, while delivery is stated to follow once final rules apply.",
+      "area": "compliance",
+      "ids": [
+        "R028"
+      ],
+      "likelihood": "medium",
+      "impact": "medium",
+      "mitigation": "Describe the readiness activities and how regulatory changes will be assessed and incorporated; clarify the commitment and timing basis.",
+      "owner_role": "Regulatory lead"
+    },
+    {
+      "risk": "Support for the bank's specific SME accounting platforms is unconfirmed; available ready-made connectors cover only selected Nordic platforms.",
+      "area": "delivery",
+      "ids": [
+        "R031"
+      ],
+      "likelihood": "medium",
+      "impact": "medium",
+      "mitigation": "Identify the bank's target platforms, confirm existing connector coverage and define any additional integration work.",
+      "owner_role": "Integration lead"
+    },
+    {
+      "risk": "Data lineage onward from the platform into the bank's reporting tools is not included, leaving the requested source-to-report lineage incomplete.",
+      "area": "delivery",
+      "ids": [
+        "R035"
+      ],
+      "likelihood": "high",
+      "impact": "medium",
+      "mitigation": "Clarify the reporting-tool boundary and agree whether additional lineage capability or integration work is required.",
+      "owner_role": "Data architect"
+    },
+    {
+      "risk": "Python notebooks are only on the roadmap for 2027, so analysts may not initially be able to use their own Python tools on governed data as requested.",
+      "area": "delivery",
+      "ids": [
+        "R037"
+      ],
+      "likelihood": "high",
+      "impact": "medium",
+      "mitigation": "Confirm availability and timing of Python notebooks and agree how analyst needs will be supported in the interim.",
+      "owner_role": "Data platform lead"
+    },
+    {
+      "risk": "The AI response does not separately specify data used, explanation methods and human review points for each AI function, including the data-quality assistant and adviser summary.",
+      "area": "compliance",
+      "ids": [
+        "R042"
+      ],
+      "likelihood": "medium",
+      "impact": "high",
+      "mitigation": "Document the data, explainability approach and human review or approval point for every AI function.",
+      "owner_role": "AI governance lead"
+    },
+    {
+      "risk": "The EU AI Act response covers risk classification but does not describe broader support for the bank's obligations.",
+      "area": "compliance",
+      "ids": [
+        "R045"
+      ],
+      "likelihood": "medium",
+      "impact": "medium",
+      "mitigation": "Clarify the documentation and other support provided for the bank's AI Act obligations and identify any boundaries.",
+      "owner_role": "AI governance lead"
+    },
+    {
+      "risk": "Standard support access can occur from outside the EU/EEA; EU/EEA-only access is a paid option and is not confirmed in the offered service. This conflicts with the stated data-location requirement.",
+      "area": "security",
+      "ids": [
+        "R046"
+      ],
+      "likelihood": "high",
+      "impact": "high",
+      "mitigation": "Confirm EU/EEA-only access for all support scenarios in the offered service, or clearly state the deviation and its commercial treatment.",
+      "owner_role": "Information security lead"
+    },
+    {
+      "risk": "The exit plan and open-format export are stated, but the plan is not confirmed to enable transfer to another supplier or back in-house.",
+      "area": "delivery",
+      "ids": [
+        "R051"
+      ],
+      "likelihood": "medium",
+      "impact": "high",
+      "mitigation": "Describe the exit activities and demonstrate how they support transfer to another supplier or in-house operation.",
+      "owner_role": "Service transition lead"
+    },
+    {
+      "risk": "The required 99.95% monthly availability is only available as a paid premium option, and neither its inclusion nor the maintenance-window measurement basis is confirmed.",
+      "area": "commercial",
+      "ids": [
+        "R053"
+      ],
+      "likelihood": "high",
+      "impact": "high",
+      "mitigation": "Confirm whether the required target and measurement basis will be included in the offer, and state the associated commercial treatment.",
+      "owner_role": "Commercial lead"
+    },
+    {
+      "risk": "The standard maintenance window is 00:00–04:00 rather than the required 01:00–05:00; no agreement to use the required window is evidenced.",
+      "area": "delivery",
+      "ids": [
+        "R054"
+      ],
+      "likelihood": "high",
+      "impact": "high",
+      "mitigation": "Confirm use of the 01:00–05:00 window or explicitly record the deviation for evaluation.",
+      "owner_role": "Service operations lead"
+    },
+    {
+      "risk": "Critical-incident support is 24/7 in English, but Norwegian-language support is limited to weekdays 08:00–16:00.",
+      "area": "delivery",
+      "ids": [
+        "R055"
+      ],
+      "likelihood": "high",
+      "impact": "high",
+      "mitigation": "Confirm 24/7 critical-incident support in both English and Norwegian, or clearly state the service deviation.",
+      "owner_role": "Service operations lead"
+    },
+    {
+      "risk": "The phased plan does not establish that every phase delivers value and is independently usable, as required; this could undermine the bank's no-big-bang transition constraint.",
+      "area": "delivery",
+      "ids": [
+        "R058"
+      ],
+      "likelihood": "medium",
+      "impact": "high",
+      "mitigation": "For every phase, state the value delivered and how it can be used independently, and confirm the plan avoids a big-bang replacement.",
+      "owner_role": "Delivery lead"
+    },
+    {
+      "risk": "The proposed first phase is described as low risk and offering early value, but is not shown to be the highest-value, lowest-risk area or supported by the requested rationale.",
+      "area": "delivery",
+      "ids": [
+        "R059"
+      ],
+      "likelihood": "medium",
+      "impact": "medium",
+      "mitigation": "Compare candidate starting areas by value and risk, explain the selection rationale and validate it with the bank.",
+      "owner_role": "Delivery lead"
+    },
+    {
+      "risk": "Key delivery personnel and their relevant experience have not been named or described, weakening the delivery plan evidence.",
+      "area": "delivery",
+      "ids": [
+        "R062"
+      ],
+      "likelihood": "medium",
+      "impact": "high",
+      "mitigation": "Name at least the project manager and solution architect and provide their relevant experience.",
+      "owner_role": "Delivery lead"
+    },
+    {
+      "risk": "The required price form and cost coverage, milestone-linked payment model and acceptance of the bank's audit right remain unconfirmed; Appendix C and the draft contract are also absent from the provided tender documents.",
+      "area": "commercial",
+      "ids": [
+        "R063",
+        "R064",
+        "R065"
+      ],
+      "likelihood": "high",
+      "impact": "high",
+      "mitigation": "Obtain Appendix C and Appendix D, complete and review the price response, confirm milestone-payment availability, and obtain a decision on the audit right.",
+      "owner_role": "Commercial lead"
+    },
+    {
+      "risk": "API log retention of at least five years and coverage of every API call have not been explicitly confirmed, despite the stated configurable retention capability.",
+      "area": "compliance",
+      "ids": [
+        "R030"
+      ],
+      "likelihood": "medium",
+      "impact": "high",
+      "mitigation": "Confirm that all API calls are covered and that logs will be retained for at least five years in the offered service.",
+      "owner_role": "Security and compliance lead"
+    }
+  ],
+  "handover": {
+    "scope": [
+      "Account services for retail and business deposit accounts, product rules, account lifecycle, joint accounts, authorised users and account or amount blocking.",
+      "Real-time account information, event streams, parallel running with the current core system and daily balance reconciliation.",
+      "Documented REST APIs, consent-based third-party access, partner sandbox and data services, including regulatory reporting and data quality.",
+      "Phased migration of accounts and history, with test migrations, reconciliation and fallback; service operation and support."
+    ],
+    "assumptions": [
+      "The proposed transition is phased and uses parallel running with the current core system; phase sequencing and acceptance evidence remain to be agreed.",
+      "The bank will provide the roles and capacity by phase described in the response; delivery pace may be constrained by the bank's approximately 35-person IT team.",
+      "Hosting and backups are in Norway and Finland; standard third-line support access can be from outside the EU/EEA unless the EU/EEA-only option is agreed.",
+      "The 99.95% availability target is a paid premium option, and the standard maintenance window is 00:00–04:00."
+    ],
+    "open_items": [
+      "Confirm qualifying bank references, financial capacity, authorised tender signature, six-month validity and the approved deviations list.",
+      "Confirm all support access can remain within the EU/EEA and resolve the availability target, measurement basis, maintenance window and 24/7 Norwegian support gap.",
+      "Complete the AI-function disclosures, confirm API log retention, and clarify PSD3/PSR preparation and broader EU AI Act support.",
+      "Confirm channel synchronization against the two-second requirement, SME accounting-platform coverage, reporting-tool lineage and Python notebook availability.",
+      "Define value and standalone usability for every delivery phase; name the project manager and solution architect and describe their experience.",
+      "Obtain Appendix C and Appendix D; confirm pricing scope, milestone-linked payments and acceptance of the bank's audit right.",
+      "Clarify transaction and peak volumes, migration volumes and history period, regulatory report set and formats, and the boundary of EU/EEA support-access requirements."
+    ]
+  },
+  "go_no_go_facts": [
+    "The two-bank-reference qualification requirement is not yet evidenced, and the available financial information has not been confirmed as sufficient.",
+    "Several material shall-requirement gaps remain, particularly EU/EEA support access, 99.95% availability, maintenance timing and 24/7 Norwegian critical-incident support.",
+    "The complete commercial and contract response is not established: prices and cost coverage, milestone payments and audit acceptance remain open, and the referenced price form and draft contract were not provided."
+  ],
+  "review": {
+    "status": "ai_draft",
+    "owner_role": "bid",
+    "reviewed_by": null
+  }
+}

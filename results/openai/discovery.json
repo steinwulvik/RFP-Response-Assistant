@@ -1,0 +1,308 @@
+{
+  "strategy_summary": [
+    {
+      "point": "Morild wants real-time account information in all channels by the end of 2028, with secure partner APIs and automated regulatory data delivery.",
+      "source": "01-morild-annual-report-extract.md, Outlook"
+    },
+    {
+      "point": "The 2030 goals include product launches in under eight weeks, a common data model, and halving manual regulatory reporting work by 2029.",
+      "source": "02-morild-strategy-note.md, 2. What we want to achieve by 2030"
+    },
+    {
+      "point": "The current account system is 19 years old; most account events are processed overnight, and data is spread across systems and spreadsheets.",
+      "source": "02-morild-strategy-note.md, 1. Where we are"
+    },
+    {
+      "point": "The bank requires phased delivery, parallel running until each step is proven, and value at each step; it will not accept a big-bang replacement.",
+      "source": "02-morild-strategy-note.md, 3. Constraints and concerns"
+    },
+    {
+      "point": "The bank's IT team is about 35 people and cannot run a large project alone; total investment must fit the existing IT budget plus a one-off board-approved investment.",
+      "source": "02-morild-strategy-note.md, 3. Constraints and concerns"
+    },
+    {
+      "point": "The bank requires EU/EEA data residency, DORA and GDPR compliance, responsible AI, and standard documented interfaces to limit supplier lock-in.",
+      "source": "02-morild-strategy-note.md, 3. Constraints and concerns"
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis": "We believe the bank may favour an incremental path that makes trusted data available before full account migration, because it rejects a big-bang replacement and wants value at each step.",
+      "evidence": "The bank requires phased delivery and parallel running, and explicitly asks suppliers what should come first: real-time account data, the data platform or APIs.",
+      "source": "02-morild-strategy-note.md, 3. Constraints and concerns; 4. Open questions we want to explore with suppliers"
+    },
+    {
+      "hypothesis": "We believe agreeing common data definitions and ownership early may be important to the bank, because the same term currently has three definitions and the bank wants one version of the truth.",
+      "evidence": "Customer and account data is spread across systems, and the strategy calls for a common model, data ownership and trusted data products.",
+      "source": "02-morild-strategy-note.md, 1. Where we are; 2. What we want to achieve by 2030"
+    },
+    {
+      "hypothesis": "We believe operational capacity could constrain delivery pace, because the bank's IT team is small and cannot run a large project alone.",
+      "evidence": "The strategy note estimates the internal IT team at about 35 people; the RFP asks suppliers to describe bank roles and capacity by phase.",
+      "source": "02-morild-strategy-note.md, 3. Constraints and concerns; 03-rfp-morild-account-data-platform.md, 5.9 Delivery, migration and plan"
+    },
+    {
+      "hypothesis": "We believe reducing manual reporting work may be an early source of value, because reporting currently takes about 1,400 manual hours per year and the bank targets a 50% reduction by 2029.",
+      "evidence": "The strategy note states the current manual effort and the reduction goal.",
+      "source": "02-morild-strategy-note.md, 1. Where we are; 2. What we want to achieve by 2030"
+    },
+    {
+      "hypothesis": "We believe the bank may give close attention to exit and portability in supplier selection, because it wants standard interfaces and is concerned about lock-in.",
+      "evidence": "The strategy note states the lock-in concern; the RFP requires export of all data and a documented exit plan.",
+      "source": "02-morild-strategy-note.md, 3. Constraints and concerns; 03-rfp-morild-account-data-platform.md, 5.4 Data platform and data products; 5.7 Information security and operational resilience"
+    },
+    {
+      "hypothesis": "We believe the bank may prefer bounded AI use cases with clear human review, because it wants responsible AI and its policy requires human responsibility, explainability and documented data use.",
+      "evidence": "The strategy note and annual report describe AI governance expectations and the RFP requires human review for customer decisions.",
+      "source": "02-morild-strategy-note.md, 2. What we want to achieve by 2030; 01-morild-annual-report-extract.md, Risk and compliance; 03-rfp-morild-account-data-platform.md, 5.6 AI and analytics"
+    }
+  ],
+  "win_themes": [
+    {
+      "theme": "Deliver real-time account information through controlled phases, with reconciliation and measurable transition steps.",
+      "customer_need": "Customers and advisers need the same current account information in all channels, and the bank requires parallel running and phased value. (02-morild-strategy-note.md, 2. What we want to achieve by 2030; 3. Constraints and concerns; 03-rfp-morild-account-data-platform.md, 5.2 Real-time account information)",
+      "proof": [
+        "CAP-20",
+        "CAP-21",
+        "CAP-22",
+        "CAP-91"
+      ],
+      "weak_spot": "The bank's own capacity is limited; the proposed phases and required bank roles must be realistic for its team. (02-morild-strategy-note.md, 3. Constraints and concerns; 03-rfp-morild-account-data-platform.md, 5.9 Delivery, migration and plan)"
+    },
+    {
+      "theme": "Make product changes configurable so the bank can shorten time from product decision to launch.",
+      "customer_need": "The bank wants to launch a new account product in less than eight weeks; today launches take six to nine months. (02-morild-strategy-note.md, 1. Where we are; 2. What we want to achieve by 2030)",
+      "proof": [
+        "CAP-11",
+        "CAP-12"
+      ],
+      "weak_spot": "The documented 4–6 week launch time is typical at reference customers, not a guarantee for Morild. (CAP-12)"
+    },
+    {
+      "theme": "Build trusted, governed data that supports both business use and regulatory reporting.",
+      "customer_need": "The bank wants a common data model, trusted data products and less manual reporting work. (02-morild-strategy-note.md, 1. Where we are; 2. What we want to achieve by 2030)",
+      "proof": [
+        "CAP-40",
+        "CAP-41",
+        "CAP-42",
+        "CAP-50",
+        "CAP-51"
+      ],
+      "weak_spot": "Lineage from the platform into the bank's own reporting tools is not included, and Python notebooks are on the roadmap rather than available now. (CAP-43; CAP-45)"
+    },
+    {
+      "theme": "Support secure partner access using documented APIs and tools for partner testing.",
+      "customer_need": "The bank wants an open and secure platform, with consent-based access for partners and SME accounting platforms. (01-morild-annual-report-extract.md, Letter from the CEO; 02-morild-strategy-note.md, 2. What we want to achieve by 2030)",
+      "proof": [
+        "CAP-30",
+        "CAP-31",
+        "CAP-33",
+        "CAP-35"
+      ],
+      "weak_spot": "Ready-made connectors are available only for selected Nordic accounting platforms; identify coverage and any additional work clearly. (CAP-35)"
+    },
+    {
+      "theme": "Keep AI use bounded, explainable and subject to human review.",
+      "customer_need": "The bank wants AI to support advisers and data quality while people remain responsible for decisions. (02-morild-strategy-note.md, 2. What we want to achieve by 2030; 03-rfp-morild-account-data-platform.md, 5.6 AI and analytics)",
+      "proof": [
+        "CAP-60",
+        "CAP-61",
+        "CAP-62",
+        "CAP-63"
+      ],
+      "weak_spot": "The adviser insight summary is a pilot, with general availability planned for 2027. (CAP-61)"
+    }
+  ],
+  "stakeholders": [
+    {
+      "role": "COO (sponsor)",
+      "cares_about": "Simpler operations, delivery risk and cost. (02-morild-strategy-note.md, 5. Stakeholders)",
+      "address_in_bid": "Explain phasing, risk controls and costs in Appendix B and Appendix C; address delivery risk under the Delivery plan and risk award criterion. (03-rfp-morild-account-data-platform.md, 4. Award criteria; 5.9 Delivery, migration and plan; 5.10 Commercial terms)"
+    },
+    {
+      "role": "Head of Retail",
+      "cares_about": "Customer experience in the app and faster product launches. (02-morild-strategy-note.md, 5. Stakeholders)",
+      "address_in_bid": "Address real-time information in Appendix A section 5.2 and product configuration in Appendix A section 5.1; explain solution quality in Appendix B. (03-rfp-morild-account-data-platform.md, 4. Award criteria; 5.1 Account services; 5.2 Real-time account information)"
+    },
+    {
+      "role": "Head of Business Banking",
+      "cares_about": "Integration with SME accounting platforms. (02-morild-strategy-note.md, 5. Stakeholders)",
+      "address_in_bid": "Answer API-06 and describe relevant integration approach in Appendix B. (03-rfp-morild-account-data-platform.md, 5.3 APIs and open banking)"
+    },
+    {
+      "role": "CIO",
+      "cares_about": "Architecture, migration, capacity and lock-in. (02-morild-strategy-note.md, 5. Stakeholders)",
+      "address_in_bid": "Address architecture and interfaces in Appendix B; migration and bank capacity in Appendix A section 5.9; portability in Appendix A sections 5.4 and 5.7. (03-rfp-morild-account-data-platform.md, 4. Award criteria; 5.4 Data platform and data products; 5.7 Information security and operational resilience; 5.9 Delivery, migration and plan)"
+    },
+    {
+      "role": "Chief Data Officer",
+      "cares_about": "Data model, data ownership and data quality. (02-morild-strategy-note.md, 5. Stakeholders)",
+      "address_in_bid": "Answer DP-01 to DP-05 and explain governance under the Data and AI governance award criterion. (03-rfp-morild-account-data-platform.md, 4. Award criteria; 5.4 Data platform and data products)"
+    },
+    {
+      "role": "Chief Risk Officer",
+      "cares_about": "DORA, operational risk and AI governance. (02-morild-strategy-note.md, 5. Stakeholders)",
+      "address_in_bid": "Answer the security and resilience requirements in Appendix A sections 5.6–5.8 and explain controls under the Data and AI governance award criterion. (03-rfp-morild-account-data-platform.md, 4. Award criteria; 5.6 AI and analytics; 5.7 Information security and operational resilience; 5.8 Operations and service levels)"
+    },
+    {
+      "role": "Head of Procurement",
+      "cares_about": "A fair process, contract terms and exit. (02-morild-strategy-note.md, 5. Stakeholders)",
+      "address_in_bid": "Follow the submission and deviation rules; state any reservations separately and address exit and commercial terms in Appendix B and the draft contract response. (03-rfp-morild-account-data-platform.md, 2.3 Communication; 2.4 Formal requirements for the tender; 5.7 Information security and operational resilience; 5.10 Commercial terms)"
+    }
+  ],
+  "clarification_questions": [
+    {
+      "rfp_ref": "03-rfp-morild-account-data-platform.md, 5.2 Real-time account information",
+      "question": "How will the two-second update requirement be measured, including the start and end points, measurement method and applicable performance percentile?",
+      "why": "A shared measurement definition is needed to size and price the service and to assess compliance."
+    },
+    {
+      "rfp_ref": "03-rfp-morild-account-data-platform.md, 5.2 Real-time account information",
+      "question": "Can the bank provide expected normal and peak transaction volumes, including the volumes expected on salary days and before Christmas?",
+      "why": "The RFP requests peak-load handling but does not state the volumes needed for solution sizing and pricing."
+    },
+    {
+      "rfp_ref": "03-rfp-morild-account-data-platform.md, 5.9 Delivery, migration and plan",
+      "question": "What account volumes, product types and history period are in scope for migration, and are there defined data-quality or retention rules for that history?",
+      "why": "The RFP requires migration of accounts and history but does not define its scope, which affects the migration approach, effort and price."
+    },
+    {
+      "rfp_ref": "03-rfp-morild-account-data-platform.md, 5.5 Regulatory reporting",
+      "question": "Which specific reports, reporting periods and output formats must be covered by the required regulatory reporting data?",
+      "why": "The RFP names reporting authorities but does not specify the report set or formats, affecting solution scope and price."
+    },
+    {
+      "rfp_ref": "03-rfp-morild-account-data-platform.md, 5.7 SEC-01; 04-nordlys-capability-sheet.md, CAP-71",
+      "question": "For SEC-01, does the EU/EEA support-access requirement apply to all supplier support personnel and all access scenarios, including emergency support?",
+      "why": "The boundary of the support-access requirement affects the operating model and price."
+    },
+    {
+      "rfp_ref": "03-rfp-morild-account-data-platform.md, 5.8 Operations and service levels",
+      "question": "Are the stated RTO of no more than four hours and RPO of no more than five minutes evaluated preferences, or must they be offered as binding service commitments?",
+      "why": "The RFP labels these targets as 'should'; the answer affects the service design and price."
+    },
+    {
+      "rfp_ref": "03-rfp-morild-account-data-platform.md, 6. Appendices",
+      "question": "Please provide Appendix C, the price form, and Appendix D, the draft contract, and confirm whether any additional response instructions apply to them.",
+      "why": "The RFP refers to these appendices, but they are not included in the provided tender documents; they are needed to prepare a complete price and contract response."
+    }
+  ],
+  "workshop_questions": [
+    {
+      "question": "Which business outcome should the first delivery phase prioritise, and what evidence would show that it has delivered value?",
+      "why": "The strategy asks suppliers to explore sequencing and requires value at each phase. (02-morild-strategy-note.md, 3. Constraints and concerns; 4. Open questions we want to explore with suppliers)"
+    },
+    {
+      "question": "How should the bank decide whether real-time account data, the data platform or APIs should come first?",
+      "why": "The bank lists this as an open question for suppliers. (02-morild-strategy-note.md, 4. Open questions we want to explore with suppliers)"
+    },
+    {
+      "question": "Which customer and account definitions should be agreed first, and who should own those definitions and data products?",
+      "why": "The bank reports conflicting definitions and wants common data ownership. (02-morild-strategy-note.md, 1. Where we are; 2. What we want to achieve by 2030)"
+    },
+    {
+      "question": "What internal roles and decision-makers can the bank assign to each phase, and where are capacity constraints most likely?",
+      "why": "The bank says its IT team is small and asks for the capacity required in each phase. (02-morild-strategy-note.md, 3. Constraints and concerns; 03-rfp-morild-account-data-platform.md, 5.9 Delivery, migration and plan)"
+    },
+    {
+      "question": "What migration and parallel-running evidence would the bank need before allowing each group of accounts to move?",
+      "why": "The bank requires the old system to run in parallel until each step is proven. (02-morild-strategy-note.md, 3. Constraints and concerns)"
+    },
+    {
+      "question": "Which regulatory reporting processes should be prioritised to reduce manual work, and what reconciliation controls are important to the bank?",
+      "why": "The bank identifies manual reporting effort as a target area, and the RFP asks for reconciliation with the general ledger. (02-morild-strategy-note.md, 1. Where we are; 2. What we want to achieve by 2030; 03-rfp-morild-account-data-platform.md, 5.5 Regulatory reporting)"
+    },
+    {
+      "question": "Which partner journeys and SME accounting-platform needs should guide the API and partner integration sequence?",
+      "why": "The bank wants consent-based partner access and specifically seeks SME accounting integrations. (02-morild-strategy-note.md, 2. What we want to achieve by 2030; 03-rfp-morild-account-data-platform.md, 5.3 APIs and open banking)"
+    },
+    {
+      "question": "Which adviser or data-quality AI use cases are most useful to explore first, and what human review and governance would the bank require?",
+      "why": "The bank wants to explore AI value while retaining human responsibility and governance. (02-morild-strategy-note.md, 2. What we want to achieve by 2030; 4. Open questions we want to explore with suppliers)"
+    }
+  ],
+  "workshop_agenda": [
+    {
+      "minutes": 10,
+      "item": "Confirm outcomes and workshop scope",
+      "goal": "Agree which bank needs and decisions the session should address."
+    },
+    {
+      "minutes": 15,
+      "item": "Prioritise first-phase outcomes",
+      "goal": "Explore the value, risk and evidence for candidate first steps."
+    },
+    {
+      "minutes": 20,
+      "item": "Data model, ownership and reporting",
+      "goal": "Discuss priority definitions, ownership and reporting needs."
+    },
+    {
+      "minutes": 20,
+      "item": "Real-time services, APIs and partner use",
+      "goal": "Explore channel expectations, partner journeys and sequencing."
+    },
+    {
+      "minutes": 20,
+      "item": "Migration, parallel running and delivery capacity",
+      "goal": "Discuss migration evidence, bank roles and constraints by phase."
+    },
+    {
+      "minutes": 15,
+      "item": "AI use cases and governance",
+      "goal": "Identify candidate use cases and the bank's review and control expectations."
+    },
+    {
+      "minutes": 10,
+      "item": "Risks, open points and next steps",
+      "goal": "Record unresolved decisions, owners and follow-up actions."
+    },
+    {
+      "minutes": 10,
+      "item": "Break",
+      "goal": "Allow participants to pause before closing."
+    }
+  ],
+  "priorities": [
+    {
+      "opportunity": "Establish common data definitions, ownership and trusted data products.",
+      "value": 5,
+      "readiness": 3,
+      "pace": 3,
+      "reasoning": "Value 5: the bank identifies conflicting definitions and makes one version of the truth a goal. Readiness 3: the need is explicit, but the documents do not identify agreed owners or definitions. Pace 3: it can be phased, but alignment across systems and business areas is required. (02-morild-strategy-note.md, 1. Where we are; 2. What we want to achieve by 2030)"
+    },
+    {
+      "opportunity": "Deliver real-time account information through phased account services and parallel running.",
+      "value": 5,
+      "readiness": 3,
+      "pace": 3,
+      "reasoning": "Value 5: real-time information in all channels is a stated goal, with a target by the end of 2028. Readiness 3: the bank has stated the goal and transition constraint, but the RFP does not provide peak-volume figures. Pace 3: a phased approach is required and the current account system remains in use during transition. (01-morild-annual-report-extract.md, Outlook; 02-morild-strategy-note.md, 3. Constraints and concerns; 03-rfp-morild-account-data-platform.md, 5.2 Real-time account information)"
+    },
+    {
+      "opportunity": "Automate regulatory reporting data and reconciliation.",
+      "value": 5,
+      "readiness": 3,
+      "pace": 4,
+      "reasoning": "Value 5: the bank reports about 1,400 manual hours per year and targets halving that work by 2029. Readiness 3: the target is clear, but the RFP does not specify the complete report set and formats. Pace 4: reporting feeds and reconciliation can be introduced as a distinct phased outcome, subject to confirming scope. (02-morild-strategy-note.md, 1. Where we are; 2. What we want to achieve by 2030; 03-rfp-morild-account-data-platform.md, 5.5 Regulatory reporting)"
+    },
+    {
+      "opportunity": "Enable consent-based APIs and SME accounting integrations.",
+      "value": 4,
+      "readiness": 3,
+      "pace": 4,
+      "reasoning": "Value 4: the bank wants secure partner access and links it to its open-platform goal. Readiness 3: partner access is a stated goal, but the documents do not specify priority partners or volumes. Pace 4: API access can be delivered in phases, subject to prioritising use cases and confirming integration scope. (01-morild-annual-report-extract.md, Letter from the CEO; 02-morild-strategy-note.md, 2. What we want to achieve by 2030; 03-rfp-morild-account-data-platform.md, 5.3 APIs and open banking)"
+    },
+    {
+      "opportunity": "Configure and launch new account products without code changes.",
+      "value": 4,
+      "readiness": 4,
+      "pace": 4,
+      "reasoning": "Value 4: the bank wants launches in less than eight weeks and current launches take six to nine months. Readiness 4: the goal and current delay are clear, though product rules and approval steps are not detailed. Pace 4: product configuration can be introduced as a bounded capability, while actual launch timing will depend on bank decisions and testing. (02-morild-strategy-note.md, 1. Where we are; 2. What we want to achieve by 2030)"
+    }
+  ],
+  "review": {
+    "status": "ai_draft",
+    "owner_role": "sales",
+    "reviewed_by": null
+  }
+}

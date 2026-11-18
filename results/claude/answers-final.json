@@ -1,0 +1,967 @@
+{
+  "answers": [
+    {
+      "id": "R001",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "The capability sheet has no facts on this bid-process rule. Bid manager to confirm that all questions will go through the bank's tender portal, then write the answer.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R002",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "The capability sheet does not cover this. Bid manager to confirm the bid team and all Nordlys staff will not contact other bank employees during the process, then write the answer.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R003",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "The capability sheet does not cover this. Bid manager to confirm the whole tender, including appendices, will be written in English.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R004",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "The capability sheet does not cover this. Bid manager to confirm the submission plan and that the tender will be uploaded to the portal before 22 January 2027, 12:00 CET.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R005",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "Commercial/legal must name the person authorised to bind Nordlys and confirm that this person will sign the tender.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R006",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "Commercial must confirm whether Nordlys can keep the tender valid for six months after the deadline, including price validity.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R007",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "The capability sheet does not cover this. Bid manager to confirm that the Appendix B solution description will stay within 60 pages and contain no marketing material. This can only be confirmed once the document is drafted.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R008",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "Commercial/legal must prepare the separate list of reservations and deviations. Unlisted reservations are disregarded, so every deviation in the partly met shall-answers must be on it, unless it is resolved before submission. Candidates from this draft: R045 (third-line support outside the EU/EEA, EU/EEA-only access is a paid option, CAP-71); R052 (standard SLA 99.9 % against 99.95 %, Premium SLA at extra cost, CAP-80); R053 (maintenance window 00:00–04:00 against 01:00–05:00, CAP-81); R054 (Norwegian support only weekdays 08:00–16:00, CAP-82); R037 (coverage of reports for the three authorities not confirmed, CAP-50); R057 (independent use of later phases not confirmed, CAP-90). Also check CAP-43: lineage into the bank's reporting tools is not included. Legal must also review the draft contract itself, which the sheet does not cover.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "commercial",
+        "reviewed_by": null
+      },
+      "change_note": "Expanded the note into a concrete checklist of deviations to include, answering the finding that deviations risk being left off the reservations list.",
+      "revised": true,
+      "original_answer": ""
+    },
+    {
+      "id": "R009",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "The capability sheet does not cover this. Bid manager to confirm that every Appendix A requirement will be answered as met, partly met or not met with an explanation, and that requirements without an ID will be answered by section number.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "bid",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R010",
+      "answer": "Met. Nordlys is ISO/IEC 27001 certified for development, hosting and operation of all Nordlys Accounts & Data services. The certificate is valid until September 2028.",
+      "evidence": [
+        "CAP-02"
+      ],
+      "needs_specialist": false,
+      "note": "Infosec to attach a copy of the certificate and check that its scope matches the services offered.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R011",
+      "answer": "Met. Nordlys can name two reference customers for Accounts & Data: a Swedish savings bank that went live in 2023 and a Danish regional bank that went live in 2025. Both are Nordic banks, both went live within the last five years, and both have agreed to act as references.",
+      "evidence": [
+        "CAP-03"
+      ],
+      "needs_specialist": false,
+      "note": "Sales to add the bank names and contact persons, which are not in the capability sheet, and to confirm the references are still willing. No Norwegian reference is available, but the requirement does not ask for one.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "sales",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R012",
+      "answer": "Met. Nordlys has about 900 employees and had annual revenue of NOK 2.1 billion in 2025. Audited annual accounts for the last three years are available and will be provided with the tender.",
+      "evidence": [
+        "CAP-01"
+      ],
+      "needs_specialist": false,
+      "note": "The capability sheet does not mention a credit rating, so the answer relies on the financial statements. Commercial to attach the audited accounts and confirm the answer is adequate for the contract size.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "commercial",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R013",
+      "answer": "Met. Nordlys provides a standard information package for the customer's DORA register of information. The package includes all subcontractors that support critical functions.",
+      "evidence": [
+        "CAP-04"
+      ],
+      "needs_specialist": false,
+      "note": "AI draft. Infosec owner to review and approve.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R014",
+      "answer": "Met. Nordlys Accounts supports deposit accounts for retail and business customers. Supported types are current accounts, savings accounts and fixed-term deposits.",
+      "evidence": [
+        "CAP-10"
+      ],
+      "needs_specialist": false,
+      "note": "AI draft. Product owner to review and approve.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R015",
+      "answer": "Met. Nordlys has an interest and fee engine that is configured with rules. It supports tiered and date-dependent rates, so the bank's product rules can be set up in the engine.",
+      "evidence": [
+        "CAP-11"
+      ],
+      "needs_specialist": false,
+      "note": "AI draft. Product owner to review and approve. The sheet does not say whether every product rule the bank has can be modelled; this is not claimed.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R016",
+      "answer": "Met. The bank's product team sets up new account products in a configuration tool, with no code changes. At reference customers the typical time from decision to launch is 4–6 weeks.",
+      "evidence": [
+        "CAP-12"
+      ],
+      "needs_specialist": false,
+      "note": "AI draft. Product owner to review and approve.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R017",
+      "answer": "Met. Nordlys supports joint accounts and accounts with several authorised users. Each user can have individual rights.",
+      "evidence": [
+        "CAP-13"
+      ],
+      "needs_specialist": false,
+      "note": "AI draft. Product owner to review and approve.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R018",
+      "answer": "Met. Nordlys supports sub-accounts (\"pots\") that are linked to a main account.",
+      "evidence": [
+        "CAP-14"
+      ],
+      "needs_specialist": false,
+      "note": "AI draft. Product owner to review and approve.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R019",
+      "answer": "Met. Nordlys covers the full account lifecycle: opening, changes and closure. Complete audit history is kept for all of these.",
+      "evidence": [
+        "CAP-15"
+      ],
+      "needs_specialist": false,
+      "note": "AI draft. Product owner to review and approve.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R020",
+      "answer": "Met. Nordlys can block whole accounts and specific amounts. Each block is recorded with a reason code, which can be used to separate cases such as fraud and legal seizure.",
+      "evidence": [
+        "CAP-16"
+      ],
+      "needs_specialist": false,
+      "note": "AI draft. Product owner to review and approve. Confirm that the reason codes cover fraud and legal seizure before submission.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R021",
+      "answer": "Partly met. Nordlys updates balances and transactions in under one second after a booking, measured at reference customers. This is inside the two-second limit for the account platform. We have no measurement of the time until the mobile app, online bank and adviser tools show the update. That time also depends on the bank's own channels and their integration. Account events are published to an event streaming platform, so the bank's channels can subscribe to them.",
+      "evidence": [
+        "CAP-20",
+        "CAP-21"
+      ],
+      "needs_specialist": false,
+      "note": "AI draft. Product owner to review and approve. The sheet gives no end-to-end figure for the channels. Ask the product or architecture specialist whether such a measurement exists, or whether the bid should commit only to the platform figure.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R022",
+      "answer": "Met. Nordlys publishes account events to an event streaming platform. Other systems can subscribe to these events.",
+      "evidence": [
+        "CAP-21"
+      ],
+      "needs_specialist": false,
+      "note": "AI draft. Product owner to review and approve. The sheet does not list the event types. Confirm that booking made, balance changed and account blocked are published before naming them to the buyer.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R023",
+      "answer": "Met. Nordlys has a parallel-run toolkit. It runs alongside the current core system and reconciles balances between the legacy core and Nordlys automatically every day.",
+      "evidence": [
+        "CAP-22"
+      ],
+      "needs_specialist": false,
+      "note": "AI draft. Product owner to review and approve.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R024",
+      "answer": "Met. The solution scales horizontally, so capacity can be added when volume rises. It has been load-tested at 5 times normal peak volume.",
+      "evidence": [
+        "CAP-23"
+      ],
+      "needs_specialist": false,
+      "note": "AI draft. Product owner to review and approve. The sheet gives no detail on salary-day or Christmas profiles, or on how the 5x test relates to the bank's volumes. Add these only if a specialist provides them.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R025",
+      "answer": "Met. All Nordlys Accounts & Data services are available as REST APIs. Each API comes with an OpenAPI 3 specification.",
+      "evidence": [
+        "CAP-30"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R026",
+      "answer": "Met. Nordlys provides PSD2 access-to-account and payment initiation APIs that follow the Berlin Group NextGenPSD2 standard. Consent management is included, so third-party access is based on customer consent.",
+      "evidence": [
+        "CAP-31"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R027",
+      "answer": "Partly met. Nordlys has a PSD3/PSR readiness programme on its roadmap, and changes will be delivered as part of standard releases once the final rules apply. No milestones, dates, scope or responsibilities for the programme are documented yet. The solution is not yet built to PSD3/PSR, because the final rules are not in force.",
+      "evidence": [
+        "CAP-32"
+      ],
+      "needs_specialist": true,
+      "note": "Product management must supply plan details (milestones, release cadence, scope, responsibilities) if they exist. If none exist, keep this answer as partly met. Do not invent a plan.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "change_note": "Stated openly that no plan details are documented and set needs_specialist to true, answering the finding that the answer does not describe a plan.",
+      "revised": true,
+      "original_answer": "Partly met. Nordlys has a PSD3/PSR readiness programme on its roadmap. Changes will be delivered as part of standard releases once the final rules apply. The solution is not yet built to PSD3/PSR, because the final rules are not in force."
+    },
+    {
+      "id": "R028",
+      "answer": "Met. Nordlys offers a developer portal with a sandbox and test data for partners.",
+      "evidence": [
+        "CAP-33"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R029",
+      "answer": "Met. Nordlys logs API calls with time, caller and consent reference. The retention period is configurable up to 10 years, so it can be set to five years or longer.",
+      "evidence": [
+        "CAP-34"
+      ],
+      "needs_specialist": false,
+      "note": "Retention is a configuration setting. Product owner should confirm that the contract sets it to at least five years.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R030",
+      "answer": "Partly met. Nordlys has a connector framework for SME accounting platforms. Ready-made connectors exist only for selected Nordic accounting platforms, so platforms outside that selection are not covered out of the box.",
+      "evidence": [
+        "CAP-35"
+      ],
+      "needs_specialist": false,
+      "note": "Product owner should list the platforms with ready-made connectors and check them against the buyer's needs. The sheet does not say how long a new connector takes, so give no commitment for other platforms.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R031",
+      "answer": "Met. Nordlys has a documented common data model for customers, accounts, products and transactions. It is delivered to the bank.",
+      "evidence": [
+        "CAP-40"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R032",
+      "answer": "Met. Nordlys provides a data product catalogue. Each data product in it has a named owner, a definition and quality rules.",
+      "evidence": [
+        "CAP-41"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R033",
+      "answer": "Met. Nordlys provides data quality dashboards that measure completeness, accuracy and timeliness.",
+      "evidence": [
+        "CAP-42"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R034",
+      "answer": "Partly met. Nordlys provides data lineage from the source systems into the data platform. Lineage from the data platform into the bank's own reporting tools is not included, so the full path from source system to report is not covered.",
+      "evidence": [
+        "CAP-43"
+      ],
+      "needs_specialist": false,
+      "note": "The sheet names no alternative for the report-side lineage. Product owner should say whether any workaround or roadmap item exists before submission.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R035",
+      "answer": "Met. The bank can export all its data in open formats (Parquet and CSV) with documentation. This is available at any time and at contract end.",
+      "evidence": [
+        "CAP-44"
+      ],
+      "needs_specialist": false,
+      "note": "",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R036",
+      "answer": "Partly met. Nordlys offers a governed SQL workspace for analysts. Python notebooks are not available today and are on the roadmap for 2027.",
+      "evidence": [
+        "CAP-45"
+      ],
+      "needs_specialist": false,
+      "note": "The sheet does not say how the platform prevents copying data to unmanaged spreadsheets, so the answer makes no claim on this. Product owner should confirm whether such controls exist. The 2027 date is a roadmap plan, not a commitment.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R037",
+      "answer": "Partly met. Nordlys provides standard reporting data feeds for Norwegian regulatory reports, with documented calculation rules, delivered through a reporting partner. Which of the reports required by Finanstilsynet, Norges Bank and Statistics Norway the standard feeds cover is not yet confirmed. Any required report outside the standard feeds would need to be agreed with the bank.",
+      "evidence": [
+        "CAP-50"
+      ],
+      "needs_specialist": true,
+      "note": "Product owner must confirm which reports for each of the three authorities are in the standard feeds and name the reporting partner. Then replace the coverage sentence with a plain list of covered and uncovered reports. Any uncovered report goes on the reservations list (R008).",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "change_note": "Removed the internal drafting wording and set needs_specialist to true, answering the finding that the coverage per authority is unclear.",
+      "revised": true,
+      "original_answer": "Partly met. Nordlys provides standard reporting data feeds for Norwegian regulatory reports, with documented calculation rules. The feeds are delivered through a reporting partner. We have not confirmed in this answer which reports for Finanstilsynet, Norges Bank and Statistics Norway the standard feeds cover. Any report that is not in the standard feeds would need to be agreed with the bank."
+    },
+    {
+      "id": "R038",
+      "answer": "Met. The solution reconciles reporting data against the general ledger automatically. It raises alerts when it finds differences.",
+      "evidence": [
+        "CAP-51"
+      ],
+      "needs_specialist": false,
+      "note": "Product owner to review. The capability sheet does not give alert channels or reconciliation frequency, so none are stated.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R039",
+      "answer": "Met. Nordlys monitors regulatory changes and is responsible for updating the standard reports. Changes are delivered in quarterly releases.",
+      "evidence": [
+        "CAP-52"
+      ],
+      "needs_specialist": false,
+      "note": "Product owner to review. Reporting feeds are delivered through a reporting partner (CAP-50). The sheet does not say how the partner is involved in updates. Confirm before approval. Quarterly releases may be slower than a regulator's deadline, and the sheet does not describe an interim process.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R040",
+      "answer": "Met. Two AI functions exist today. The data quality assistant is in production. It finds anomalies in data and suggests corrections, and a person must approve every correction. The adviser insight summary is in pilot, with general availability planned for 2027. It summarises a customer's account activity for the adviser and shows the data each summary is based on.",
+      "evidence": [
+        "CAP-60",
+        "CAP-61"
+      ],
+      "needs_specialist": false,
+      "note": "Product owner to review. The adviser insight summary is a pilot and must not be presented as generally available. No other AI functions are listed in the capability sheet.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R041",
+      "answer": "Met. Nordlys supplies an AI documentation package for each AI function. It covers the purpose, the data used, the explanation method, the human review points and an EU AI Act risk classification. For the data quality assistant, a person must approve every suggested correction. For the adviser insight summary, each summary shows the data it is based on, and the function makes no automated decisions.",
+      "evidence": [
+        "CAP-63",
+        "CAP-60",
+        "CAP-61"
+      ],
+      "needs_specialist": false,
+      "note": "Product owner to review and attach the documentation packages for both functions. The sheet does not list the specific data used or the explanation method per function. These details must come from the packages.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R042",
+      "answer": "Met. The data quality assistant only suggests corrections, and a person must approve every one. The adviser insight summary makes no automated decisions. Neither AI function takes decisions about customers without human review.",
+      "evidence": [
+        "CAP-60",
+        "CAP-61"
+      ],
+      "needs_specialist": false,
+      "note": "Product owner to review. The answer covers only the two AI functions in the capability sheet.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R043",
+      "answer": "Met. Nordlys never uses customer data to train models outside the customer's own environment without written consent.",
+      "evidence": [
+        "CAP-62"
+      ],
+      "needs_specialist": false,
+      "note": "Infosec to review. The sheet does not describe how this is technically enforced. Add that detail if the bank asks.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R044",
+      "answer": "Met. For each AI function, Nordlys provides a documentation package. It states the purpose, the data used, the explanation method and the human review points. It also gives a risk classification under the EU AI Act. The bank can use this documentation in its own AI Act assessments. The bank remains responsible for its own obligations.",
+      "evidence": [
+        "CAP-63"
+      ],
+      "needs_specialist": false,
+      "note": "Infosec to review, preferably with legal. The sheet supports documentation and risk classification only. It does not claim wider AI Act compliance or any certification, so none is stated.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R045",
+      "answer": "Partly met. Customer data is hosted in data centres in Norway and Finland, and backups are held in the same countries. Third-line technical support uses a follow-the-sun model that includes an engineering team outside the EU/EEA. Support access can be limited to EU/EEA staff only, as a paid option. Without this option, the requirement is not fully met for support access.",
+      "evidence": [
+        "CAP-70",
+        "CAP-71"
+      ],
+      "needs_specialist": true,
+      "note": "Commercial lead must decide whether EU/EEA-only support access is priced into the offer (Appendix C, R062) or shown as an option, and must price it. The sheet has no price. If it is not included in the price, list the deviation in R008. Infosec to review.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "change_note": "Set needs_specialist to true and tied the paid option to the price (R062) and reservations list (R008), answering the contradiction finding.",
+      "revised": true,
+      "original_answer": "Partly met. Customer data is hosted in data centres in Norway and Finland, and backups are held in the same countries. Third-line technical support uses a follow-the-sun model that includes an engineering team outside the EU/EEA. Support access can be limited to EU/EEA staff only, as a paid option. Without this option, the requirement is not fully met for support access."
+    },
+    {
+      "id": "R046",
+      "answer": "Met. Data is encrypted in transit with TLS 1.3 and at rest with AES-256.",
+      "evidence": [
+        "CAP-72"
+      ],
+      "needs_specialist": false,
+      "note": "Infosec to review. The sheet does not describe key management. Add that detail if the bank asks.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R047",
+      "answer": "Met. Access is controlled with role-based access control. Multi-factor authentication is required for all users, which includes administrative users.",
+      "evidence": [
+        "CAP-73"
+      ],
+      "needs_specialist": false,
+      "note": "Infosec to review.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R048",
+      "answer": "Met. Nordlys notifies customers of serious incidents within two hours of detection. This is inside the four-hour limit in the requirement.",
+      "evidence": [
+        "CAP-74"
+      ],
+      "needs_specialist": false,
+      "note": "Infosec to review. The sheet does not define 'serious incident', so confirm that the definition matches the bank's and DORA's. It also does not give the notification channel.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R049",
+      "answer": "Met. Nordlys takes part in its customers' resilience testing, including threat-led penetration testing (TLPT).",
+      "evidence": [
+        "CAP-75"
+      ],
+      "needs_specialist": false,
+      "note": "Infosec to review. The capability sheet does not describe the TLPT process or give lead times. Add detail only if infosec confirms it.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R050",
+      "answer": "Met. Nordlys has a standard exit plan and offers exit assistance, both described in the service agreement. The bank can export all its data in open formats (Parquet, CSV) with documentation, at any time and at contract end. This supports a move to another supplier or back in-house.",
+      "evidence": [
+        "CAP-76",
+        "CAP-44"
+      ],
+      "needs_specialist": false,
+      "note": "Infosec to review. Check whether exit assistance is priced separately and whether the standard plan needs tailoring to the bank's setup. The sheet does not say.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R051",
+      "answer": "Met. Nordlys issues an ISAE 3402 type 2 report every year. We can provide the latest report to the bank.",
+      "evidence": [
+        "CAP-77"
+      ],
+      "needs_specialist": false,
+      "note": "Infosec to review. Confirm the date of the latest report and the sharing conditions (e.g. NDA) before submission.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R052",
+      "answer": "Partly met. The standard SLA is 99.9 % availability per month, which is below the required 99.95 %. Nordlys offers a Premium SLA at 99.95 % availability per month at extra cost.",
+      "evidence": [
+        "CAP-80"
+      ],
+      "needs_specialist": true,
+      "note": "Commercial lead must decide whether the Premium SLA is priced into the offer (Appendix C, R062) or shown as an option, and must price it. The requirement is met only with the Premium SLA. If it is not included, list the deviation in R008. Product to confirm that availability is measured outside agreed maintenance windows, which the sheet does not state.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "change_note": "Set needs_specialist to true and tied the Premium SLA to the price (R062) and reservations list (R008), answering the contradiction finding.",
+      "revised": true,
+      "original_answer": "Partly met. The standard SLA is 99.9 % availability per month, which is below the required 99.95 %. Nordlys offers a Premium SLA at 99.95 % availability per month at extra cost."
+    },
+    {
+      "id": "R053",
+      "answer": "Partly met. Nordlys announces planned maintenance 14 days in advance, as required. The standard maintenance window is 00:00–04:00, not 01:00–05:00. The two windows overlap only from 01:00 to 04:00.",
+      "evidence": [
+        "CAP-81"
+      ],
+      "needs_specialist": true,
+      "note": "Product owner must confirm whether the window can be moved to 01:00–05:00 and at what cost. If it cannot, or it is not priced in, list the deviation in R008. If it can, update the answer and the price (R062).",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "change_note": "Set needs_specialist to true and tied the window deviation to the reservations list (R008), answering the contradiction finding.",
+      "revised": true,
+      "original_answer": "Partly met. Nordlys announces planned maintenance 14 days in advance, as required. The standard maintenance window is 00:00–04:00, not 01:00–05:00. The two windows overlap only from 01:00 to 04:00."
+    },
+    {
+      "id": "R054",
+      "answer": "Partly met. Nordlys provides support in English 24/7 for critical incidents. Norwegian-speaking support is available only on weekdays 08:00–16:00, so there is no 24/7 Norwegian support for critical incidents.",
+      "evidence": [
+        "CAP-82"
+      ],
+      "needs_specialist": true,
+      "note": "Product owner must confirm whether 24/7 Norwegian support for critical incidents can be offered and at what cost. If not, list the deviation in R008. The bank would then rely on English outside weekday office hours.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "change_note": "Set needs_specialist to true and tied the support-language gap to the reservations list (R008), answering the contradiction finding.",
+      "revised": true,
+      "original_answer": "Partly met. Nordlys provides support in English 24/7 for critical incidents. Norwegian-speaking support is available only on weekdays 08:00–16:00, so there is no 24/7 Norwegian support for critical incidents."
+    },
+    {
+      "id": "R055",
+      "answer": "Met. The solution's recovery targets are an RTO of 2 hours and an RPO of 1 minute. Both are better than the requested maximums of 4 hours and 5 minutes.",
+      "evidence": [
+        "CAP-83"
+      ],
+      "needs_specialist": false,
+      "note": "Infosec to review. Confirm that these targets apply to the whole service in the bank's chosen hosting setup and SLA tier.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "infosec",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R056",
+      "answer": "Met. Nordlys provides a monthly service report covering availability, incidents, capacity and service requests.",
+      "evidence": [
+        "CAP-84"
+      ],
+      "needs_specialist": false,
+      "note": "Product owner to review.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "product",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R057",
+      "answer": "Partly met. Nordlys delivers in phases, not as a big bang. It typically starts with the data platform and read-only APIs, then real-time account services, then migration of products and history. The first phase gives early value at low risk. Independent use of each later phase is not confirmed.",
+      "evidence": [
+        "CAP-90"
+      ],
+      "needs_specialist": true,
+      "note": "Project lead must confirm per phase whether it gives value and can go live on its own, especially the migration phase, or state the dependencies. If the gap is real, list it in R008. Then replace the last sentence with a firm statement.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      },
+      "change_note": "Removed the unfinished-sounding wording, stated the gap plainly and set needs_specialist to true, answering the finding on unconfirmed phase independence.",
+      "revised": true,
+      "original_answer": "Partly met. Nordlys delivers in phases, not as a big bang. It typically starts with the data platform and read-only APIs, then real-time account services, then migration of products and history. The first phase gives early value at low risk. We have not documented that every phase can be taken into use on its own, and will confirm this for the bank's scope in the delivery plan."
+    },
+    {
+      "id": "R058",
+      "answer": "Met. Nordlys proposes to start with the data platform and read-only APIs. This area carries low risk because it does not change the bank's live account processing. It also gives early value, since data and APIs can be used before real-time account services and migration begin.",
+      "evidence": [
+        "CAP-90"
+      ],
+      "needs_specialist": false,
+      "note": "Project lead to review. The reasoning is taken from the sheet's 'low risk, early value'. Project may add bank-specific reasoning.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R059",
+      "answer": "Met. Nordlys uses a migration toolkit with test migrations, automatic reconciliation and rollback for each migration step. If a step fails, it can be rolled back. A parallel-run toolkit reconciles balances between the legacy core system and Nordlys automatically every day.",
+      "evidence": [
+        "CAP-91",
+        "CAP-22"
+      ],
+      "needs_specialist": false,
+      "note": "Project lead to review. The sheet gives no number of test migrations or cut-over details. Add these only if the project team confirms them.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R060",
+      "answer": "Partly met. Typical customer-side capacity is 6–10 FTE in each phase, covering the roles of product owner, architects, testers and data owners. A breakdown of roles and capacity per phase is not available.",
+      "evidence": [
+        "CAP-92"
+      ],
+      "needs_specialist": true,
+      "note": "Project lead must provide a per-phase breakdown of roles and capacity for the bank's scope. The sheet gives only one typical range for all phases. Do not compare with the bank's team size unless a specialist supports it.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      },
+      "change_note": "Removed the unsupported 'small part of 35 people' claim, changed Met to Partly met and flagged the missing per-phase breakdown, answering the finding on unsupported wording.",
+      "revised": true,
+      "original_answer": "Met. Nordlys typically needs 6–10 full-time equivalents from the customer in each phase. The roles are product owner, architects, testers and data owners. This is a small part of a team of about 35 people."
+    },
+    {
+      "id": "R061",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "The capability sheet names no key persons and gives no CVs or experience. The delivery lead or project office must name the project manager and solution architect and provide their relevant experience, including any banking or core-system migration work. CAP-90 to CAP-92 describe the delivery method only, not people.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "project",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R062",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "The capability sheet contains no pricing. The commercial lead or pricing team must complete Appendix C in NOK excluding VAT and confirm that all costs needed to deliver the requirements are included. They must decide whether the Premium SLA (R052, CAP-80) and EU/EEA-only support access (R045, CAP-71) are priced in or shown as options. Any item not priced in, and any other deviation (R053, R054), must also be on the reservations list (R008).",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "commercial",
+        "reviewed_by": null
+      },
+      "change_note": "Added the decision on pricing the paid options and linked them to the reservations list, answering the contradiction finding.",
+      "revised": true,
+      "original_answer": ""
+    },
+    {
+      "id": "R063",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "The capability sheet does not describe any price model or milestone-based payment terms. The commercial lead must decide whether Nordlys can link part of the payment to agreed milestones and, if so, propose the milestones and the share of payment. CAP-90 describes delivery phases that could serve as a basis, but this is not a commitment to any payment terms.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "commercial",
+        "reviewed_by": null
+      },
+      "revised": false
+    },
+    {
+      "id": "R064",
+      "answer": "",
+      "evidence": [],
+      "needs_specialist": true,
+      "note": "The capability sheet does not say whether Nordlys accepts customer audit rights. Legal and the commercial lead must confirm the position on the bank's audit right under Finanstilsynet's outsourcing rules, including any limits and how it applies to subcontractors. CAP-77 (ISAE 3402 type 2 report) and CAP-04 (DORA information package) are related but do not confirm acceptance of audit rights.",
+      "review": {
+        "status": "ai_draft",
+        "owner_role": "commercial",
+        "reviewed_by": null
+      },
+      "revised": false
+    }
+  ],
+  "revised_count": 10
+}

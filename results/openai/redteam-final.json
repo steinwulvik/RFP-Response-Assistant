@@ -1,0 +1,76 @@
+{
+  "findings": [
+    {
+      "ids": [
+        "R012"
+      ],
+      "kind": "not_responsive",
+      "severity": "high",
+      "finding": "The answer says “Not met”; the cited reference information does not establish two comparable solutions delivered within the last five years, so this shall-requirement is not evidenced.",
+      "suggestion": "Provide two qualifying reference descriptions, including comparable scope and delivery dates, or confirm that the qualification requirement cannot be met."
+    },
+    {
+      "ids": [
+        "R030"
+      ],
+      "kind": "not_responsive",
+      "severity": "medium",
+      "finding": "The answer does not confirm a minimum five-year retention period. “Configurable up to 10 years” does not establish that the required retention will be configured.",
+      "suggestion": "Confirm that API logs will be retained for at least five years, as well as confirming coverage of every API call."
+    },
+    {
+      "ids": [
+        "R042"
+      ],
+      "kind": "not_responsive",
+      "severity": "medium",
+      "finding": "The answer refers to a documentation package but does not describe the data used and explanation method for the data-quality assistant, or where a person reviews the adviser summary.",
+      "suggestion": "State the data used, how results are explained, and the human review or approval point separately for each AI function."
+    },
+    {
+      "ids": [
+        "R046"
+      ],
+      "kind": "not_responsive",
+      "severity": "high",
+      "finding": "The standard support model includes access by an engineering team outside the EU/EEA; EU/EEA-only access is only a paid option. The answer therefore does not confirm compliance with the shall-requirement for the offered service.",
+      "suggestion": "Confirm that EU/EEA-only support access will be included in the offered service, covering all support access."
+    },
+    {
+      "ids": [
+        "R053"
+      ],
+      "kind": "not_responsive",
+      "severity": "high",
+      "finding": "The 99.95% target is only available under a premium SLA at extra cost, and the answer does not confirm that this SLA will be included. It also does not confirm measurement outside agreed maintenance windows.",
+      "suggestion": "Commit to the required availability target in the offered service and confirm the measurement basis, including maintenance-window treatment."
+    },
+    {
+      "ids": [
+        "R054"
+      ],
+      "kind": "not_responsive",
+      "severity": "high",
+      "finding": "The stated standard maintenance window is 00:00–04:00, not the required 01:00–05:00, and the answer does not confirm that the required window will be used.",
+      "suggestion": "Confirm the 01:00–05:00 maintenance window or clearly identify the deviation for evaluation."
+    },
+    {
+      "ids": [
+        "R055"
+      ],
+      "kind": "not_responsive",
+      "severity": "high",
+      "finding": "Norwegian-language support is only available on weekdays from 08:00 to 16:00, not 24/7 for critical incidents as required.",
+      "suggestion": "Confirm 24/7 critical-incident support in both English and Norwegian, or clearly state the deviation."
+    },
+    {
+      "ids": [
+        "R058"
+      ],
+      "kind": "not_responsive",
+      "severity": "medium",
+      "finding": "The answer describes a typical phased sequence but does not establish that every phase delivers value and is independently usable; it only identifies early value for the initial phase.",
+      "suggestion": "Describe the value and standalone usability of each phase, and confirm that the plan avoids a big-bang replacement."
+    }
+  ]
+}

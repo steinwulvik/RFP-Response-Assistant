@@ -1,0 +1,5 @@
+{
+  "customer": ["customer/annual-report.md", "customer/strategy-note.md"],
+  "rfp": ["rfp/rfp.docx"],
+  "capabilities": ["capabilities/capability-sheet.docx"]
+}

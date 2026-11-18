@@ -1,0 +1,55 @@
+{
+  "_note": "The planted errors (answer key for the red-team test). Not shown to the model.",
+  "errors": [
+    {
+      "id": "K043",
+      "kind": "unsupported",
+      "explanation": "Support access includes a team outside the EU/EEA unless the paid option is bought (CAP-71)."
+    },
+    {
+      "id": "K050",
+      "kind": "wrong_fact",
+      "explanation": "Standard SLA is 99.9 %; 99.95 % is the premium SLA at extra cost."
+    },
+    {
+      "id": "K051",
+      "kind": "contradiction",
+      "explanation": "The standard maintenance window is 00:00–04:00."
+    },
+    {
+      "id": "K009",
+      "kind": "unsupported",
+      "explanation": "There is no Norwegian reference."
+    },
+    {
+      "id": "K046",
+      "kind": "wrong_fact",
+      "explanation": "The capability is two hours and the requirement is four hours; 24 hours would fail the requirement."
+    },
+    {
+      "id": "K027",
+      "kind": "missing",
+      "explanation": "Shall-requirement API-05 has no answer and no specialist flag."
+    },
+    {
+      "id": "K032",
+      "kind": "unsupported",
+      "explanation": "Lineage into the bank's reporting tools is not included; this is only partly met."
+    },
+    {
+      "id": "K002",
+      "kind": "wrong_fact",
+      "explanation": "The deadline is 22 January 2027, 12:00 CET."
+    },
+    {
+      "id": "K052",
+      "kind": "unsupported",
+      "explanation": "Norwegian-speaking support is weekdays 08:00–16:00 only."
+    },
+    {
+      "id": "K020",
+      "kind": "not_responsive",
+      "explanation": "The answer ignores the event streaming capability (CAP-21) and does not address event streams."
+    }
+  ]
+}

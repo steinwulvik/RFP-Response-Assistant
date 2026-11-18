@@ -1,0 +1,348 @@
+{
+  "strategy_summary": [
+    {
+      "point": "The core account system is 19 years old. Only card payments update balances in real time. Other account events run in overnight batches. Advisers spend too much time collecting data from several systems.",
+      "source": "Morild 2030 – Strategy note, 1. Where we are; Annual Report 2025, Letter from the CEO"
+    },
+    {
+      "point": "Morild 2030 sets six goals: real-time service in all channels, new account products in under 8 weeks, open and secure APIs for partners, one version of the truth for data, half the manual regulatory reporting work by 2029, and responsible AI with people in charge of decisions.",
+      "source": "Morild 2030 – Strategy note, 2. What we want to achieve by 2030"
+    },
+    {
+      "point": "The board will not accept a big-bang replacement. The change must be phased, with value at each step and the old system running in parallel until each step is proven.",
+      "source": "Morild 2030 – Strategy note, 3. Constraints and concerns; RFP MB-2026-014, 5.9 Delivery, migration and plan"
+    },
+    {
+      "point": "The bank's IT team is small (about 35 people) and cannot run a large project alone. Total investment must fit the existing IT budget plus a one-off strategic investment approved by the board.",
+      "source": "Morild 2030 – Strategy note, 3. Constraints and concerns"
+    },
+    {
+      "point": "Customer and account data sits in several systems with different definitions (for example three definitions of 'active customer'). Internal audit flagged this in 2025. A common data model and clear data ownership is a priority.",
+      "source": "Annual Report 2025, Risk and compliance (extract), Data quality; Morild 2030 – Strategy note, 1. Where we are"
+    },
+    {
+      "point": "The bank must meet DORA (register of information, exit plans, resilience testing), GDPR, EU/EEA data residency, the EU AI Act and coming EU payment rule changes. It also wants standard, documented interfaces to avoid supplier lock-in.",
+      "source": "Annual Report 2025, Risk and compliance (extract); Morild 2030 – Strategy note, 3. Constraints and concerns"
+    },
+    {
+      "point": "Customers already use the app for 86 % of contact (81 % in 2024). The bank will choose a platform partner in 2026–2027. The goal is real-time account information in all channels by end of 2028, with phased investment.",
+      "source": "Annual Report 2025, Key figures 2025 and Outlook (extract)"
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis": "We believe real-time account information in the app is the most visible customer value for the bank, and that the Head of Retail and the CEO will want to see it early, because the app is now the main channel and the goal is real-time in all channels by end of 2028.",
+      "evidence": "86 % of contact is in the app and customers 'expect to see transactions, balances and offers in real time'. Our standard delivery order (CAP-90) puts real-time account services after the data platform and read-only APIs. This may feel late to the bank unless we explain it well or adjust the order.",
+      "source": "Annual Report 2025, Letter from the CEO and Outlook; Morild 2030 – Strategy note, 4. Open questions we want to explore with suppliers"
+    },
+    {
+      "hypothesis": "We believe the bank will accept starting with the data foundation if it sees clear and early benefit, because data fragmentation is a documented audit finding and manual reporting is a named cost and risk.",
+      "evidence": "Internal audit noted different data definitions in several systems. Regulatory reporting takes about 1 400 manual hours per year. The target is to halve this by 2029. A data-first start matches CAP-90 and avoids changes in the old core, but the bank has not said it wants this order.",
+      "source": "Annual Report 2025, Risk and compliance (extract); Morild 2030 – Strategy note, 1. Where we are and 2. What we want to achieve by 2030"
+    },
+    {
+      "hypothesis": "We believe delivery risk and the bank's limited capacity will weigh more in the decision than the breadth of features, because the board has ruled out big bang, the IT team is about 35 people, and the delivery plan is a separate 20 % criterion. The bank may also award on first tenders without negotiations, so the written tender must stand on its own.",
+      "evidence": "The RFP asks for the roles and capacity the bank must provide in each phase. Our typical customer-side need of 6–10 FTE per phase (CAP-92) is large compared with a team of about 35, so we must show it can be planned and kept small.",
+      "source": "Morild 2030 – Strategy note, 3. Constraints and concerns; RFP MB-2026-014, 2.1 Procedure, 4. Award criteria and 5.9 Delivery, migration and plan"
+    },
+    {
+      "hypothesis": "We believe avoiding lock-in and a clean exit are real decision factors, not only compliance items, because lock-in is named as a concern and the RFP makes data export and exit plans 'shall' requirements. The Head of Procurement also has exit as a main interest.",
+      "evidence": "We have open-format export at any time and at contract end (CAP-44), a standard exit plan (CAP-76) and REST/OpenAPI services (CAP-30).",
+      "source": "Morild 2030 – Strategy note, 3. Constraints and concerns and 5. Stakeholders; RFP MB-2026-014, 5.4 (DP-05) and 5.7 (SEC-06)"
+    },
+    {
+      "hypothesis": "We believe integration with SME accounting platforms is an early and visible opportunity for the Head of Business Banking, because SME lending grew 9 %, the bank fears being 'bypassed' by accounting platforms and fintechs, and today's partner API covers only payment initiation.",
+      "evidence": "The RFP has API-06 for SME accounting platforms. We have a connector framework with ready-made connectors for selected Nordic platforms (CAP-35). It is not known which platforms Morild's customers use.",
+      "source": "Annual Report 2025, Letter from the CEO; Morild 2030 – Strategy note, 1. Where we are and 5. Stakeholders; RFP MB-2026-014, 5.3 (API-06)"
+    },
+    {
+      "hypothesis": "We believe the bank is cautious about AI and will reward documented control more than the number of AI features, because the AI policy requires human responsibility, explainability and EU AI Act compliance, and the bank only tests AI for internal search today.",
+      "evidence": "The RFP requires data use, explanation and review points for every AI function (AI-02). We have a documentation package per AI function (CAP-63) and human approval in the data quality assistant (CAP-60). The adviser summary is still a pilot (CAP-61).",
+      "source": "Annual Report 2025, Risk and compliance (extract), Use of AI; RFP MB-2026-014, 5.6 AI and analytics and 4. Award criteria (Data and AI governance, 10 %)"
+    },
+    {
+      "hypothesis": "We believe regulatory reporting automation is the easiest benefit for the COO to measure, because the sponsor is concerned with cost and risk and the manual effort is quantified.",
+      "evidence": "About 1 400 hours per year, with a target to halve by 2029. We offer standard Norwegian reporting feeds, but they are delivered through a reporting partner (CAP-50), with reconciliation (CAP-51) and quarterly updates (CAP-52). The bank has not said which reports cause the manual work.",
+      "source": "Morild 2030 – Strategy note, 1. Where we are, 2. What we want to achieve by 2030 and 5. Stakeholders; RFP MB-2026-014, 5.5 Regulatory reporting"
+    },
+    {
+      "hypothesis": "We believe price will be compared on a like-for-like basis for 'shall' requirements, and that the bank will notice if our base price leaves out items needed to comply. The budget is tight, price is 30 % of the score, and reservations not listed in the separate list are ignored.",
+      "evidence": "Items that are paid options in our sheet but are 'shall' in the RFP: 99.95 % availability (CAP-80), EU/EEA-only support access (CAP-71). Two further items do not match the RFP: Norwegian 24/7 critical support (CAP-82) and the 01:00–05:00 maintenance window (CAP-81).",
+      "source": "Morild 2030 – Strategy note, 3. Constraints and concerns; RFP MB-2026-014, 2.4 Formal requirements, 4. Award criteria, 5.7 (SEC-01) and 5.8 Operations and service levels"
+    }
+  ],
+  "win_themes": [
+    {
+      "theme": "Value in small steps, with the old core running until each step is proven.",
+      "customer_need": "No big bang. Phased delivery, parallel running, fallback if a step fails, and a plan that fits a small IT team.",
+      "proof": [
+        "CAP-90",
+        "CAP-22",
+        "CAP-91",
+        "CAP-92"
+      ],
+      "weak_spot": "Our standard order starts with the data platform and read-only APIs, so real-time account services come later than the bank may expect. The 6–10 FTE per phase we need from the bank is a heavy ask against about 35 IT staff. Both must be stated openly with a plan. Check with a specialist whether real-time information can be shown earlier for accounts still on the old core (not in the capability sheet)."
+    },
+    {
+      "theme": "Real-time service and faster products, set up by the bank's own product team.",
+      "customer_need": "Customers and advisers see the same real-time data. New account products launch in under 8 weeks instead of 6–9 months.",
+      "proof": [
+        "CAP-20",
+        "CAP-21",
+        "CAP-23",
+        "CAP-12",
+        "CAP-11"
+      ],
+      "weak_spot": "The sub-second posting and the 4–6 week launch times are measured at reference customers, not at Morild. Present them as such and not as promises. The benefit depends on accounts and products being on the new platform, which is the later phase in CAP-90."
+    },
+    {
+      "theme": "One version of the truth that the bank owns, can audit and can take with it.",
+      "customer_need": "A common data model, data ownership, data quality, automated regulatory data, and no lock-in.",
+      "proof": [
+        "CAP-40",
+        "CAP-41",
+        "CAP-42",
+        "CAP-44",
+        "CAP-50",
+        "CAP-51",
+        "CAP-76"
+      ],
+      "weak_spot": "Data lineage covers source systems into the platform, not into the bank's own reporting tools (CAP-43), so DP-04 is only partly met. Python notebooks are on the 2027 roadmap (CAP-45). Regulatory feeds come through a reporting partner (CAP-50); check with a specialist how this is described in the DORA subcontractor information (CAP-04)."
+    },
+    {
+      "theme": "Open, standard APIs that bring SME accounting platforms and partners in, not around the bank.",
+      "customer_need": "Documented APIs with consent, a partner sandbox, and SME accounting integration. The bank wants to be an attractive partner, not bypassed.",
+      "proof": [
+        "CAP-30",
+        "CAP-31",
+        "CAP-33",
+        "CAP-34",
+        "CAP-35"
+      ],
+      "weak_spot": "PSD3/PSR readiness is a roadmap item, not a delivered capability (CAP-32). Ready-made accounting connectors exist only for selected Nordic platforms (CAP-35). We do not yet know whether these match Morild's customers."
+    },
+    {
+      "theme": "Compliance and AI that the Chief Risk Officer can sign off.",
+      "customer_need": "DORA, EU/EEA data residency, human control of AI, and explainability. Suppliers must follow the bank's AI policy and take part in resilience testing.",
+      "proof": [
+        "CAP-02",
+        "CAP-04",
+        "CAP-70",
+        "CAP-62",
+        "CAP-63",
+        "CAP-60",
+        "CAP-74",
+        "CAP-75",
+        "CAP-77"
+      ],
+      "weak_spot": "Four points do not match the RFP's 'shall' requirements without extra cost or a deviation. Third-line support includes a team outside the EU/EEA; EU/EEA-only access is a paid option (CAP-71, SEC-01). 99.95 % availability is a premium SLA (CAP-80). Norwegian support is weekdays only (CAP-82). The maintenance window is 00:00–04:00, not 01:00–05:00 (CAP-81). The bid lead must decide how to price or reserve these. The adviser summary is still a pilot (CAP-61) and must not be sold as live."
+    }
+  ],
+  "stakeholders": [
+    {
+      "role": "COO (sponsor)",
+      "cares_about": "Simpler operations, delivery risk and cost.",
+      "address_in_bid": "Award criteria 'Delivery plan and risk' (20 %) and 'Price' (30 %). RFP 5.9 phased plan, 5.10 milestone-linked payment and 5.5 regulatory reporting."
+    },
+    {
+      "role": "Head of Retail",
+      "cares_about": "Customer experience in the app, and faster product launches.",
+      "address_in_bid": "Award criterion 'Solution quality' (40 %). RFP 5.2 real-time account information, 5.1 (AS-03) product configuration and the order of phases in 5.9."
+    },
+    {
+      "role": "Head of Business Banking",
+      "cares_about": "Integration with SME accounting platforms.",
+      "address_in_bid": "RFP 5.3 (API-06, API-04) under 'Solution quality'. Show which platforms are covered and when they can go live in the phased plan (5.9)."
+    },
+    {
+      "role": "CIO",
+      "cares_about": "Architecture, migration, capacity and lock-in.",
+      "address_in_bid": "'Delivery plan and risk' (20 %): RFP 5.9 migration approach and bank capacity per phase. Also 5.3 (API-01), 5.4 (DP-05) and 5.7 (SEC-06) on open interfaces and exit."
+    },
+    {
+      "role": "Chief Data Officer",
+      "cares_about": "Data model, data ownership and data quality.",
+      "address_in_bid": "'Data and AI governance' (10 %) and RFP 5.4 (DP-01 to DP-05). Be open about the lineage limit (CAP-43) and the Python timing (CAP-45)."
+    },
+    {
+      "role": "Chief Risk Officer",
+      "cares_about": "DORA, operational risk and AI governance.",
+      "address_in_bid": "Qualification Q-04. RFP 5.6 (AI-02 to AI-05) and 5.7 (SEC-01 to SEC-07) under 'Data and AI governance' (10 %). Also 5.8 service levels, and the separate reservation list in 2.4."
+    },
+    {
+      "role": "Head of Procurement",
+      "cares_about": "A fair process, contract terms and exit.",
+      "address_in_bid": "RFP 2.4 formal requirements and the reservation list, 5.10 commercial terms and audit right, and 5.7 (SEC-06). Keep deviations clear, complete and in the separate list."
+    }
+  ],
+  "clarification_questions": [
+    {
+      "rfp_ref": "5.2 Real-time account information; 5.9 Delivery, migration and plan",
+      "question": "During the parallel run with the current core system, which system should be the source for the balances and transactions shown in the app, online bank and adviser tools for accounts not yet moved to the new platform? Does the two-second requirement apply to all accounts from the first go-live, or only to accounts that have been migrated?",
+      "why": "The RFP requires parallel running and real-time information within two seconds, but does not say which accounts must be real-time at which stage. The answer changes the delivery order, the integration scope and the price."
+    },
+    {
+      "rfp_ref": "5.2 Real-time account information (peak loads); 5.10 Commercial terms",
+      "question": "Please give the volumes to use for sizing and pricing: number of accounts and bookings per day, the highest expected bookings per second on a salary day, expected API calls per day, and the growth assumed over the contract period.",
+      "why": "The RFP asks suppliers to describe peak load handling but gives no volumes. Without them, sizing and prices cannot be compared on the same basis."
+    },
+    {
+      "rfp_ref": "5.8 Operations and service levels",
+      "question": "Does the requirement for 24/7 support for critical incidents apply to both English and Norwegian, or is 24/7 required in one language and Norwegian support required in another time window?",
+      "why": "The sentence can be read two ways. The answer affects the support model and the price."
+    },
+    {
+      "rfp_ref": "5.4 Data platform and data products (DP-04)",
+      "question": "DP-04 asks for data lineage 'from source system to report'. Which reports and which reporting tools should the lineage cover (for example regulatory reports, management reports, the bank's own BI tools), and where does the lineage need to be visible?",
+      "why": "'Report' is not defined and the bank's reporting tools are not described. The scope affects the solution design and the price."
+    },
+    {
+      "rfp_ref": "5.5 Regulatory reporting (RR-01, RR-03)",
+      "question": "Please list the regulatory reports in scope for Finanstilsynet, Norges Bank and Statistics Norway. Should the supplier deliver only the underlying data, or also produce and submit the final reports?",
+      "why": "RR-01 speaks of delivering 'the data the bank needs'. RR-03 speaks of updating 'the solution'. The two can be read as different scopes, with different effort and price."
+    },
+    {
+      "rfp_ref": "1. Introduction; 4. Award criteria (Price); 5.10 Commercial terms",
+      "question": "The contract runs 6 years with options of 2 + 2 years. Is the price evaluation based on the first 6 years only, and should the option years be priced in Appendix C?",
+      "why": "The RFP does not say whether option years are priced and evaluated. This affects the price model and the comparison between suppliers."
+    },
+    {
+      "rfp_ref": "5.6 AI and analytics",
+      "question": "The RFP says the bank's AI policy is available on request. Please publish the AI policy to all suppliers through the tender portal.",
+      "why": "AI-02, AI-03 and AI-05 depend on the policy. All suppliers need the same version to answer correctly, and answers are shared with everyone."
+    }
+  ],
+  "workshop_questions": [
+    {
+      "question": "How does the bank itself rank real-time account data, the data platform and the APIs, and what makes one more urgent than the others?",
+      "why": "The strategy note lists this as an open question. The answer decides the phase order and what the plan must show first."
+    },
+    {
+      "question": "Which named roles can the bank provide in each phase, for how many days, and what else will compete for the same people?",
+      "why": "The bank has about 35 IT staff. The plan is only credible if it matches real capacity. Our typical customer-side need is 6–10 FTE per phase (CAP-92)."
+    },
+    {
+      "question": "How long is the bank willing to run old and new systems in parallel, what counts as 'proven' for a step, and who decides?",
+      "why": "The board requires parallel running until each step is proven but gives no criteria. We need these for the migration and fallback plan."
+    },
+    {
+      "question": "Who will own the main data products, and how will the bank decide on the three definitions of 'active customer'? When do analysts need Python on the platform?",
+      "why": "Data ownership is a priority but not yet in place. The Python timing matters because notebooks are on our 2027 roadmap (CAP-45)."
+    },
+    {
+      "question": "Which accounting platforms do SME customers use, and which partners should come first?",
+      "why": "Our ready-made connectors cover selected Nordic platforms (CAP-35). We need to know whether they match Morild's customers, or whether more build work is needed."
+    },
+    {
+      "question": "Which regulatory reports cause most of the 1 400 manual hours, who in finance and risk would own the new data feeds, and which reporting tools should they connect to?",
+      "why": "This lets us focus the first reporting step. It also shows how much of the lineage gap (CAP-43) the bank cares about."
+    },
+    {
+      "question": "Which adviser tasks would benefit most from AI, how does the bank approve a new AI function under its policy, and who signs off?",
+      "why": "The strategy note asks how AI can help advisers without new risk. The approval path decides what we can offer in the first phases, since only the data quality assistant is in production (CAP-60, CAP-61)."
+    },
+    {
+      "question": "How important are Norwegian-speaking 24/7 critical support, the 01:00–05:00 maintenance window and EU/EEA-only support access in practice, and how would the bank weigh a stated deviation against price?",
+      "why": "These points differ from our standard terms (CAP-71, CAP-81, CAP-82). We need to understand what is a hard limit and what is a preference, before the final tender."
+    },
+    {
+      "question": "How should milestone-linked payment be structured, how is the one-off strategic investment phased over the years, and what does the bank want to see to be satisfied with exit planning?",
+      "why": "Budget is a stated constraint and the RFP asks for milestone-linked payment and an exit plan. We need the bank's expectations before we finalise the commercial offer."
+    },
+    {
+      "question": "What would make this a clear success for the COO, the Head of Retail and the CRO after the first phase, in the bank's own words?",
+      "why": "Success criteria let us align the first phase and the proof points with each stakeholder's concern."
+    }
+  ],
+  "workshop_agenda": [
+    {
+      "minutes": 10,
+      "item": "Welcome, purpose of the day and the bank's current priorities",
+      "goal": "Agree the goals for the workshop and confirm who will take part from each side."
+    },
+    {
+      "minutes": 15,
+      "item": "What comes first: real-time data, data platform or APIs",
+      "goal": "Understand the bank's own ranking and the reasons behind it. Test our proposed phase order."
+    },
+    {
+      "minutes": 20,
+      "item": "Phased plan, parallel running and the bank's capacity",
+      "goal": "Agree what 'proven' means for a step, the fallback approach and the bank roles needed in each phase."
+    },
+    {
+      "minutes": 20,
+      "item": "Data model, data ownership and regulatory reporting",
+      "goal": "Clarify data owners, the definitions to be settled, the reports in scope and the reporting tools."
+    },
+    {
+      "minutes": 15,
+      "item": "Open APIs and SME accounting platforms",
+      "goal": "Identify the first partners and accounting platforms, and what the bank needs in the developer portal."
+    },
+    {
+      "minutes": 15,
+      "item": "AI for advisers and governance",
+      "goal": "Understand the bank's AI approval path and where human review must sit."
+    },
+    {
+      "minutes": 15,
+      "item": "Security, resilience, service levels and exit",
+      "goal": "Find out which requirements are hard limits and which allow a stated deviation. Agree what the bank needs to see for exit."
+    },
+    {
+      "minutes": 10,
+      "item": "Commercial points, open items and next steps",
+      "goal": "Confirm milestone payment expectations, list open items and agree who follows up what, and by when."
+    }
+  ],
+  "priorities": [
+    {
+      "opportunity": "Data platform foundation: common data model, data products and data quality",
+      "value": 4,
+      "readiness": 3,
+      "pace": 4,
+      "reasoning": "Value 4: it answers the audit finding and prepares reporting and AI. Readiness 3: the need and sponsor are clear, but data ownership and the common definitions are not yet decided. Pace 4: it needs no changes in the old core and is the low-risk first step in CAP-90 (data model CAP-40, catalogue CAP-41); Python tools arrive only in 2027 (CAP-45)."
+    },
+    {
+      "opportunity": "Read-only partner APIs and SME accounting connections",
+      "value": 4,
+      "readiness": 3,
+      "pace": 4,
+      "reasoning": "Value 4: it answers the 'not bypassed' concern and the Head of Business Banking's interest. Readiness 3: the bank has a payment API only, and the partner and platform list is unknown. Pace 4: read-only APIs come early in CAP-90, but connector coverage (CAP-35) must be checked."
+    },
+    {
+      "opportunity": "Real-time account services and event streaming with parallel running",
+      "value": 5,
+      "readiness": 2,
+      "pace": 2,
+      "reasoning": "Value 5: it is the bank's main customer goal for end of 2028. Readiness 2: the core is 19 years old, parallel-run criteria are not set and capacity is limited. Pace 2: it needs migration and reconciliation, so it is delivered after the first phase (CAP-90, CAP-22, CAP-91)."
+    },
+    {
+      "opportunity": "Faster account product launches with the product configurator",
+      "value": 4,
+      "readiness": 2,
+      "pace": 2,
+      "reasoning": "Value 4: it targets a cut from 6–9 months to under 8 weeks (CAP-12 shows 4–6 weeks at references). Readiness 2: it depends on products being on the new platform, and the bank's product team set-up is not described. Pace 2: it follows migration of products in CAP-90."
+    },
+    {
+      "opportunity": "Automated regulatory reporting data and reconciliation",
+      "value": 4,
+      "readiness": 3,
+      "pace": 3,
+      "reasoning": "Value 4: it addresses about 1 400 manual hours and the goal to halve them by 2029. Readiness 3: the need is clear, but the reports and owners are not listed. Pace 3: it builds on the data platform, and feeds come through a partner with quarterly updates (CAP-50, CAP-51, CAP-52)."
+    },
+    {
+      "opportunity": "AI for data quality and adviser insight, with human control",
+      "value": 3,
+      "readiness": 2,
+      "pace": 3,
+      "reasoning": "Value 3: it supports a stated goal, but the bank wants clear value before it acts. Readiness 2: the bank only tests AI for internal search and its approval route is not described. Pace 3: the data quality assistant is in production (CAP-60), but the adviser summary is a pilot until 2027 (CAP-61)."
+    }
+  ],
+  "review": {
+    "status": "ai_draft",
+    "owner_role": "sales",
+    "reviewed_by": null
+  }
+}
