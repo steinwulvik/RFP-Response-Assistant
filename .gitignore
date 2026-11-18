@@ -1,0 +1,11 @@
+.env
+node_modules/
+results/mock/
+eval/results-mock.json
+cases/*
+!cases/README.md
+!cases/example/
+results/*/
+!results/claude/
+!results/openai/
+failed-*.txt
