@@ -6,7 +6,7 @@ Eight specialised AI agents work in series, and each agent's output is the next 
 
 All data is fictional: Morild Bank (buyer) and Nordlys Banking Software (supplier) are invented for this demonstration.
 
-**Live demo:** _link added when published_
+**Live demo:** https://rfp-response-assistant.pages.dev
 
 ## The agent chain
 
